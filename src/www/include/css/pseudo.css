@@ -1,0 +1,65 @@
+/*****************/
+/* PSEUDO BOUTON */
+/*****************/
+.edition {
+    width: 100%;
+    overflow: hidden;
+}
+.editionInner {
+    border: 1px dashed red;
+}
+.move {
+    opacity: 0.2;
+    filter: alpha(Opacity=20);
+    border-color: green;
+}
+.pseudo_boutons_edition {
+    background-color: #fff;
+    cursor: move;
+    overflow: hidden;
+    zoom: 1;
+    border-bottom: 1px dashed red;
+    padding: 2px;
+}
+.pseudo_boutons_edition:hover {
+    background-color: #ececec;
+}
+.move .pseudo_boutons_edition {
+    border-color: green;
+}
+.pseudo_boutons_edition select {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+.pseudo_boutons_edition select option {
+    font-family: sans-serif;
+    padding: 0;
+}
+.pseudo_boutons_insertion {
+    border: 1px dashed green;
+    background-color: #fff;
+    padding: 2px 5px;
+    font-size: 10px;
+    font-weight: bold;
+    clear: both;
+    margin: 5px 0;
+}
+.pseudo_boutons_insertion img, .pseudo_boutons_edition img {
+    margin: 0 2px;
+    vertical-align: middle;
+}
+.pseudo_boutons_edition .boutons {
+    float: right;
+}
+.pseudo_boutons_edition em {
+    display: block;
+    text-align: right;
+}
+.brouillon {
+    background-color: #FFCCCC;
+}
+.ui-state-placeholder{
+    background-color: #ccc;
+    border: 1px dashed #555;
+}

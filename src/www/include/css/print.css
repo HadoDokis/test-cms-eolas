@@ -1,0 +1,15 @@
+body { padding-top: 0; font-size: 70%;}
+
+.ui-datepicker-trigger,
+p.action,
+#bo_bandeau_haut,
+#bo_bandeau_haut_menu,
+#bo_bandeau_bas,
+input[type="file"],
+tfoot {display: none;}
+
+* {page-break-after: avoid; page-break-before: avoid;}
+input, textarea, select {font-size:11px; padding: 4px 3px;}
+.creation table {margin:0;}
+.creation td {height:auto;}
+fieldset {padding: 0};

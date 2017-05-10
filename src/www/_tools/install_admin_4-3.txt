@@ -1,0 +1,5 @@
++ Mise en place des fichiers PHP
++ Editer le fichier de configuration "/www/include/config_module_admin.php"
++ Vérifier les droits d'écriture sur le repertoire "/admin/logs/"
++ Mettre les éventuelle régles de réécriture à jour en incluant le libellé "admin" dans les RewriteCond générale d'éclusion
++ Installation du module avec le moteur de mise à jour (accompagné du noyau)

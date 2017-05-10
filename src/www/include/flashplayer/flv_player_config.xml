@@ -1,0 +1,21 @@
+<config>
+    <param name="autoplay" value="0"/>
+    <param name="autoload" value="0"/>
+    <param name="titlecolor" value="ffffff"/>
+    <param name="titlesize" value="20"/>
+    <param name="bgcolor" value="ffffff"/>
+    <param name="playercolor" value="27343C"/>
+    <param name="bgcolor1" value="34434D"/>
+    <param name="bgcolor2" value="27343C"/>
+    <param name="buttoncolor" value="E2EDF2"/>
+    <param name="buttonovercolor" value="2680A9"/>
+    <param name="slidercolor1" value="E2EDF2"/>
+    <param name="slidercolor2" value="E2EDF2"/>
+    <param name="sliderovercolor" value="2680A9"/>
+    <param name="showstop" value="1"/>
+    <param name="showvolume" value="1"/>
+    <param name="showtime" value="2"/>
+    <param name="showfullscreen" value="1"/>
+    <param name="showloading" value="always"/>
+    <param name="loadingcolor" value="2680A9"/> 	
+</config>

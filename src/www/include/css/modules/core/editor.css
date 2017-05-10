@@ -1,0 +1,13 @@
+body { background-color: #ffffff; color:#000000; }
+acronym { border-bottom: 1px dotted; cursor:help; }
+span[lang]:after { content : " (" attr(lang) ")"; }
+table {}
+th {}
+td {}
+h2 {}
+h3 {}
+h4 {}
+a {}
+a:hover {}
+img {}
+ul {}

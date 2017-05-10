@@ -1,0 +1,6 @@
+﻿+ Prérequis : Module admin supérieur à la version 4.1+ Créer la base de données et vérifier qu'elle soit en UTF8 avec un interclassement utf8_unicode_ci par défaut.
++ Mise en place des fichiers PHP
++ Configurer le fichier de config - /www/include/config.php
++ Mise en place du module admin
++ Mise en place des droits d'écriture (et autres ACLs) sur les répertoires /admin, /www/uploads et /webothequeImportFTP
++ Installation du module avec le moteur de mise à jour

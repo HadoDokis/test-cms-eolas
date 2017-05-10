@@ -1,0 +1,570 @@
+/* ===================================================================
+ * CLASS STANDARD CMS
+ * =================================================================*/
+.withJS .js_hidden { position: absolute; top: -999px; left: -999px; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.clear { clear : both; }
+.invisible { display: none; }
+.alignleft { text-align: left; }
+.alignright { text-align: right; }
+.aligncenter { text-align: center; }
+.alignjustify { text-align: justify; }
+.inlineBlock { display: inline-block; zoom: 1; }
+object.alignleft, img.alignleft, table.alignleft, span.alignleft, iframe.alignleft, embed.alignleft, .videocontainer.alignleft { float: left; margin: 0 3% 10px 0; }
+object.alignright, img.alignright, table.alignright, span.alignright, iframe.alignright, embed.alignright, .videocontainer.alignright { float: right; margin: 0 0 10px 3%; text-align: left; }
+table.aligncenter { margin: auto; text-align: left; }
+acronym { border-bottom: 1px dotted; cursor: help; }
+
+/* LEGENDE - CREDIT */
+.spanImgContainer { display: inline-block; text-align: center !important; line-height: 0; }
+.spanImgOuter { display: block; position: relative; }
+.spanImgOuter img { display: block; }
+.spanCredit { background: url(e(%("%simages/spanCredit.png", @cssDir))) repeat 0 0; left: 0; bottom: 0; color: #fff; font-style: italic; font-size: 90%; max-width: 75%; padding: 5px; position: absolute; line-height: 1em; text-align: left; }
+.imgLoupe { position: absolute; bottom: 0; right: 0; }
+.spanLegende { display: block; font-size: 90%; border: 1px solid #dedede; padding: 5px; line-height: 1em; }
+.message_error { color: red; margin-bottom: 15px; text-align: center; }
+.helper { cursor: help; }
+
+/* CNIL BANDEAU D'ENTETE */
+/* Message d'entête de page */
+#cookie-banner { width : 100%;}
+#cookie-banner-message {
+  text-align: center ;
+  background-color:#fff;
+  text-align:center;
+  padding:5px;
+  /*font-size:12px;*/
+  border-bottom:1px solid #eeeeee;
+}
+#cookie-banner-message a { text-decoration:underline; }
+/* Masque de toute la fenêtre une fois la modale ouverte */
+#inform-and-ask {
+  position: fixed;
+  z-index: 100000;
+  background-color: rgba(178, 178, 178, 0.5);
+  left:0;
+}
+/* Modale d'information et de consentement */
+#inform-and-consent {
+  z-index:100000;
+  opacity:1;
+  position: fixed;
+  top:30px;
+  left:50%;
+  width: 300px;
+  margin-left:-150px;
+  padding :10px 10px;
+  border: 1px solid #cccccc;
+  background-color: white;
+  color: #000;
+  text-align:center;
+}
+#consentClose {position: absolute; top: 0; right: 0;}
+#consentChoice {padding :10px 10px; text-align:center;}
+#consentChoice input:first-child {margin-right:50px;}
+#consentChoice input {border: none;}
+#consentChoice input:focus {border: 1px dotted #000;}
+
+/* AUTHENTIFICATION ET VALIDATION DES MOTS DE PASSE */
+input[type=password].pwdcheck:required:invalid, input[type=password].pwdcheck:focus:invalid {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAT1JREFUeNpi/P//PwMpgImBRMACY/x7/uDX39sXt/67cMoDyOVgMjBjYFbV/8kkqcCBrIER5KS/967s+rmkXxzI5wJiRSBm/v8P7NTfHHFFl5mVdIzhGv4+u///x+xmuAlcdXPB9KeqeLgYd3bDU2ZpRRmwH4DOeAI07QXIRKipYPD35184/nn17CO4p/+cOfjl76+/X4GYAYThGn7/g+Mfh/ZZwjUA/aABpJVhpv6+dQUjZP78Z0YEK7OezS2gwltg64GmfTu6i+HL+mUMP34wgvGvL78ZOEysf8M1sGgZvQIqfA1SDAL8iUUMPIFRQLf+AmMQ4DQ0vYYSrL9vXDz2sq9LFsiX4dLRA0t8OX0SHKzi5bXf2HUMBVA0gN356N7p7xdOS3w5fAgcfNxWtn+BJi9gVVBOQfYPQIABABvRq3BwGT3OAAAAAElFTkSuQmCC");
+    background-position: right center;
+    background-repeat: no-repeat;
+    box-shadow: none;
+}
+input[type=password].pwdcheck:required:valid {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAZZJREFUeNpi/P//PwMpgImBRMAy58QshrNPTzP8+vOLIUInisFQyYjhz98/DB9/fmT48/+35v7H+8KNhE2+WclZd+G0gZmJmYGThUNz1fUVMZtvbWT59eUXG9wGZIWMUPj993eJ5VeWxuy8veM/CzPL3yfvH/9H0QBSBDYZyOVm4mGYfn6q4cory5lYmFh+MrEwM/76/YsR7mk2ZjbWP///WP37/y8cqIDhx58fjvtu7XV6//ndT34G/v8FasUsDjKO/+A2PP3wpGLd+TVsfOz8XH6KAT+nHpokcu7h6d9q/BoMxToVbBYqlt9///+1GO4/WVdpXqY/zMqXn13/+vTjI9mj94/y//v9/3e9ZRObvYbDT0Y2xnm///x+wsfHB3GSGLf41jb3rv0O8nbcR66d+HPvxf2/+YZFTHaqjl8YWBnm/vv37yly5LL8+vuLgYuVa3uf/4T/Kd8SnSTZpb6FGUXwcvJxbAPKP2VkZESNOBDx8+9PBm4OwR1TwmYwcfzjsBUQFLjOxs52A2YyKysrXANAgAEA7buhysQuIREAAAAASUVORK5CYII=");
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+/* GESTION AFFICHAGE DESKTOP ET MOBILE */
+@media (max-width:@desktop) {
+    .desktop_hidden {
+        display: none !important;
+    }
+}
+@media (max-width:@tablet) {
+    .tablet_hidden {
+        display: none !important;
+    }
+}
+@media (max-width:@mobile) {
+    .mobile_hidden {
+        display: none !important;
+    }
+    .txt_mobile_hidden {
+        border: 1px solid #000;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 2px;
+    }
+}
+
+/* CLEARFIX */
+.clearfix {
+    zoom: 1;
+    &::before, &::after {
+        content: ".";
+        display: block;
+        height: 0;
+        overflow: hidden;
+    }
+    &::after {
+        clear: both;
+    }
+}
+
+/* Class utile pour responsive */
+.resetColonne {
+    clear: both;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+/* ===================================================================
+ * CONTENU
+ * =================================================================*/
+.paragraphe {
+    .innerParagraphe {
+        .clearfix;
+    }
+}
+
+/* Vidéos responsive */
+.iframe-ratio { // Pour une vidéo en 16/9, le padding-bottom est fixé à (9/16)*100, soit 56,25%
+    position: relative;
+    &::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%;
+    }
+    &.width_left {
+        width: 48%;
+        float: left;
+        margin-right: 2%;
+    }
+    &.width_right {
+        width: 48%;
+        float: right;
+        margin-left: 2%;
+    }
+    iframe,
+    embed,
+    object,
+    video {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: @mobile) {
+
+    .iframe-ratio { // Pour une vidéo en 16/9, le padding-bottom est fixé à (9/16)*100, soit 56,25%
+        &.width_left,
+        &.width_right {
+            width: 100%;
+            float: none;
+            margin-right: 0;
+            margin-left: 0;
+        }
+    }
+}
+
+
+/* ===================================================================
+ * CLASS LESS
+ * =================================================================*/
+
+/*
+ *   Simplification de la déclaration d'une image de fond
+ *   @a : nom de l'image
+ *   @b : couleur de fond
+ *   => Déclaration à mettre dans default.less : .backgroundImage(puce.png);
+ */
+.background(@a, @b...) {
+    background: url("@{cssDir}images/@{a}") @b;
+}
+.backgroundImage(@a) {
+    background-image: url("@{cssDir}images/@{a}");
+}
+.contentImage(@a) {
+    content: url("@{cssDir}images/@{a}");
+}
+
+/*
+ *   Simplification de la déclaration d'une police spécifique
+ *   Exemple à mettre en place dans la feuille de style default.less :
+ *   => @font-face { .font-face('ExempleFont', 'ExempleFont-webfont'); }
+ *   => ExempleFont correspond au nom de la police déclaré ensuite avec font-family.
+ *   => ExempleFont-webfont correspond au nom des fichiers ttf, eot etc...
+ */
+.font-face(@family, @police) {
+    font-family:"@{family}";
+    src: url("@{cssDir}police/@{police}.eot");
+    src: url("@{cssDir}police/@{police}.eot?#iefix") format('embedded-opentype'), url("@{cssDir}police/@{police}.woff") format('woff'), url("@{cssDir}police/@{police}.ttf") format('truetype'), url("@{cssDir}police/@{police}.svg#@{family}") format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+ *   Calcul de la taille de police en em à partir de la taille en px
+ *   ex : .fontSize(20px)
+ */
+.fontSize(@a) {
+    font-size: 1em * (@a / @initialFontSizePx);
+}
+
+/*
+ *   Effets graphiques simples :
+ */
+.opacity(@alpha) {
+    @alphaIE: @alpha * 100;
+    /* IE 8 */
+    -ms-filter:~"progid:DXImageTransform.Microsoft.Alpha(opacity=(@{alphaIE}))";
+    /* Good browsers */
+    opacity: @alpha;
+}
+
+.linearGradient(@color1, @color2) {
+    background: -webkit-linear-gradient(top, @color1 0%, @color1 100%);
+    background: -ms-linear-gradient(top, @color1 0%, @color2 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@color1', endColorstr='@color2',GradientType=0 );
+    background: linear-gradient(to bottom, @color1 0%, @color2 100%);
+    /* Attention pour IE9 il faut désactiver le filter en mettant un filter: none; sous peine de cumuler les deux dégradés (linear-gradient + filter microsoft) */
+}
+
+.transform(@a) {
+    -webkit-transform: @a;
+    -moz-transform: @a;
+    -ms-transform: @a;
+    -o-transform: @a;
+    transform: @a;
+}
+
+.transition(@a) {
+    -webkit-transition: @a;
+    -moz-transition: @a;
+    -ms-transition: @a;
+    -o-transition: @a;
+    transition: @a;
+}
+
+/*
+ *  Formulaires :
+ */
+
+/*
+ *   Checkbox :
+ *   => @coche: motif à afficher pour la coche, code hexa ou image, ex: .checkbox(url("@{cssDir}images/barreHaut_puce.gif"));
+ *   => @fontsize: taille de la coche en pixels
+ *   => @size: largeur et hauteur de la case
+ *   => @left: position absolue left de la coche
+ *   => @top: position absolue top de la coche
+ *   => @color: couleur de la coche;
+ *   => @borderColor: couleur du contour de la case;
+ *   => @backgroundColor: couleur de fond de la case;
+ *   => @hoverColor: couleur du contour de la case au survol;
+ */
+.checkBox(@coche: '✔', @fontsize: 12px, @size: 15px, @left: 4px, @top: 1px, @color: #09ad7e, @borderColor: #767676, @backgroundColor: #ffffff, @hoverColor: @borderColor) {
+    /* Cachons la case à cocher */
+    [type="checkbox"]:not(:checked),
+    [type="checkbox"]:checked {
+        position: absolute;
+        visibility: hidden;
+    }
+    /* on prépare le label */
+    [type="checkbox"]:not(:checked) + label,
+    [type="checkbox"]:checked + label {
+        position: relative; /* permet de positionner les pseudo-éléments */
+        padding: 0 15px 0 25px; /* fait un peu d'espace pour notre case à venir */
+        cursor: pointer;    /* affiche un curseur adapté */
+    }
+    /* Aspect des checkboxes */
+    /* :before sert à créer la case à cocher */
+    [type="checkbox"]:not(:checked) + label:before,
+    [type="checkbox"]:checked + label:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: @top;
+        width: @size;
+        height: @size; /* dim. de la case */
+        border: 1px solid @borderColor;
+        background: @backgroundColor;
+        border-radius: 3px; /* angles arrondis */
+        //box-shadow: inset 0 1px 3px rgba(0,0,0,.3); /* légère ombre interne */
+    }
+    /* Aspect général de la coche */
+    [type="checkbox"]:not(:checked) + label:after,
+    [type="checkbox"]:checked + label:after {
+        content: @coche;
+        position: absolute;
+        top: @top;
+        left: @left;
+        font-size: @fontsize;
+        color: @color;
+        transition: all .2s; /* on prévoit une animation */
+    }
+    /* Aspect si "pas cochée" */
+    [type="checkbox"]:not(:checked) + label:after {
+        opacity: 0; /* coche invisible */
+        transform: scale(0); /* mise à l'échelle à 0 */
+    }
+    /* Aspect si "cochée" */
+    [type="checkbox"]:checked + label:after {
+        opacity: 1; /* coche opaque */
+        transform: scale(1); /* mise à l'échelle 1:1 */
+    }
+
+    /* aspect désactivée */
+    [type="checkbox"]:disabled:not(:checked) + label:before,
+    [type="checkbox"]:disabled:checked + label:before {
+        box-shadow: none;
+        border-color: #bbb;
+        background-color: #ddd;
+    }
+    /* styles de la coche (si cochée/désactivée) */
+    [type="checkbox"]:disabled:checked + label:after {
+        color: #999;
+    }
+    /* on style aussi le label quand désactivé */
+    [type="checkbox"]:disabled + label {
+        color: #aaa;
+    }
+
+    /* aspect au hover de l'élément */
+    [type="checkbox"]:checked:not(:disabled):hover + label:before,
+    [type="checkbox"]:not(:checked):not(:disabled):hover + label:before {
+      border-color: @hoverColor;
+    }
+}
+
+/*
+ *   Radio bouton :
+ *   => @size: largeur et hauteur du bouton
+ *   => @color: couleur du bouton;
+ *   => @borderColor: couleur du contour de la case;
+ *   => @backgroundColor: couleur de fond de la case;
+ *   => @hoverColor: couleur du contour de la case au survol;
+ */
+.radioBouton(@size: 16px, @color: #000000, @borderColor: #767676, @backgroundColor: #ffffff, @hoverColor: @borderColor) {
+    /* Cachons le bouton radio */
+    [type="radio"]:not(:checked),
+    [type="radio"]:checked {
+        position: absolute;
+        visibility: hidden;
+    }
+    /* on prépare le label */
+    [type="radio"]:not(:checked) + label,
+    [type="radio"]:checked + label {
+        position: relative; /* permet de positionner les pseudo-éléments */
+        padding: 0 15px 0 25px; /* fait un peu d'espace pour notre bouton à venir */
+        cursor: pointer;    /* affiche un curseur adapté */
+    }
+    /* Aspect des boutons radios */
+    /* :before sert à créer le bouton radio */
+    [type="radio"]:not(:checked) + label:before,
+    [type="radio"]:checked + label:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 5px;
+        width: @size;
+        height: @size; /* dim. du bouton */
+        border: 1px solid @borderColor;
+        background: @backgroundColor;
+        border-radius: 100%; /* angles arrondis */
+        //box-shadow: inset 0 1px 3px rgba(0,0,0,.3); /* légère ombre interne */
+    }
+    /* Aspect général de la coche */
+    [type="radio"]:not(:checked) + label:after,
+    [type="radio"]:checked + label:after {
+        content: '';
+        position: absolute;
+        width: @size - 6;
+        height: @size - 6;
+        border-radius: 100%;
+        top: 9px;
+        left: 4px;
+        background-color: @color;
+        transition: all .2s; /* on prévoit une animation */
+    }
+    /* Aspect si "pas cochée" */
+    [type="radio"]:not(:checked) + label:after {
+        opacity: 0; /* coche invisible */
+        transform: scale(0); /* mise à l'échelle à 0 */
+    }
+    /* Aspect si "cochée" */
+    [type="radio"]:checked + label:after {
+        opacity: 1; /* coche opaque */
+        transform: scale(1); /* mise à l'échelle 1:1 */
+    }
+
+    /* aspect désactivée */
+    [type="radio"]:disabled:not(:checked) + label:before,
+    [type="radio"]:disabled:checked + label:before {
+        box-shadow: none;
+        border-color: #bbb;
+        background-color: #ddd;
+    }
+    /* styles de la coche (si cochée/désactivée) */
+    [type="radio"]:disabled:checked + label:after {
+        color: #999;
+    }
+    /* on style aussi le label quand désactivé */
+    [type="radio"]:disabled + label {
+        color: #aaa;
+    }
+
+    /* aspect au hover de l'élément */
+    [type="radio"]:checked:not(:disabled):hover + label:before,
+    [type="radio"]:not(:checked):not(:disabled):hover + label:before {
+        border-color: @hoverColor;
+    }
+}
+
+
+/*
+ *   Custom select :
+ *   => @arrow:   url du background
+ *   => @taille:  width du background en pixels permettant de calculer le padding-right
+ *   => @right:   espacement de l'image par rapport au bord droit
+ */
+.selectBox(@arrow: 'select_arrow.png', @taille: '25px', @right: '5px') {
+    @taille2 : (( 5px + @taille + @right)); /* calcul l'espace nécessaire entre l'image et le texte dans le select  */
+    select {
+        text-overflow: ellipsis;
+        -moz-appearance: none; /* Firefox */
+        -webkit-appearance: none; /* Safari and Chrome */
+        appearance: none;
+        .backgroundImage(@arrow);
+        background-repeat: no-repeat;
+        background-position: 100% 50%;
+        background-position: ~"calc(100% - @{right})" center;
+        padding-right: @taille2;
+        &[size] {
+            background-color: none;
+            padding-right: 0;
+        }
+        &::-ms-expand {
+            display: none;
+        }
+    }
+}
+
+/*
+ *   Alignement :
+ *   Permet d'aligner en pourcentage un élément via absolute et tranform
+ *   !! Attention !! Il faut que le bloc container soit en position relative ou absolute.
+ *   => @x:  alignement sur l'axe x
+ *   => @y:  alignement sur l'axe y
+ */
+.alignementX(@x: 50%) {
+    .transform(translateX(-50%));
+    left: @x;
+    position: absolute;
+}
+.alignementY(@y: 50%) {
+    .transform(translateY(-50%));
+    top: @y;
+    position: absolute;
+}
+.alignement(@x: 50%,@y: 50%) {
+    .transform(translate(-50%,-50%));
+    top: @y;
+    left: @x;
+    position: absolute;
+}
+
+/*
+ *   Colonnage des listes à puce
+ *   => @colDesktop:    nombre de colonne en desktop
+ *   => @colTablet:     nombre de colonne en tablette
+ *   => @colMobile:     nombre de colonne en mobile
+ *   => @spaceHori:     espace horizontal entre chaque item (margin-right)
+ *   => @spaceVerti:    espace vertical entre chaque item (margin-bottom)
+ *   Exemple d'appel :
+ *       ul {
+ *           .colonageListe(3, 2, 1, percentage(@gridMargin/@desktop), 20px);
+ *           .clearfix;
+ *       }
+
+ */
+.colonageListe(@colDesktop: 3, @colTablet: 2, @colMobile: 1, @spaceHori: 2%, @spaceVerti: 20px) {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    & > li {
+        width: (100% - (@spaceHori * (@colDesktop - 1))) / @colDesktop;
+        float: left;
+        margin-bottom: @spaceVerti;
+        &:not(:nth-child(@{colDesktop}n)) {
+            margin-right: @spaceHori;
+        }
+        &:nth-child(@{colDesktop}n + 1) {
+            clear: left;
+        }
+    }
+    @media screen and (max-width: @tablet) {
+        & > li {
+            width: (100% - (@spaceHori * (@colTablet - 1))) / @colTablet;
+            & when (@colTablet = 1) {
+                float: none;
+                margin-right: 0;
+            }
+            &:not(:nth-child(@{colDesktop}n)) {
+                margin-right: 0;
+            }
+            &:nth-child(@{colDesktop}n + 1) {
+                clear: none;
+            }
+            &:not(:nth-child(@{colTablet}n)) {
+                margin-right: @spaceHori;
+            }
+            &:nth-child(@{colTablet}n + 1) {
+                clear: left;
+            }
+        }
+    }
+    @media screen and (max-width: @mobile) {
+        & > li {
+            width: (100% - (@spaceHori * (@colMobile - 1))) / @colMobile;
+            & when (@colMobile = 1) {
+                float: none;
+                margin-right: 0;
+            }
+            & when (@colTablet > @colMobile) {
+                &:not(:nth-child(@{colTablet}n)) {
+                    margin-right: 0;
+                }
+                &:nth-child(@{colTablet}n + 1) {
+                    clear: none;
+                }
+                &:not(:nth-child(@{colMobile}n)) {
+                    margin-right: @spaceHori;
+                }
+                &:nth-child(@{colMobile}n + 1) {
+                    clear: left;
+                }
+            }
+        }
+    }
+}
+
+/*
+ *   Colonnage grille
+ *   => @nbCol:    nombre de colonne de la grille
+ *   => @nbMargin:     nombre de gouttières de la grille
+ */
+.gridWidth(@nbCol, @nbMargin) {
+    width: percentage((@nbCol * @gridCol + @nbMargin * @gridMargin) / @desktop);
+}

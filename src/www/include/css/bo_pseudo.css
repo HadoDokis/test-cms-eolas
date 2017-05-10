@@ -1,0 +1,497 @@
+body {
+    padding-top: 50px;
+}
+body.ancrageMenu {
+    padding-top: 0;
+}
+
+
+/*************/
+/* REVSISION */
+/*************/
+#forRevision {
+    margin: 0 auto;
+    max-width: 1400px;
+    min-width: 1000px;
+    font-family: 'Roboto', sans-serif;
+}
+#forRevision ul {
+    display: table;
+    width: 100%;
+}
+#forRevision li {
+    display: table-cell;
+    padding-right: 10px;
+}
+#forRevision li.current {
+    width: 120px;
+}
+#forRevision li.suppr {
+    padding: 0;
+    text-align: right;
+}
+#forRevision li.suppr a {
+    background: url("images/submit_delete.png") no-repeat scroll 10px 50% #e9573e;
+    border: 2px solid #e9573e;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    padding: 6px 12px 6px 36px;
+    transition: all 0.1s ease-in 0s;
+    width: auto;
+    text-decoration: none;
+}
+#forRevision li.suppr a:hover {
+    opacity: 0.8;
+}
+#forRevision .options_revision { 
+    margin: 0 0 10px 0; 
+}
+
+
+/**********/
+/* MENU */
+/**********/
+#bo_bandeau_haut_menu {
+    background-color: #007491;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    left: 0;
+}
+.ancrageMenu #bo_bandeau_haut_menu {
+    position: static;
+}
+#bo_bandeau_haut_menu ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    max-width: 1400px;
+    width: 100%;
+    display: table;
+}
+#bo_bandeau_haut_menu a {
+    display: block;
+    color: #fff;
+    min-width: 80px;
+    padding: 10px 25px 10px 15px;
+    text-decoration: none;  
+    font-weight: normal;
+}
+
+/* Menu selectionné et ses enfants */
+#bo_bandeau_haut_menu .N1 > li > a.selected,
+#bo_bandeau_haut_menu .N1 > li > a.selected + .N2 li:hover > a {
+    background: #33a4ce;
+}
+/* Menu survolé (non selectionné) et ses enfants */
+#bo_bandeau_haut_menu .N1 > li:hover > a:not(.selected),
+#bo_bandeau_haut_menu .N1 > li:hover > a:not(.selected) + .N2 li:hover > a {
+    background: #275f7c;
+}
+
+#bo_bandeau_haut_menu ul.N1 > li {
+    display: table-cell;
+    position: relative;
+    z-index: 99;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+#bo_bandeau_haut_menu ul.N1 > li.last .N2 {
+    right: 0;
+}
+#bo_bandeau_haut_menu ul.N1 > li > a {
+    text-align: center;
+    padding: 0 15px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: block;
+    vertical-align: middle;
+    height: 48px;
+    line-height: 48px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-transition: all 0.1s ease-in 0s;
+    -webkit-transition: all 0.1s ease-in 0s;
+    transition: all 0.1s ease-in 0s;
+}
+#bo_bandeau_haut_menu ul.N1 > li > a span {
+    line-height: normal;
+    vertical-align: middle;
+    display: inline-block;
+}
+#bo_bandeau_haut_menu ul.N1 > li.sitelibelle { 
+    color: #fff; 
+}
+#bo_bandeau_haut_menu ul.N1 > li.picto > a {
+    min-width: inherit;
+    padding: 0 10px;
+    display: table-cell;
+    line-height: normal;
+}
+#bo_bandeau_haut_menu ul.N1 > li > select {
+    margin: 0 10px;
+    border: 2px solid #fff;
+    background: #ffffff;
+    border-radius: 3px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    padding: 6px 5px;
+    color: #000;
+}
+.sitelibelle > span {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #000;
+    display: inline-block;
+    padding: 8px 10px;
+}
+#bo_bandeau_haut_menu ul.N2,
+#bo_bandeau_haut_menu ul.N3 {
+    background-color: #007491;
+    position: absolute;
+    display: none;
+    min-width: 200px;
+    max-width: 300px;
+    text-align: left;
+    z-index: 100;
+}
+#bo_bandeau_haut_menu ul.N2 > li {
+    position: relative;
+}
+#bo_bandeau_haut_menu ul.N2 > li.parent > a:after {
+    content: url(images/chevronDroiteBlanc.png);
+    position: absolute;
+    right: 10px;
+    display: inline-block;
+    top: 30%;
+}
+#bo_bandeau_haut_menu ul.N2 a {
+    font-size: 14px;
+}
+#bo_bandeau_haut_menu ul.N3 {
+    top: 0;
+    left: 100%;
+}
+#bo_bandeau_haut_sousmenu {
+    background-color: #cccfdb;
+    margin-top: 20px;
+}
+#bo_bandeau_haut_sousmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#bo_bandeau_haut_sousmenu li {
+    border-right: 1px solid #cccfdb;
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+}
+#bo_bandeau_haut_sousmenu li.home {
+    border: 0 none;
+    color: #fff;
+    background-color: #007491;
+    padding: 12px 20px;
+}
+#bo_bandeau_haut_sousmenu li:nth-child(2) a {
+    background:  url(images/bandeau_haut_sousmenu_first.png) no-repeat 0 50% #eceef6;
+}
+#bo_bandeau_haut_sousmenu li:nth-child(2) a.selected,
+#bo_bandeau_haut_sousmenu li:nth-child(2) a:hover {
+    background:  url(images/bandeau_haut_sousmenu_first.png) no-repeat 0 50% #fff;
+}
+#bo_bandeau_haut_sousmenu a {
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #eceef6;
+    -moz-transition: all 0.1s ease-in 0s;
+    -webkit-transition: all 0.1s ease-in 0s;
+    transition: all 0.1s ease-in 0s;
+}
+#bo_bandeau_haut_sousmenu .home a {
+    background: none;
+    color: #2B3941;
+}
+#bo_bandeau_haut_sousmenu a.selected,
+#bo_bandeau_haut_sousmenu a:hover {
+    background-color: #fff;
+    color: #33a4ce;
+}
+
+#bo_bandeau_haut_sousmenuaction {
+    background-color: #fff;
+    padding: 15px 0 0;
+}
+#bo_bandeau_haut_sousmenuaction ul {
+    margin: 0 0 0 15px;
+    padding: 0;
+    list-style: none;
+}
+#bo_bandeau_haut_sousmenuaction li {
+    display: inline-block;
+    margin:0 10px 0 0;
+    padding:0;
+}
+#bo_bandeau_haut_sousmenuaction a {
+    background-color: #eceef6;
+    border: 2px solid #5cc7e1;
+    border-radius: 3px;
+    color: #00637b;
+    cursor: pointer;
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    padding: 6px 12px;
+    transition: all 0.1s ease-in 0s;
+    width: auto;
+    display: block;
+    text-decoration: none;
+}
+#bo_bandeau_haut_sousmenuaction a:hover, 
+#bo_bandeau_haut_sousmenuaction a.selected {
+    background-color: #5cc7e1;
+    color: #003f4f;
+}
+.PST_AVALIDER {
+    color: #c177ff;
+}
+.PST_ATTENTEENLIGNE {
+    color: #06aeff;
+}
+.PST_ENLIGNE {
+    color: #00b700;
+}
+.PST_HORSLIGNE {
+    color: #ff0000;
+}
+.PST_AREDIGER {
+    color: #ffb00d;/*en dernier pour priorité sur D'n'D*/
+}
+
+
+/*********/
+/* INPUT */
+/*********/
+.options_revision a {
+    background-color: #eceef6;
+    border: 2px solid #5cc7e1;
+    border-radius: 3px;
+    color: #00637b;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    padding: 6px 12px;
+    text-decoration: none;
+    transition: all 0.1s ease-in 0s;
+    width: auto;
+}
+
+.options_revision a:hover, 
+.options_revision a.selected {
+    background-color: #5cc7e1;
+    color: #003f4f;
+}
+
+/* Classes des boutons d'action communs à l'arbo et au menu action */
+.actionAjouter,
+.actionEditer,
+.actionProprietes,
+.actionProprietesSimplifiees,
+.actionVoir,
+.actionChoisir,
+.actionHistorique,
+.actionUtilisateur,
+.actionAnalyse,
+.actionSupprimer,
+.actionCreerRevision,
+.actionGereRevision {
+    padding: 2px 0 2px 25px;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    color: #767987; 
+    text-decoration: none;
+}
+.actionAjouter:hover,
+.actionEditer:hover,
+.actionProprietes:hover,
+.actionProprietesSimplifiees:hover,
+.actionVoir:hover,
+.actionChoisir:hover,
+.actionHistorique:hover,
+.actionUtilisateur:hover,
+.actionAnalyse:hover,
+.actionSupprimer:hover,
+.actionCreerRevision:hover,
+.actionGereRevision:hover {
+    color: #007491;
+    text-decoration: underline;
+}
+.actionAjouter              { background-image: url(images/arbo/page_add.png); }
+.actionEditer               { background-image: url(images/arbo/page_edit.png); }
+.actionProprietes           { background-image: url(images/arbo/page_propriete.png); }
+.actionProprietesSimplifiees{ background-image: url(images/arbo/page_propriete_simplifie.png); }
+.actionVoir                 { background-image: url(images/arbo/page_find.png); }
+.actionChoisir              { background-image: url(images/arbo/choix.png); }
+.actionHistorique           { background-image: url(images/arbo/report.png); }
+.actionUtilisateur          { background-image: url(images/arbo/group_edit.png); }
+.actionAnalyse              { background-image: url(images/arbo/chart_pie.png); }
+.actionSupprimer            { background-image: url(images/arbo/page_delete.png); }
+.actionCreerRevision        { background-image: url(images/arbo/page_save.png); }
+.actionGereRevision         { background-image: url(images/arbo/manage_report.png); }
+
+.actionAjouter:hover        { background-image: url(images/arbo/page_add_hover.png); }
+.actionEditer:hover         { background-image: url(images/arbo/page_edit_hover.png); }
+.actionProprietes:hover     { background-image: url(images/arbo/page_propriete_hover.png); }
+.actionProprietesSimplifiees:hover  { background-image: url(images/arbo/page_propriete_simplifie_hover.png); }
+.actionVoir:hover           { background-image: url(images/arbo/page_find_hover.png); }
+.actionChoisir:hover        { background-image: url(images/arbo/choix_hover.png); }
+.actionHistorique:hover     { background-image: url(images/arbo/report_hover.png); }
+.actionUtilisateur:hover    { background-image: url(images/arbo/group_edit_hover.png); }
+.actionAnalyse:hover        { background-image: url(images/arbo/chart_pie_hover.png); }
+.actionSupprimer:hover      { background-image: url(images/arbo/page_delete_hover.png); }
+.actionCreerRevision:hover  { background-image: url(images/arbo/page_save_hover.png); }
+.actionGereRevision:hover   { background-image: url(images/arbo/manage_report_hover.png); }
+
+
+/******************/
+/* BO MENU ACTION */
+/******************/
+#bo_menu_haut_action {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    border: 0 none;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    position: fixed;
+    z-index: 666;
+}
+#bo_menu_haut_action_title {
+    padding: 0;
+    clear: both;
+    overflow: hidden;
+}
+#bo_menu_haut_action_title img {
+    float: left;
+}
+#bo_menu_haut_action_title a {
+    background-color: #ffffff;
+    color: #4fc0e8;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#bo_menu_haut_action_title span {
+    border-bottom: 2px solid #4fc0e8;
+    border-right: 2px solid #4fc0e8;
+    border-top: 2px solid #4fc0e8;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    float: right;
+    line-height: 31px;
+    padding: 0 0 0 20px;
+    width: 178px;
+}
+#bo_menu_haut_action_inner {
+    border-bottom: 2px solid #d9dce5;
+    border-right: 2px solid #d9dce5;
+    border-left: 2px solid #d9dce5;
+    position: relative;
+    bottom: 1px;
+    padding: 10px;
+}
+.bo_menu_haut_action_bloc {
+    padding: 0 15px 15px;
+    border-bottom: 1px solid #d9dce5;
+    margin: 0 0 15px;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    color: #767987;
+}
+.bo_menu_haut_action_bloc.workflow a {
+    display: inline;
+}
+.bo_menu_haut_action_bloc.last {
+    border-bottom: 0 none;
+    margin: 0;
+    padding-bottom: 0;
+}
+.bo_menu_haut_action_bloc a {
+    font-size: 12px;
+    text-decoration: none; 
+    color: #767987; 
+    display: block;
+    margin: 0 0 3px;
+}
+#bo_menu_haut_action h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #767987;
+    margin: 0 0 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.bo_menu_haut_action_bloc p {
+    margin: 0 0 3px;
+}
+
+
+/****************************************************************************************************/
+/*                                     FIN NOUVEAUTE CMS V6.X                                       */
+/****************************************************************************************************/
+
+
+/*************************/
+/* NOTIFICATION REVISION */
+/*************************/
+#bo_bandeau_haut_revision{
+    height:50px;
+    border-bottom:1px solid #B7BFC3;
+    background-color:#fff;
+    width:100%;
+}
+#bo_bandeau_haut_revision_header{
+    height:33px;
+    margin:7px 0px;
+    text-align:center;
+}
+#bo_bandeau_haut_revision_header h3 {
+    margin:0 auto;
+    padding:0;
+    color:#fff;
+    height:33px;
+    font-size:14px;
+    line-height:30px;
+    width:500px;
+    text-align:center;
+    background:transparent url(images/bgRevisionL.png) no-repeat top left;
+}
+#bo_bandeau_haut_revision_header h3 span{
+    margin:0;
+    padding:0;
+    height:33px;
+    background:transparent url(images/bgRevisionR.png) no-repeat top right;
+    display:block;
+}
+#bo_bandeau_haut_revision_header h3 a{
+    color:#fff;
+    text-decoration:none;
+}

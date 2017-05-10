@@ -1,0 +1,6 @@
+src/admin/logs/*
+src/webothequeImportFTP/*/*
+src/www/uploads/*/*
+
+# Keep .gitkeep files
+!.gitkeep

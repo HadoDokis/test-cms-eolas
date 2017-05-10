@@ -1,0 +1,510 @@
+/* Reset css */
+@import "normalize.inc.less";
+
+/* Librairie eolas */
+@import "cms-eolas.inc.less";
+
+/* Variables */
+@import "variables.inc.less";
+
+/* Taille des polices de base (16px) */
+@initialFontSize: 1em;
+@initialFontSizePx: 16px;
+
+
+/* ===================================================================
+ * LAYOUT GENERAL
+ * =================================================================*/
+#document {
+    overflow: hidden;
+}
+#bandeauHaut { }
+#bandeauBas { }
+#corps {
+    position: relative;
+}
+#colonneGauche {
+    float: left;
+    .gridWidth(3,2);
+    padding-right: @gridMargin;
+}
+#colonneDroite {
+    float: right;
+    .gridWidth(3,2);
+    box-sizing: border-box;
+}
+.avecDeuxColonnes #contenu {
+    float: left;
+    .gridWidth(6,5);
+}
+.avecColonneGauche #contenu {
+    float: right;
+    .gridWidth(9,8);
+}
+.avecColonneDroite #contenu {
+    float: left;
+    .gridWidth(9,8);
+}
+.innerCenter {
+    .clearfix;
+    max-width: @desktop;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+}
+
+
+/* ===================================================================
+ * INITIALISATION CHARTE GRAPHIQUE GENERALE DU PROJET
+ * =================================================================*/
+body {
+    font-size: @initialFontSize;
+    background: #fff;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+body.pseudo {
+    padding-top: 48px;
+}
+
+a {
+    text-decoration: none;
+    &:hover,
+    &:focus,
+    &:active {
+        text-decoration: underline;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    margin: 0 0 2em;
+    text-transform: uppercase;
+    .fontSize(48);
+}
+h2 {
+    .fontSize(30);
+    margin: 0 0 2em;
+    text-transform: uppercase;
+}
+h3 {
+    .fontSize(24);
+    margin: 0 0 1em;
+    text-transform: uppercase;
+}
+h4 {
+    .fontSize(20);
+    margin: 0 0 1em;
+    text-transform: uppercase;
+}
+h5 {
+    margin: 0 0 0.5em;
+    text-transform: uppercase;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0 0 1em;
+}
+
+
+/* ===================================================================
+ * BANDEAU HAUT
+ * =================================================================*/
+#bandeauHaut {}
+
+
+/* ===================================================================
+ * BANDEAU BAS
+ * =================================================================*/
+#bandeauBas {}
+
+
+/* ===================================================================
+ * MENU
+ * =================================================================*/
+#menu {}
+
+
+/* ===================================================================
+ * FIL D'ARIANE
+ * =================================================================*/
+#ariane {}
+
+
+/* ===================================================================
+ * CONTENU
+ * =================================================================*/
+#contenu {
+
+}
+.accrochePage {
+
+}
+
+/* Définitions des styles génériques dans les paragraphes */
+.paragraphe {
+    clear: both;
+    margin: 0 0 2em;
+    p {
+        margin: 0 0 1em;
+    }
+    li {
+        list-style: none;
+        padding: 0;
+    }
+}
+.txt,
+.partage {
+    a {
+        color: red;
+        &:hover,
+        &:focus,
+        &:active {
+            color: red;
+            text-decoration: none;
+        }
+    }
+    ul {
+        overflow: hidden;
+        margin: 0 0 1em;
+        padding: 0;
+        li {
+            .background('puce.png', 0 5px no-repeat transparent);
+            padding: 0 0 0 15px;
+        }
+        ul {
+            margin: 1em 0 0.5em;
+        }
+    }
+    ol {
+        list-style-type: decimal !ie; /*IE 7- hack*/
+        margin: 0 0 1em;
+        padding: 0;
+        counter-reset: li-counter;
+        & > li {
+            position: relative;
+            &::before {
+                content: counter(li-counter, decimal) ". ";
+                counter-increment: li-counter;
+            }
+        }
+        & > li li {
+            &::before {
+                content: counter(li-counter, lower-alpha) ". ";
+            }
+        }
+        ol {
+            margin: 1em 0 0.5em 1em;
+        }
+    }
+    table {
+        background: #fff;
+        border-collapse: collapse;
+        margin: 0 0 1em;
+        width: 100%;
+        border: 1px solid #000;
+        thead td,
+        thead th {
+            text-align: center;
+            color: #fff;
+            font-weight: 600;
+            border: 1px solid #000;
+            background-color: #000;
+        }
+        th {
+            padding: 10px;
+            .fontSize(16);
+            color: #000;
+            font-weight: 600;
+            text-align: left;
+            border-bottom: 1px solid #000;
+        }
+        td {
+            .fontSize(16);
+            border: 1px solid #000;
+            padding: 10px;
+        }
+    }
+}
+
+
+/* ===================================================================
+ * COLONNE DE DROITE
+ * =================================================================*/
+ #colonneDroite {
+
+}
+
+
+/* ===================================================================
+ * FORMULAIRES
+ * =================================================================*/
+.TPL_FORMULAIRE {
+    fieldset.groupeQuestion,
+    div.groupeQuestion {
+        margin: 0 0 1em;
+        border: none;
+        padding: 1em 1em 0;
+    }
+    .innerGroupeQuestion {
+        padding: 1em 1em 0;
+    }
+    .groupeQuestion {
+        legend {}
+        p { position: relative; }
+    }
+
+    form {
+        p {
+            clear: both;
+        }
+        label {
+            padding-right: 1%;
+            width: 27%;
+            display: inline-block;
+            text-align: right;
+            vertical-align: top;
+            box-sizing: border-box;
+        }
+        label.enLigne {
+            float: none;
+            width: auto;
+            margin-right: 15px;
+        }
+        p.action {
+            text-align: center;
+            padding: 1em;
+        }
+        .radioBouton();
+        .checkBox();
+        .selectBox();
+    }
+    input[type="tel"],
+    input[type="url"],
+    input[type="date"],
+    input[type="file"],
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="search"],
+    input[type="password"],
+    textarea,
+    select {
+        width: 73%;
+        height: 45px;
+        padding: 5px 10px;
+        background-color: #f2f6f8;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        border: 1px solid #cedde5;
+        border-radius: 3px;
+        box-sizing: border-box;
+        vertical-align: middle;
+        &:focus {
+            outline-style: none;
+        }
+    }
+    textarea {
+        vertical-align: top;
+        height: auto;
+    }
+    input[type="file"] {
+        padding: 0;
+        box-sizing: content-box;
+    }
+    input.captchaInput {
+        width: auto;
+    }
+    span.cases {
+        width: 71%;
+        display: inline-block;
+    }
+    input.case {
+        border: none;
+        margin-right: 5px;
+    }
+    span.submit {}
+    input.submit {
+        .fontSize(14);
+        color: #fff;
+        background-color: @orange;
+        border-radius: 3px;
+        border: none;
+        text-transform: uppercase;
+        padding: 14px 35px;
+        transition: all 0.2s ease 0s;
+        &:hover,
+        &:focus {
+            opacity: 0.8;
+        }
+    }
+}
+
+p.mention_cnil {
+    font-style: italic;
+    font-size: 0.9em;
+}
+span.obligatoire {
+    color: red;
+}
+p.notice {
+    color: red;
+}
+.captchaImg {
+    vertical-align: bottom;
+    border: 1px solid #000;
+}
+.captchaOperation {
+    font-weight: bold;
+}
+.captchaInput {}
+
+
+/* ===================================================================
+ * STYLES DE PARAGRAPHE
+ * =================================================================*/
+.PRS_WIDTH_50G {
+    width: 48.5%;
+    float: left;
+    clear: both;
+}
+.PRS_WIDTH_50D {
+    width: 48.5%;
+    float: right;
+    clear: right;
+}
+
+
+/* ===================================================================
+ * BLOC DE NAVIGATION
+ * =================================================================*/
+.blocNavigation {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.resultatNavigation {
+    margin: 5px 0;
+}
+.regletteNavigation {
+    margin: 5px 0;
+    span {
+        a,
+        strong {
+            background-color: blue;
+            border-radius: 100%;
+            color: #ffffff;
+            padding: 5px 10px;
+            .transition(all 0.2s ease 0s);
+            margin: 0 3px;
+            display: inline-block;
+        }
+        a {
+            background-color: #000;
+            &:hover,
+            &:focus,
+            &:active {
+                text-decoration: none;
+                background-color: blue;
+            }
+        }
+    }
+}
+
+
+/* ===================================================================
+ * Gestion des commentaires
+ * =================================================================*/
+.message_error { }
+
+
+/* ===================================================================
+ * LISTE
+ * =================================================================*/
+.liste {
+    margin: 0;
+    padding: 0;
+    .item {
+        .clearfix;
+        margin: 0 0 1em;
+        .itemInfo {
+            overflow: hidden;
+        }
+        img {
+            float: left;
+            margin: 0 10px 10px 0;
+        }
+        h2 { }
+        h3 { }
+        p { }
+        .description { }
+    }
+}
+
+
+
+/* ===================================================================
+ * TEMPLATES CORE CMS
+ * =================================================================*/
+.TPL_SOMMAIREPAGE {
+
+}
+.TPL_PLANSITE {
+
+}
+.TPL_LISTEPAGESFILLE {
+
+}
+.hautdepage {
+
+}
+
+
+@media screen and (max-width: @tablet) {
+
+    /* ===================================================================
+     * LAYOUT GENERAL
+     * =================================================================*/
+    #colonneDroite,
+    #colonneGauche,
+    .avecDeuxColonnes #contenu,
+    .avecColonneDroite #contenu,
+    .avecColonneGauche #contenu {
+        float: none;
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+}
+
+
+@media screen and (max-width: @mobile) {
+
+    /* ===================================================================
+     * STYLES DE PARAGRAPHE
+     * =================================================================*/
+    .PRS_WIDTH_50G,
+    .PRS_WIDTH_50D {
+        width: 100%;
+        float: none;
+        clear: both;
+    }
+}
+
+/* ===================================================================
+ * IMPORT DES FEUILLES DE STYLE DES MODULES
+ * =================================================================*/
+//@import "actualite.less";
+//...

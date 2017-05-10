@@ -1,0 +1,49 @@
+.mceItemFlash {
+	border: 1px dotted #cc0000;
+	background: #ffffcc url(../img/flash.gif) no-repeat center center;
+}
+.mceItemVideo {
+	border: 1px dotted #cc0000;
+	background: #ffffcc url(../img/video.gif) no-repeat center center;
+}
+.mceItemVideoExterne {
+	border: 1px dotted #cc0000;
+	background: #ffffcc url(../img/videoExterne.gif) no-repeat center center;
+}
+.mceItemMusic {
+	border: 1px dotted #cc0000;
+	background: #ffffcc url(../img/music.gif) no-repeat center center;
+}
+.defaultSkin .mceMenu .mce_WBT_IMAGE {
+	background: url(../img/img.gif);
+}
+.defaultSkin .mceMenu .mce_WBT_DOCUMENT {
+	background: url(../img/doc.gif);
+}
+.defaultSkin .mceMenu .mce_PAGE {
+	background: url(../img/page.gif);
+}
+.defaultSkin .mceMenu .mce_WBT_LIENEXTERNE {
+	background: url(../img/link.gif);
+}
+.defaultSkin .mceMenu .mce_TPL {
+	background: url(../img/tpl.gif);
+}
+.defaultSkin .mceMenu .mce_WBT_FLASH {
+	background: url(../img/flash.gif);
+}
+.defaultSkin .mceMenu .mce_WBT_VIDEO {
+	background: url(../img/video.gif);
+}
+.defaultSkin .mceMenu .mce_WBT_VIDEOEXTERNE {
+	background: url(../img/videoExterne.gif);
+}
+.defaultSkin .mceMenu .mce_WBT_MUSIC {
+	background: url(../img/music.gif) no-repeat center center;
+}
+.defaultSkin .mceMenu .mce_LANGUE {
+	background: url(../img/lang.gif);
+}
+.defaultSkin .mceMenu .mce_ABBR {
+	background: url(../img/abbr.gif);
+}
