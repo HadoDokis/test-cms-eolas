@@ -1,0 +1,3722 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-20 13:39+0100\n"
+"PO-Revision-Date: 2017-03-20 13:57+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.8.7\n"
+
+#: ../../../../cms/cms_analyseContenuPopup.php:29
+#: ../../../../cms/cms_analyseContenuPopup.php:49
+msgid "-- IMAGE --"
+msgstr "-- PICTURE --"
+
+#: ../../../../cms/cms_analyseContenuPopup.php:23
+#: ../../../../cms/cms_analyseContenuPopup.php:43
+msgid "-- VIDE --"
+msgstr "-- EMPTY --"
+
+#: ../../../../cms/cms_formeAbregee.php:42
+#: ../../../../cms/cms_formeAbregeeListe.php:44
+#: ../../../../cms/cms_formeAbregeeListe.php:59
+#: ../../../../include/class/class.db_abreviation.php:51
+msgid "Abreviation"
+msgstr "Abbreviation"
+
+#: ../../../../cms/cms_revisionDetails.php:48
+#: ../../../../cms/cms_revisionDetails.php:50
+msgid "Acces"
+msgstr "Access"
+
+#: ../../../../cms/cms_pageListe.php:145
+#: ../../../../cms/cms_revisionPopup.php:215
+msgid "Acces restreint"
+msgstr "Restricted access"
+
+#: ../../../../cms/cms_page.php:518 ../../../../cms/cms_pageListe.php:134
+#: ../../../../cms/cms_revisionDetails.php:209
+msgid "Acces securise (HTTPS)"
+msgstr "Secured access (HTTPS)"
+
+#: ../../../../include/class/class.db_abreviation.php:52
+msgid "Acronyme"
+msgstr "Acronym"
+
+#: ../../../../cms/cms_historiquePopup.php:58 ../../../../cms/cms_index.php:77
+#: ../../../../cms/cms_index.php:252
+#: ../../../../cms/administration/adm_utilisateurShare.php:89
+#: ../../../../statistique/stat_administrationPopup.php:52
+#: ../../../../statistique/stat_formulairePopup.php:57
+#: ../../../../statistique/stat_modulePopup.php:50
+#: ../../../../statistique/stat_pagePopup.php:74
+#: ../../../../statistique/stat_utilisateurPopup.php:62
+#: ../../../../statistique/stat_utilisateurPopup.php:113
+#: ../../../../statistique/stat_utilisateurPopup.php:154
+#: ../../../../statistique/stat_utilisateurPopup.php:196
+#: ../../../../statistique/stat_utilisateurPopup.php:240
+#: ../../../../statistique/stat_webothequePopup.php:50
+msgid "Action"
+msgstr "Action"
+
+#: ../../../../cms/administration/adm_utilisateur.php:177
+msgid "Adresse"
+msgstr "Address"
+
+#: ../../../../formulaire/frm_formulaire.php:83
+msgid "Adresse IP"
+msgstr "IP address"
+
+#: ../../../../formulaire/frm_formulaire.php:667
+#: ../../../../formulaire/frm_formulaireReponse.php:43
+msgid "Affectations"
+msgstr "Assign"
+
+#: ../../../../include/class/class.db_webotheque.php:315
+msgid "Affectations sur le site courant"
+msgstr "Assigned to current site"
+
+#: ../../../../include/class/class.db_webotheque.php:315
+msgid "Affectations sur les autres sites"
+msgstr "Assigned to other sites"
+
+#: ../../../../cms/administration/adm_groupe.php:102
+msgid "Affecte utilisateurs"
+msgstr "Assign to new users"
+
+#: ../../../../cms/cms_page.php:409 ../../../../cms/cms_page.php:589
+#: ../../../../cms/cms_recherche.php:38
+#: ../../../../cms/cms_revisionDetails.php:294
+#: ../../../../cms/administration/adm_groupe.php:62
+#: ../../../../cms/administration/adm_site.php:767
+#: ../../../../cms/administration/adm_utilisateur.php:279
+#: ../../../../cms/administration/adm_utilisateur.php:427
+#: ../../../../cms/administration/adm_utilisateurShare.php:114
+#: ../../../../formulaire/frm_formulaire.php:242
+msgid "Affecte(s)"
+msgstr "Assigned roles"
+
+#: ../../../../cms/cms_page.php:305
+msgid "AffecterEtatAPagesFilles"
+msgstr "Set state and dates to children having state '%s'"
+
+#: ../../../../formulaire/frm_formulaire.php:377
+#: ../../../../formulaire/frm_formulaire.php:407
+#: ../../../../include/inc.bo_bandeau_haut.php:157
+#: ../../../../include/inc.bo_bandeau_haut.php:195
+#: ../../../../include/inc.bo_bandeau_haut.php:233
+#: ../../../../include/inc.bo_bandeau_haut.php:259
+#: ../../../../include/inc.bo_bandeau_haut.php:293
+#: ../../../../include/inc.bo_bandeau_haut.php:327
+#: ../../../../include/inc.bo_bandeau_haut.php:361
+#: ../../../../include/inc.bo_bandeau_haut.php:387
+#: ../../../../include/inc.bo_bandeau_haut.php:423
+#: ../../../../include/inc.bo_bandeau_haut.php:494
+#: ../../../../include/inc.bo_bandeau_haut.php:511
+#: ../../../../include/inc.bo_bandeau_haut.php:528
+#: ../../../../include/inc.bo_bandeau_haut.php:544
+#: ../../../../include/inc.bo_bandeau_haut.php:576
+#: ../../../../include/inc.bo_bandeau_haut.php:612
+#: ../../../../include/inc.bo_bandeau_haut.php:646
+#: ../../../../include/inc.bo_bandeau_haut.php:667
+#: ../../../../include/inc.bo_bandeau_haut.php:701
+#: ../../../../include/inc.bo_bandeau_haut.php:717
+#: ../../../../include/inc.bo_bandeau_haut_ext.php:9
+#: ../../../../include/inc.bo_bandeau_haut_ext.php:13
+#: ../../../../include/class/class.db_page.php:761
+#: ../../../../webotheque/web_documentPopup.php:2
+#: ../../../../webotheque/web_imagePopup.php:2
+#: ../../../../webotheque/web_lienExternePopup.php:2
+#: ../../../../webotheque/web_mediaPopup.php:2
+msgid "Ajouter"
+msgstr "Add"
+
+#: ../../../../include/inc.bo_bandeau_haut.php:876
+msgid "Ajouter une page"
+msgstr "Add a page"
+
+#: ../../../../formulaire/frm_formulaire.php:233
+#: ../../../../webotheque/web_document.php:70
+#: ../../../../webotheque/web_documentPopup.php:25
+#: ../../../../webotheque/web_flash.php:72
+#: ../../../../webotheque/web_image.php:93
+#: ../../../../webotheque/web_imagePopup.php:26
+#: ../../../../webotheque/web_importFTP.php:167
+#: ../../../../webotheque/web_importMultiple.php:64
+#: ../../../../webotheque/web_lienExterne.php:69
+#: ../../../../webotheque/web_lienExternePopup.php:25
+#: ../../../../webotheque/web_mediaPopup.php:25
+#: ../../../../webotheque/web_music.php:72
+#: ../../../../webotheque/web_video.php:72
+#: ../../../../webotheque/web_videoExterne.php:69
+#: ../../../../webotheque/web_widget.php:70
+msgid "Ajouter_dossier"
+msgstr "Add a sub folder"
+
+#: ../../../../cms/administration/adm_alerte.php:6
+msgid "Alerte_plateforme"
+msgstr "Core alert"
+
+#: ../../../../cms/administration/adm_alerte.php:9
+msgid "Alerte_site"
+msgstr "Site alert"
+
+#: ../../../../tinymce/editor_insert_image.php:135
+msgid "Alignement"
+msgstr "Align"
+
+#: ../../../../cms/cms_analyseContenuPopup.php:118
+msgid "Alt"
+msgstr "Alt"
+
+#: ../../../../include/class/class.db_webotheque.php:1111
+#: ../../../../include/class/class.db_webotheque.php:1113
+#: ../../../../include/class/class.db_webotheque.php:1584
+#: ../../../../include/class/class.db_webotheque.php:1586
+#: ../../../../include/class/class.db_webotheque.php:1594
+#: ../../../../include/class/class.db_webotheque.php:1596
+#: ../../../../include/class/class.db_webotheque.php:1605
+#: ../../../../include/class/class.db_webotheque.php:1607
+#: ../../../../include/class/class.db_webotheque.php:1939
+#: ../../../../include/class/class.db_webotheque.php:1941
+#: ../../../../tinymce/editor_insert_image.php:115
+msgid "Alternative"
+msgstr "Alternate"
+
+#: ../../../../tinymce/editor_insert_webotheque.php:89
+#: ../../../../webotheque/web_document.php:98
+#: ../../../../webotheque/web_documentPopup.php:34
+msgid "Alternative accessible"
+msgstr "Accessible alternate"
+
+#: ../../../../cms/cms_analyseContenuPopup.php:97
+#: ../../../../include/inc.bo_bandeau_haut.php:915
+msgid "Analyse du contenu"
+msgstr "Content analysis"
+
+#: ../../../../formulaire/frm_formulaire.php:430
+#: ../../../../tinymce/editor_select_image.php:97
+#: ../../../../webotheque/web_choisirPopup.php:185
+#: ../../../../webotheque/web_choisirPopup.php:190
+#: ../../../../webotheque/web_documentListe.php:87
+#: ../../../../webotheque/web_flashListe.php:87
+#: ../../../../webotheque/web_imageListe.php:87
+#: ../../../../webotheque/web_lienExterneListe.php:85
+#: ../../../../webotheque/web_musicListe.php:87
+#: ../../../../webotheque/web_videoListe.php:87
+msgid "Apercu"
+msgstr "Preview"
+
+#: ../../../../cms/PRT/PRT_APPLIEXTERNE.php:41
+msgid "Application Externe"
+msgstr "External applications"
+
+#: ../../../../include/class/class.Pagination.php:319
+msgid "Aucun resultat"
+msgstr ""
+
+#: ../../../../include/class/class.db_webotheque.php:1634
+#: ../../../../include/class/class.db_webotheque.php:1636
+msgid "Audiodescription"
+msgstr "Audiodescription"
+
+#: ../../../../webotheque/web_importFTP.php:21
+#: ../../../../webotheque/web_index.php:238
+#: ../../../../webotheque/web_musicListe.php:38
+msgid "Audios"
+msgstr "Audio"
+
+#: ../../../../cms/administration/adm_utilisateur.php:197
+msgid "Authentification"
+msgstr "Authenticate"
+
+#: ../../../../cms/PRT/PRT_APPLIEXTERNE.php:113
+msgid "Auto"
+msgstr "Auto"
+
+#: ../../../../cms/administration/adm_utilisateur.php:423
+#: ../../../../cms/administration/adm_utilisateurShare.php:110
+msgid "Autres roles"
+msgstr "Other Profiles"
+
+#: ../../../../cms/administration/adm_utilisateurListe.php:262
+msgid "Autres sites"
+msgstr "Other sites"
+
+#: ../../../../webotheque/web_image.php:125
+msgid "Avez-vous enregistre vos modifications en cours ?"
+msgstr "Have you saved your changes ?"
+
+#: ../../../../include/inc.bo_bandeau_bas.php:5
+msgid "CMS_BASELINE"
+msgstr "For interactive and mobile media"
+
+#: ../../../../cms/administration/adm_template.php:112
+msgid "Caracteres interdits"
+msgstr "Forbidden characters"
+
+#: ../../../../formulaire/frm_formulaire.php:227
+#: ../../../../formulaire/frm_formulaireListe.php:51
+#: ../../../../tinymce/editor_select_image.php:68
+#: ../../../../tinymce/editor_select_media.php:86
+#: ../../../../tinymce/editor_select_webotheque.php:85
+#: ../../../../webotheque/web_choisirPopup.php:155
+#: ../../../../webotheque/web_document.php:64
+#: ../../../../webotheque/web_documentListe.php:56
+#: ../../../../webotheque/web_documentPopup.php:20
+#: ../../../../webotheque/web_flash.php:66
+#: ../../../../webotheque/web_flashListe.php:56
+#: ../../../../webotheque/web_image.php:87
+#: ../../../../webotheque/web_imageListe.php:56
+#: ../../../../webotheque/web_imagePopup.php:20
+#: ../../../../webotheque/web_importFTP.php:162
+#: ../../../../webotheque/web_importMultiple.php:59
+#: ../../../../webotheque/web_lienExterne.php:63
+#: ../../../../webotheque/web_lienExterneListe.php:55
+#: ../../../../webotheque/web_lienExternePopup.php:20
+#: ../../../../webotheque/web_mediaPopup.php:20
+#: ../../../../webotheque/web_music.php:66
+#: ../../../../webotheque/web_musicListe.php:56
+#: ../../../../webotheque/web_video.php:66
+#: ../../../../webotheque/web_videoExterne.php:63
+#: ../../../../webotheque/web_videoExterneListe.php:55
+#: ../../../../webotheque/web_videoListe.php:56
+#: ../../../../webotheque/web_widget.php:64
+#: ../../../../webotheque/web_widgetListe.php:55
+msgid "Categorie"
+msgstr "Directory"
+
+#: ../../../../cms/administration/adm_site.php:35
+msgid "Ce code existe deja"
+msgstr "This code already exist!"
+
+#: ../../../../cms/administration/adm_utilisateur.php:53
+msgid "Cet email est deja attribue a un autre utilisateur"
+msgstr "This E-mail has already been attributed to anothe user"
+
+#: ../../../../cms/administration/adm_utilisateur.php:44
+msgid "Cet identifiant est deja attribue a un autre utilisateur"
+msgstr "This identifier has already been attributed to anothe user"
+
+#: ../../../../cms/cms_revisionPopup.php:185
+#: ../../../../cms/cms_revisionPopup.php:208
+msgid "Cette propriete sera integree aux proprietes de votre revision"
+msgstr "This property will be registered in the revision properties"
+
+#: ../../../../cms/PRT/PRT_TPL.php:48 ../../../../cms/PRT/PRT_WIDGET.php:82
+#: ../../../../tinymce/editor_select_image.php:52
+#: ../../../../tinymce/editor_select_media.php:68
+#: ../../../../tinymce/editor_select_tpl.php:42
+msgid "Choisir"
+msgstr "Select"
+
+#: ../../../../cms/cms_choisirUtilisateurPopup.php:53
+msgid "Choisir un utilisateur"
+msgstr "Choose a user"
+
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:224
+msgid "Choix multiple"
+msgstr "Multiple choice"
+
+#: ../../../../cms/administration/adm_site.php:243
+msgid "Cle support CMS"
+msgstr "Support key"
+
+#: ../../../../webotheque/web_mediaPopup.php:30
+#: ../../../../webotheque/web_videoExterne.php:73
+#: ../../../../webotheque/web_widget.php:74
+msgid "Code"
+msgstr "Code"
+
+#: ../../../../cms/administration/adm_utilisateur.php:181
+msgid "Code postal"
+msgstr "Post code"
+
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:245
+#: ../../../../formulaire/frm_formulaireReponse.php:127
+msgid "Commentaire"
+msgstr "Comment"
+
+#: ../../../../cms/cms_analyseContenuPopup.php:99
+#: ../../../../cms/administration/adm_site.php:653
+msgid "Contenu"
+msgstr "Content"
+
+#: ../../../../webotheque/web_flash.php:108
+#: ../../../../webotheque/web_music.php:119
+#: ../../../../webotheque/web_video.php:197
+msgid "Contenu alternatif"
+msgstr "Alternate content"
+
+#: ../../../../statistique/stat_pagePopup.php:71
+#: ../../../../statistique/stat_sitePopup.php:70
+msgid "Contributeur"
+msgstr "Contributor"
+
+#: ../../../../statistique/stat_index.php:499
+#: ../../../../statistique/stat_multiindex.php:503
+#: ../../../../statistique/stat_sitePopup.php:65
+msgid "Contributeurs"
+msgstr "Contributor"
+
+#: ../../../../cms/administration/adm_utilisateurShare.php:33
+msgid "Contribution"
+msgstr "Contribution"
+
+#: ../../../../cms/PRT/PRT_COPIE.php:92
+msgid "Copie de paragraphe"
+msgstr "Copy paragraph"
+
+#: ../../../../cms/cms_page.php:220 ../../../../cms/cms_pageLightPopup.php:37
+msgid "Copier le titre"
+msgstr "Copy title"
+
+#: ../../../../webotheque/web_image.php:146
+#: ../../../../webotheque/web_imagePopup.php:40
+#: ../../../../webotheque/web_video.php:152
+msgid "Credit"
+msgstr "Copryright"
+
+#: ../../../../include/inc.bo_bandeau_haut.php:920
+msgid "Creer une revision"
+msgstr "Create a revision"
+
+#: ../../../../cms/cms_commentaire.php:47
+#: ../../../../cms/cms_formeAbregee.php:33 ../../../../cms/cms_languisme.php:33
+#: ../../../../cms/cms_page.php:854
+#: ../../../../cms/cms_rechercheReferencement.php:42
+#: ../../../../cms/cms_stopword.php:31
+#: ../../../../cms/cms_styleDynamiquePopup.php:28
+#: ../../../../cms/cms_thematique.php:36
+#: ../../../../cms/administration/adm_alerte.php:37
+#: ../../../../cms/administration/adm_groupe.php:43
+#: ../../../../cms/administration/adm_ldap.php:60
+#: ../../../../cms/administration/adm_site.php:821
+#: ../../../../cms/administration/adm_stopword.php:36
+#: ../../../../cms/administration/adm_utilisateur.php:511
+#: ../../../../formulaire/frm_categorie.php:39
+#: ../../../../formulaire/frm_formulaire.php:191
+#: ../../../../formulaire/frm_formulaireGroupePopup.php:38
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:116
+#: ../../../../formulaire/frm_formulaireReponse.php:89
+#: ../../../../include/ajax/ajax.liaison_externe.php:90
+#: ../../../../include/ajax/ajax.liaison_page.php:88
+#: ../../../../include/ajax/ajax.liaison_utilisateur.php:87
+#: ../../../../include/ajax/ajax.liaison_webotheque.php:103
+#: ../../../../include/ajax/ajax.liaison_webotheque.php:130
+#: ../../../../webotheque/web_categorie.php:39
+#: ../../../../webotheque/web_document.php:47
+#: ../../../../webotheque/web_flash.php:49
+#: ../../../../webotheque/web_image.php:70
+#: ../../../../webotheque/web_lienExterne.php:46
+#: ../../../../webotheque/web_music.php:49
+#: ../../../../webotheque/web_video.php:49
+#: ../../../../webotheque/web_videoExterne.php:46
+#: ../../../../webotheque/web_widget.php:47
+msgid "DELETE"
+msgstr "Delete"
+
+#: ../../../../cms/cms_commentaireSubmit.php:170
+#: ../../../../cms/cms_formeAbregeeSubmit.php:63
+#: ../../../../cms/cms_languismeSubmit.php:55
+#: ../../../../cms/cms_rechercheReferencementSubmit.php:76
+#: ../../../../cms/cms_revisionSubmit.php:27
+#: ../../../../cms/cms_revisionSubmit.php:36
+#: ../../../../cms/cms_stopwordSubmit.php:30
+#: ../../../../cms/cms_thematiqueSubmit.php:44
+#: ../../../../cms/administration/adm_alerteSubmit.php:51
+#: ../../../../cms/administration/adm_groupeSubmit.php:52
+#: ../../../../cms/administration/adm_ldapSubmit.php:80
+#: ../../../../cms/administration/adm_siteSubmit.php:344
+#: ../../../../cms/administration/adm_stopwordSubmit.php:30
+#: ../../../../cms/administration/adm_utilisateurSubmit.php:205
+#: ../../../../formulaire/frm_categorieSubmit.php:43
+#: ../../../../formulaire/frm_formulaireSubmit.php:120
+#: ../../../../webotheque/web_categorieSubmit.php:59
+#: ../../../../webotheque/web_importFTPSubmit.php:96
+#: ../../../../webotheque/web_webothequeSubmit.php:144
+msgid "DELETE_OK"
+msgstr "Delete successful !"
+
+#: ../../../../cms/cms_historiquePopup.php:55 ../../../../cms/cms_index.php:74
+#: ../../../../cms/cms_index.php:129 ../../../../cms/cms_index.php:167
+#: ../../../../cms/cms_index.php:205 ../../../../cms/cms_index.php:248
+#: ../../../../formulaire/frm_formulaire.php:78
+#: ../../../../formulaire/frm_formulaire.php:588
+#: ../../../../formulaire/frm_formulaireReponse.php:123
+#: ../../../../statistique/stat_administrationPopup.php:49
+#: ../../../../statistique/stat_formulairePopup.php:55
+#: ../../../../statistique/stat_modulePopup.php:46
+#: ../../../../statistique/stat_multiVisites.php:65
+#: ../../../../statistique/stat_pagePopup.php:70
+#: ../../../../statistique/stat_utilisateurPopup.php:60
+#: ../../../../statistique/stat_utilisateurPopup.php:110
+#: ../../../../statistique/stat_utilisateurPopup.php:152
+#: ../../../../statistique/stat_utilisateurPopup.php:193
+#: ../../../../statistique/stat_utilisateurPopup.php:238
+#: ../../../../statistique/stat_visites.php:28
+#: ../../../../statistique/stat_webothequePopup.php:46
+msgid "Date"
+msgstr "Date"
+
+#: ../../../../cms/cms_page.php:246
+msgid "Date de mise en ligne"
+msgstr "Online date"
+
+#: ../../../../cms/cms_page.php:111
+msgid "Date de mise en ligne apres document enfant"
+msgstr ""
+"Online date of the current page is later than online date of child page"
+
+#: ../../../../cms/cms_page.php:89
+msgid "Date de mise en ligne avant document parent"
+msgstr "Online date of the current page is before the parent's online date"
+
+#: ../../../../cms/cms_page.php:288
+msgid "Date de mise hors ligne"
+msgstr "Offline date"
+
+#: ../../../../cms/cms_page.php:94
+msgid "Date de mise hors ligne apres document parent"
+msgstr ""
+"Offline date of the current page is later than the parent page's offline date"
+
+#: ../../../../cms/cms_page.php:123
+msgid "Date de mise hors ligne avant document enfant"
+msgstr ""
+"Offline date of the current page is before the children page's offline date"
+
+#: ../../../../cms/cms_page.php:297
+msgid "Date de mise à jour"
+msgstr ""
+
+#: ../../../../cms/cms_page.php:250 ../../../../cms/cms_page.php:292
+msgid "Date utilisee sur FO"
+msgstr "Warning! This date is alreasdy in use in the online website"
+
+#: ../../../../cms/cms_analyseContenuPopup.php:105
+msgid "Densite"
+msgstr "Density"
+
+#: ../../../../include/class/class.db_paragraphe.php:397
+msgid "Deplacer a droite"
+msgstr "Move right"
+
+#: ../../../../include/class/class.db_paragraphe.php:395
+msgid "Deplacer a gauche"
+msgstr "Move left"
+
+#: ../../../../include/class/class.Arbo.php:28
+msgid "Deployer arborescence"
+msgstr "Unfold"
+
+#: ../../../../webotheque/web_document.php:55
+#: ../../../../webotheque/web_flash.php:57
+#: ../../../../webotheque/web_image.php:78
+#: ../../../../webotheque/web_lienExterne.php:54
+#: ../../../../webotheque/web_music.php:57
+#: ../../../../webotheque/web_video.php:57
+#: ../../../../webotheque/web_videoExterne.php:54
+#: ../../../../webotheque/web_widget.php:55
+msgid "Dernier redacteur"
+msgstr "Last drafter"
+
+#: ../../../../include/class/class.Pagination.php:365
+msgid "Derniere"
+msgstr "Last"
+
+#: ../../../../cms/administration/adm_ldap.php:151
+#: ../../../../cms/administration/adm_utilisateurListe.php:374
+#: ../../../../statistique/stat_multiutilisateur.php:93
+#: ../../../../statistique/stat_multiutilisateur.php:291
+#: ../../../../statistique/stat_sitePopup.php:73
+#: ../../../../statistique/stat_utilisateurInactifPopup.php:75
+msgid "Derniere connexion"
+msgstr "Last login"
+
+#: ../../../../statistique/stat_contenuAdministration.inc.php:54
+#: ../../../../statistique/stat_contenuFormulaire.inc.php:59
+#: ../../../../statistique/stat_contenuModule.inc.php:79
+#: ../../../../statistique/stat_contenuModule.inc.php:217
+#: ../../../../statistique/stat_contenuPage.inc.php:211
+#: ../../../../statistique/stat_contenuPage.inc.php:500
+#: ../../../../statistique/stat_contenuWebotheque.inc.php:57
+#: ../../../../statistique/stat_multicontenuAdministration.inc.php:75
+#: ../../../../statistique/stat_multicontenuAdministration.inc.php:222
+#: ../../../../statistique/stat_multicontenuFormulaire.inc.php:71
+#: ../../../../statistique/stat_multicontenuFormulaire.inc.php:212
+#: ../../../../statistique/stat_multicontenuModule.inc.php:88
+#: ../../../../statistique/stat_multicontenuModule.inc.php:229
+#: ../../../../statistique/stat_multicontenuPage.inc.php:95
+#: ../../../../statistique/stat_multicontenuPage.inc.php:286
+#: ../../../../statistique/stat_multicontenuWebotheque.inc.php:73
+#: ../../../../statistique/stat_multicontenuWebotheque.inc.php:217
+#: ../../../../statistique/stat_pageInactivePopup.php:61
+#: ../../../../statistique/stat_sitePopup.php:120
+#: ../../../../statistique/stat_sitePopup.php:158
+#: ../../../../statistique/stat_sitePopup.php:195
+#: ../../../../statistique/stat_sitePopup.php:233
+#: ../../../../statistique/stat_sitePopup.php:273
+msgid "Derniere modification"
+msgstr "Last update"
+
+#: ../../../../cms/cms_index.php:114
+msgid "Dernieres_pages_mise_en_ligne"
+msgstr "Last published pages"
+
+#: ../../../../cms/cms_index.php:56
+msgid "Dernieres_pages_modifies"
+msgstr "Last update"
+
+#: ../../../../webotheque/web_index.php:50
+#: ../../../../webotheque/web_index.php:99
+#: ../../../../webotheque/web_index.php:146
+#: ../../../../webotheque/web_index.php:193
+#: ../../../../webotheque/web_index.php:240
+#: ../../../../webotheque/web_index.php:287
+#: ../../../../webotheque/web_index.php:334
+#: ../../../../webotheque/web_index.php:381
+msgid "Derniers elements modifies"
+msgstr "Last modified elements"
+
+#: ../../../../cms/cms_index.php:225
+msgid "Derniers_modules_modifies"
+msgstr ""
+
+#: ../../../../formulaire/frm_formulaire.php:342
+#: ../../../../formulaire/frm_formulaire.php:388
+#: ../../../../include/ajax/ajax.liaison_externe.php:98
+#: ../../../../include/ajax/ajax.liaison_page.php:96
+#: ../../../../include/ajax/ajax.liaison_utilisateur.php:95
+#: ../../../../include/ajax/ajax.liaison_webotheque.php:108
+#: ../../../../include/ajax/ajax.liaison_webotheque.php:140
+#: ../../../../include/class/class.db_paragraphe.php:391
+msgid "Descendre"
+msgstr "Move down"
+
+#: ../../../../tinymce/editor_select_image.php:62
+#: ../../../../tinymce/editor_select_media.php:78
+#: ../../../../tinymce/editor_select_webotheque.php:79
+#: ../../../../webotheque/web_choisirPopup.php:149
+#: ../../../../webotheque/web_document.php:91
+#: ../../../../webotheque/web_documentListe.php:50
+#: ../../../../webotheque/web_flash.php:102
+#: ../../../../webotheque/web_flashListe.php:50
+#: ../../../../webotheque/web_image.php:151
+#: ../../../../webotheque/web_imageListe.php:50
+#: ../../../../webotheque/web_lienExterne.php:83
+#: ../../../../webotheque/web_lienExterneListe.php:49
+#: ../../../../webotheque/web_music.php:113
+#: ../../../../webotheque/web_musicListe.php:50
+#: ../../../../webotheque/web_video.php:157
+#: ../../../../webotheque/web_videoExterne.php:78
+#: ../../../../webotheque/web_videoExterneListe.php:49
+#: ../../../../webotheque/web_videoListe.php:50
+#: ../../../../webotheque/web_widget.php:79
+#: ../../../../webotheque/web_widgetListe.php:49
+msgid "Description"
+msgstr "Description"
+
+#: ../../../../tinymce/editor_insert_image.php:124
+#: ../../../../webotheque/web_image.php:157
+msgid "Description longue"
+msgstr "Full description"
+
+#: ../../../../cms/cms_historiquePopup.php:59 ../../../../cms/cms_index.php:78
+#: ../../../../cms/cms_index.php:253
+#: ../../../../statistique/stat_administrationPopup.php:53
+#: ../../../../statistique/stat_formulairePopup.php:58
+#: ../../../../statistique/stat_modulePopup.php:51
+#: ../../../../statistique/stat_pagePopup.php:75
+#: ../../../../statistique/stat_utilisateurPopup.php:63
+#: ../../../../statistique/stat_utilisateurPopup.php:114
+#: ../../../../statistique/stat_utilisateurPopup.php:155
+#: ../../../../statistique/stat_utilisateurPopup.php:197
+#: ../../../../statistique/stat_utilisateurPopup.php:241
+#: ../../../../statistique/stat_webothequePopup.php:51
+msgid "Detail"
+msgstr "Detail"
+
+#: ../../../../cms/cms_page.php:411 ../../../../cms/cms_page.php:591
+#: ../../../../cms/cms_recherche.php:40
+#: ../../../../cms/cms_revisionDetails.php:296
+#: ../../../../cms/administration/adm_groupe.php:64
+#: ../../../../cms/administration/adm_site.php:769
+#: ../../../../cms/administration/adm_utilisateur.php:281
+#: ../../../../cms/administration/adm_utilisateur.php:429
+#: ../../../../cms/administration/adm_utilisateurShare.php:116
+#: ../../../../formulaire/frm_formulaire.php:244
+msgid "Disponible(s)"
+msgstr "Available"
+
+#: ../../../../webotheque/web_documentListe.php:38
+#: ../../../../webotheque/web_importFTP.php:15
+#: ../../../../webotheque/web_importMultiple.php:16
+#: ../../../../webotheque/web_index.php:97
+msgid "Documents"
+msgstr "Documents"
+
+#: ../../../../formulaire/frm_formulaire.php:190
+msgid "Dupliquer"
+msgstr "Copy"
+
+#: ../../../../cms/administration/adm_utilisateurSubmit.php:252
+msgid "E-mail deja attribue"
+msgstr "E-mail already attribued"
+
+#: ../../../../cms/administration/adm_templateSubmit.php:16
+msgid "ERREUR_REWRITEURL_INVALIDE"
+msgstr "Invalid customized URL."
+
+#: ../../../../cms/administration/adm_templateSubmit.php:39
+msgid "ERREUR_URLCODE_DOUBLE"
+msgstr "URL is still used by another template."
+
+#: ../../../../cms/administration/adm_templateSubmit.php:10
+msgid "ERREUR_URLCODE_INVALIDE"
+msgstr "Invalid URL."
+
+#: ../../../../include/inc.bo_bandeau_haut.php:866
+#: ../../../../include/inc.bo_bandeau_haut.php:934
+msgid "Editer"
+msgstr "Edit"
+
+#: ../../../../cms/PRT/PRT_TPL.php:48
+#: ../../../../tinymce/editor_select_tpl.php:42
+msgid "Effacer"
+msgstr "Delete"
+
+#: ../../../../cms/cms_choisirUtilisateurPopup.php:71
+#: ../../../../cms/cms_choisirUtilisateurPopup.php:87
+#: ../../../../cms/administration/adm_utilisateur.php:153
+msgid "Email"
+msgstr "Email"
+
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:162
+msgid "En-tete de colonne"
+msgstr "Show in form result report"
+
+#: ../../../../formulaire/frm_formulaireSubmit.php:40
+msgid "Envoyer"
+msgstr "Send"
+
+#: ../../../../include/inc.bo_bandeau_bas.php:13
+#: ../../../../include/inc.bo_bandeau_basPopup.php:6
+msgid "Erreur"
+msgstr "Error"
+
+#: ../../../../include/inc.bo_bandeau_bas.php:13
+#: ../../../../include/inc.bo_bandeau_basPopup.php:6
+msgid "Erreurs"
+msgstr "Errors"
+
+#: ../../../../formulaire/frm_formulaire.php:677
+#: ../../../../include/class/class.db_webotheque.php:320
+msgid "Espace de contribution"
+msgstr "Contribution panel"
+
+#: ../../../../cms/cms_pageListe.php:114 ../../../../cms/cms_pageListe.php:170
+#: ../../../../formulaire/frm_formulaire.php:78
+#: ../../../../formulaire/frm_formulaire.php:492
+#: ../../../../formulaire/frm_formulaire.php:589
+#: ../../../../formulaire/frm_formulaireReponse.php:112
+msgid "Etat"
+msgstr "Status"
+
+#: ../../../../cms/cms_page.php:244
+#: ../../../../include/inc.bo_bandeau_haut.php:888
+msgid "Etat courant"
+msgstr "Current status"
+
+#: ../../../../formulaire/frm_formulaire.php:308
+msgid "Etat des reponses"
+msgstr "Assign a status to elements received"
+
+#: ../../../../cms/cms_page.php:255
+#: ../../../../include/inc.bo_bandeau_haut.php:893
+#: ../../../../include/inc.bo_bandeau_haut.php:897
+msgid "Etat suivant"
+msgstr "Next status"
+
+#: ../../../../cms/cms_formeAbregee.php:33
+#: ../../../../cms/cms_historiquePopup.php:35
+#: ../../../../cms/cms_languisme.php:33 ../../../../cms/cms_page.php:854
+#: ../../../../cms/cms_revisionListe.php:112
+#: ../../../../cms/cms_revisionListe.php:124
+#: ../../../../cms/cms_stopword.php:31
+#: ../../../../cms/cms_styleDynamiquePopup.php:28
+#: ../../../../cms/cms_thematique.php:36
+#: ../../../../cms/administration/adm_alerte.php:37
+#: ../../../../cms/administration/adm_groupe.php:43
+#: ../../../../cms/administration/adm_site.php:821
+#: ../../../../cms/administration/adm_stopword.php:36
+#: ../../../../cms/administration/adm_utilisateur.php:511
+#: ../../../../cms/administration/adm_utilisateurShare.php:100
+#: ../../../../formulaire/frm_categorie.php:39
+#: ../../../../formulaire/frm_formulaire.php:191
+#: ../../../../formulaire/frm_formulaireGroupePopup.php:38
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:116
+#: ../../../../formulaire/frm_formulaireReponse.php:89
+#: ../../../../include/class/class.db_paragraphe.php:407
+#: ../../../../webotheque/web_categorie.php:39
+#: ../../../../webotheque/web_document.php:47
+#: ../../../../webotheque/web_flash.php:49
+#: ../../../../webotheque/web_image.php:70
+#: ../../../../webotheque/web_lienExterne.php:46
+#: ../../../../webotheque/web_music.php:49
+#: ../../../../webotheque/web_video.php:49
+#: ../../../../webotheque/web_videoExterne.php:46
+#: ../../../../webotheque/web_widget.php:47
+msgid "Etes-vous sur ?"
+msgstr "Are you sure ?"
+
+#: ../../../../webotheque/web_documentListe.php:121
+#: ../../../../webotheque/web_flashListe.php:121
+#: ../../../../webotheque/web_imageListe.php:121
+#: ../../../../webotheque/web_lienExterneListe.php:113
+#: ../../../../webotheque/web_musicListe.php:121
+#: ../../../../webotheque/web_videoExterneListe.php:105
+#: ../../../../webotheque/web_videoListe.php:121
+#: ../../../../webotheque/web_widgetListe.php:118
+msgid "Etes-vous sur de vouloir supprimer la selection"
+msgstr "Are you sure you wish to delete the selected items"
+
+#: ../../../../cms/cms_revisionPopup.php:114
+msgid "Exclue recherche"
+msgstr "Excluded from search"
+
+#: ../../../../cms/cms_revisionDetails.php:276
+msgid "ExcluireMoteurRecherche"
+msgstr "Do not include in search engine results"
+
+#: ../../../../cms/cms_pageListe.php:77
+msgid "Existe sur le site"
+msgstr "Available online"
+
+#: ../../../../formulaire/frm_formulaire.php:479
+#: ../../../../formulaire/frm_formulaireListe.php:93
+msgid "Exporter"
+msgstr "Export"
+
+#: ../../../../statistique/stat_contenuAdministration.inc.php:174
+#: ../../../../statistique/stat_contenuFormulaire.inc.php:175
+#: ../../../../statistique/stat_contenuModule.inc.php:195
+#: ../../../../statistique/stat_contenuPage.inc.php:370
+#: ../../../../statistique/stat_contenuWebotheque.inc.php:173
+#: ../../../../statistique/stat_multicontenuAdministration.inc.php:198
+#: ../../../../statistique/stat_multicontenuFormulaire.inc.php:189
+#: ../../../../statistique/stat_multicontenuModule.inc.php:206
+#: ../../../../statistique/stat_multicontenuPage.inc.php:243
+#: ../../../../statistique/stat_multicontenuWebotheque.inc.php:193
+#: ../../../../statistique/stat_multiutilisateur.php:250
+#: ../../../../statistique/stat_multiVisites.php:345
+#: ../../../../statistique/stat_utilisateur.php:240
+#: ../../../../statistique/stat_visites.php:279
+msgid "Exporter_resultats"
+msgstr ""
+
+#: ../../../../include/class/class.db_webotheque.php:848
+#: ../../../../include/class/class.db_webotheque.php:939
+#: ../../../../include/class/class.db_webotheque.php:1101
+#: ../../../../include/class/class.db_webotheque.php:1111
+#: ../../../../include/class/class.db_webotheque.php:1138
+#: ../../../../include/class/class.db_webotheque.php:1323
+#: ../../../../include/class/class.db_webotheque.php:1584
+#: ../../../../include/class/class.db_webotheque.php:1594
+#: ../../../../include/class/class.db_webotheque.php:1605
+#: ../../../../include/class/class.db_webotheque.php:1614
+#: ../../../../include/class/class.db_webotheque.php:1625
+#: ../../../../include/class/class.db_webotheque.php:1634
+#: ../../../../include/class/class.db_webotheque.php:1929
+#: ../../../../include/class/class.db_webotheque.php:1939
+#: ../../../../webotheque/web_importMultiple.php:33
+msgid "Extension incorrecte"
+msgstr "Wrong file format"
+
+#: ../../../../webotheque/web_document.php:78
+#: ../../../../webotheque/web_document.php:101
+#: ../../../../webotheque/web_flash.php:80
+#: ../../../../webotheque/web_image.php:101
+#: ../../../../webotheque/web_imagePopup.php:34
+#: ../../../../webotheque/web_music.php:80
+#: ../../../../webotheque/web_music.php:99
+#: ../../../../webotheque/web_video.php:80
+#: ../../../../webotheque/web_video.php:97
+#: ../../../../webotheque/web_video.php:114
+#: ../../../../webotheque/web_video.php:139
+#: ../../../../webotheque/web_video.php:167
+#: ../../../../webotheque/web_video.php:184
+msgid "Extensions autorisees"
+msgstr "Allowed extensions"
+
+#: ../../../../cms/administration/adm_utilisateur.php:271
+msgid "Extranet"
+msgstr "Extranet"
+
+#: ../../../../cms/cms_revisionDetails.php:106
+msgid "FaireApparaitrePageMenu"
+msgstr "Show this page in the menu"
+
+#: ../../../../cms/administration/adm_site.php:275
+msgid "Favicon"
+msgstr "Favicon"
+
+#: ../../../../cms/administration/adm_utilisateur.php:165
+msgid "Fax"
+msgstr "Fax"
+
+#: ../../../../include/inc.bo_bandeau_basPopup.php:1
+msgid "Fermer"
+msgstr "Close"
+
+#: ../../../../include/class/class.Arbo.php:27
+msgid "Fermer arborescence"
+msgstr "Fold"
+
+#: ../../../../cms/cms_revisionDetails.php:121
+#: ../../../../cms/cms_revisionPopup.php:79
+#: ../../../../cms/cms_revisionPopup.php:86
+msgid "Feuille de style"
+msgstr "Stylesheet"
+
+#: ../../../../cms/cms_revisionDetails.php:133
+#: ../../../../cms/administration/adm_site.php:297
+msgid "Feuille de style perso"
+msgstr "Customimsed stylesheet"
+
+#: ../../../../cms/cms_revisionDetails.php:118
+msgid "FeuilleStyleDefaut"
+msgstr "Default style sheet"
+
+#: ../../../../cms/cms_index.php:250
+msgid "Fiche"
+msgstr ""
+
+#: ../../../../statistique/stat_administrationPopup.php:51
+msgid "Fiche modifiée"
+msgstr ""
+
+#: ../../../../include/class/class.db_webotheque.php:848
+#: ../../../../include/class/class.db_webotheque.php:850
+#: ../../../../include/class/class.db_webotheque.php:937
+#: ../../../../include/class/class.db_webotheque.php:1101
+#: ../../../../include/class/class.db_webotheque.php:1103
+#: ../../../../include/class/class.db_webotheque.php:1136
+#: ../../../../include/class/class.db_webotheque.php:1323
+#: ../../../../include/class/class.db_webotheque.php:1325
+#: ../../../../include/class/class.db_webotheque.php:1359
+#: ../../../../include/class/class.db_webotheque.php:1685
+#: ../../../../include/class/class.db_webotheque.php:1929
+#: ../../../../include/class/class.db_webotheque.php:1931
+#: ../../../../include/class/class.db_webotheque.php:1977
+#: ../../../../webotheque/web_document.php:75
+#: ../../../../webotheque/web_documentPopup.php:29
+#: ../../../../webotheque/web_flash.php:77
+#: ../../../../webotheque/web_image.php:98
+#: ../../../../webotheque/web_imagePopup.php:31
+#: ../../../../webotheque/web_mediaPopup.php:35
+#: ../../../../webotheque/web_music.php:77
+#: ../../../../webotheque/web_video.php:77
+#: ../../../../webotheque/web_webothequeSubmit.php:168
+msgid "Fichier"
+msgstr "File"
+
+#: ../../../../webotheque/web_music.php:95
+msgid "Fichier ogg"
+msgstr ""
+
+#: ../../../../webotheque/web_image.php:134
+msgid "Fichier pixlr"
+msgstr "pixlr file"
+
+#: ../../../../webotheque/web_video.php:111
+msgid "Fichier_mp4"
+msgstr "Mp4 file"
+
+#: ../../../../webotheque/web_video.php:94
+msgid "Fichier_webm"
+msgstr "WebM file"
+
+#: ../../../../webotheque/web_importFTP.php:18
+msgid "Flash"
+msgstr "Flash"
+
+#: ../../../../webotheque/web_flashListe.php:38
+#: ../../../../webotheque/web_index.php:191
+msgid "Flashs"
+msgstr "Flash"
+
+#: ../../../../cms/administration/adm_groupe.php:130
+#: ../../../../cms/administration/adm_utilisateur.php:173
+msgid "Fonction"
+msgstr "Function"
+
+#: ../../../../tinymce/editor_insert_image.php:152
+msgid "Format"
+msgstr "Format"
+
+#: ../../../../cms/cms_formeAbregee.php:22
+msgid "Forme abregee"
+msgstr "Abreviated form"
+
+#: ../../../../cms/cms_formeAbregeeListe.php:32
+msgid "Formes abregees"
+msgstr "Abreviated forms"
+
+#: ../../../../cms/PRT/PRT_FORMULAIRE.php:79
+#: ../../../../formulaire/frm_formulaireReponse.php:95
+#: ../../../../statistique/stat_multicontenu.php:47
+msgid "Formulaire"
+msgstr "Form"
+
+#: ../../../../cms/PRT/PRT_FORMULAIRE.php:38
+#: ../../../../statistique/stat_index.php:535
+#: ../../../../statistique/stat_multiindex.php:539
+#: ../../../../statistique/stat_sitePopup.php:188
+#: ../../../../statistique/stat_utilisateurPopup.php:148
+msgid "Formulaires"
+msgstr "Forms"
+
+#: ../../../../cms/cms_page.php:721 ../../../../cms/cms_revisionDetails.php:365
+#: ../../../../cms/cms_revisionPopup.php:258
+msgid "Frequence"
+msgstr "Frequency"
+
+#: ../../../../include/inc.bo_bandeau_haut.php:924
+msgid "Gerer les revisions"
+msgstr "Manage revisions"
+
+#: ../../../../cms/administration/adm_groupe.php:32
+#: ../../../../cms/administration/adm_utilisateurListe.php:371
+#: ../../../../formulaire/frm_formulaireGroupePopup.php:27
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:127
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:139
+msgid "Groupe"
+msgstr "Group"
+
+#: ../../../../cms/administration/adm_utilisateur.php:275
+msgid "Groupe(s)"
+msgstr "Group(s)"
+
+#: ../../../../cms/cms_page.php:644
+msgid "GroupeAjouter"
+msgstr "Add these groups to children"
+
+#: ../../../../cms/cms_page.php:638
+msgid "GroupeNon"
+msgstr "Apply to this page only"
+
+#: ../../../../cms/cms_page.php:641
+msgid "GroupeRemplacer"
+msgstr "Apply to children [groups are replaced]"
+
+#: ../../../../cms/administration/adm_groupeListe.php:29
+msgid "Groupes"
+msgstr "Members groups"
+
+#: ../../../../cms/PRT/PRT_HAUTDEPAGE.php:36
+#: ../../../../cms/PRT/PRT_HAUTDEPAGE.php:59
+msgid "Haut de page"
+msgstr "Top of page"
+
+#: ../../../../cms/PRT/PRT_APPLIEXTERNE.php:98
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:237
+#: ../../../../webotheque/web_flash.php:97
+#: ../../../../webotheque/web_importFTP.php:177
+#: ../../../../webotheque/web_mediaPopup.php:44
+#: ../../../../webotheque/web_video.php:131
+msgid "Hauteur"
+msgstr "Height"
+
+#: ../../../../cms/PRT/PRT_FORMULAIRE.php:71
+#: ../../../../cms/PRT/PRT_HAUTDEPAGE.php:64
+#: ../../../../cms/PRT/PRT_TPL.php:111
+msgid "Heritable"
+msgstr "Inherit"
+
+#: ../../../../cms/cms_historiquePopup.php:46
+#: ../../../../include/inc.bo_bandeau_haut.php:913
+msgid "Historique et revisions"
+msgstr "History and revisions"
+
+#: ../../../../statistique/stat_webothequePopup.php:26
+msgid "Historique_de_la"
+msgstr ""
+
+#: ../../../../statistique/stat_administrationPopup.php:13
+msgid "Historique_des"
+msgstr ""
+
+#: ../../../../statistique/stat_administrationPopup.php:11
+#: ../../../../statistique/stat_formulairePopup.php:20
+#: ../../../../statistique/stat_formulairePopup.php:23
+#: ../../../../statistique/stat_modulePopup.php:33
+#: ../../../../statistique/stat_pageInactivePopup.php:24
+#: ../../../../statistique/stat_sitePopup.php:20
+#: ../../../../statistique/stat_utilisateurInactifPopup.php:16
+msgid "Historique_du"
+msgstr ""
+
+#: ../../../../cms/cms_pageArbo.php:71
+msgid "Hors perimetre"
+msgstr "Out of scope"
+
+#: ../../../../cms/cms_formeAbregee.php:35 ../../../../cms/cms_languisme.php:35
+#: ../../../../cms/cms_page.php:850
+#: ../../../../cms/cms_rechercheReferencement.php:44
+#: ../../../../cms/cms_stopword.php:33
+#: ../../../../cms/cms_styleDynamiquePopup.php:30
+#: ../../../../cms/cms_thematique.php:38 ../../../../cms/cms_thematique.php:39
+#: ../../../../cms/administration/adm_alerte.php:39
+#: ../../../../cms/administration/adm_groupe.php:45
+#: ../../../../cms/administration/adm_ldap.php:63
+#: ../../../../cms/administration/adm_site.php:824
+#: ../../../../cms/administration/adm_stopword.php:38
+#: ../../../../cms/administration/adm_utilisateur.php:550
+#: ../../../../cms/PRT/PRT_APPLIEXTERNE.php:53
+#: ../../../../cms/PRT/PRT_COPIE.php:119
+#: ../../../../cms/PRT/PRT_FORMULAIRE.php:50
+#: ../../../../cms/PRT/PRT_HAUTDEPAGE.php:48
+#: ../../../../cms/PRT/PRT_PARTAGE.php:125
+#: ../../../../cms/PRT/PRT_SOMMAIRE.php:50 ../../../../cms/PRT/PRT_TPL.php:90
+#: ../../../../cms/PRT/PRT_TXT.php:77 ../../../../cms/PRT/PRT_WIDGET.php:54
+#: ../../../../formulaire/frm_categorie.php:41
+#: ../../../../formulaire/frm_formulaire.php:193
+#: ../../../../formulaire/frm_formulaireGroupePopup.php:40
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:118
+#: ../../../../webotheque/web_categorie.php:41
+#: ../../../../webotheque/web_document.php:43
+#: ../../../../webotheque/web_documentPopup.php:9
+#: ../../../../webotheque/web_flash.php:45
+#: ../../../../webotheque/web_image.php:66
+#: ../../../../webotheque/web_imagePopup.php:9
+#: ../../../../webotheque/web_lienExterne.php:42
+#: ../../../../webotheque/web_lienExternePopup.php:9
+#: ../../../../webotheque/web_mediaPopup.php:9
+#: ../../../../webotheque/web_music.php:45
+#: ../../../../webotheque/web_video.php:45
+#: ../../../../webotheque/web_videoExterne.php:42
+#: ../../../../webotheque/web_widget.php:43
+msgid "INSERT"
+msgstr "Save"
+
+#: ../../../../cms/cms_commentaireSubmit.php:54
+#: ../../../../cms/cms_formeAbregeeSubmit.php:32
+#: ../../../../cms/cms_languismeSubmit.php:26
+#: ../../../../cms/cms_rechercheReferencementSubmit.php:40
+#: ../../../../cms/cms_stopwordSubmit.php:10
+#: ../../../../cms/cms_thematiqueSubmit.php:23
+#: ../../../../cms/administration/adm_alerteSubmit.php:22
+#: ../../../../cms/administration/adm_groupeSubmit.php:25
+#: ../../../../cms/administration/adm_siteSubmit.php:182
+#: ../../../../cms/administration/adm_stopwordSubmit.php:10
+#: ../../../../cms/administration/adm_utilisateurSubmit.php:77
+#: ../../../../formulaire/frm_categorieSubmit.php:19
+#: ../../../../formulaire/frm_formulaireSubmit.php:53
+#: ../../../../formulaire/frm_formulaireSubmit.php:237
+#: ../../../../webotheque/web_categorieSubmit.php:28
+#: ../../../../webotheque/web_importFTPSubmit.php:85
+#: ../../../../webotheque/web_webothequeSubmit.php:93
+msgid "INSERT_OK"
+msgstr "Insertion successful !"
+
+#: ../../../../cms/administration/adm_utilisateur.php:201
+msgid "Identifiant"
+msgstr "Login"
+
+#: ../../../../cms/administration/adm_utilisateurSubmit.php:262
+msgid "Identifiant deja attribue"
+msgstr "Already used login "
+
+#: ../../../../formulaire/frm_formulaire.php:205
+msgid "Identifier depositaire"
+msgstr "Log author"
+
+#: ../../../../include/class/class.Pagination.php:321
+msgid "Il y a"
+msgstr "There are"
+
+#: ../../../../cms/cms_revisionDetails.php:146
+#: ../../../../cms/cms_revisionPopup.php:130
+msgid "Image accroche"
+msgstr "Leading image"
+
+#: ../../../../webotheque/web_imageListe.php:38
+#: ../../../../webotheque/web_importFTP.php:12
+#: ../../../../webotheque/web_importMultiple.php:14
+#: ../../../../webotheque/web_index.php:48
+msgid "Images"
+msgstr "Images"
+
+#: ../../../../cms/cms_revisionDetails.php:248
+msgid "InfoBulleMenu"
+msgstr "Tooltip (on hover in menu)"
+
+#: ../../../../cms/cms_commentaire.php:39
+#: ../../../../include/inc.bo_bandeau_haut.php:902
+msgid "Information"
+msgstr "Information"
+
+#: ../../../../cms/cms_formeAbregee.php:25 ../../../../cms/cms_languisme.php:25
+#: ../../../../cms/cms_recherche.php:25
+#: ../../../../cms/cms_rechercheReferencement.php:34
+#: ../../../../cms/cms_stopword.php:23
+#: ../../../../cms/cms_styleDynamiquePopup.php:20
+#: ../../../../cms/cms_thematique.php:27
+#: ../../../../cms/administration/adm_alerte.php:28
+#: ../../../../cms/administration/adm_groupe.php:35
+#: ../../../../cms/administration/adm_ldap.php:51
+#: ../../../../cms/administration/adm_stopword.php:27
+#: ../../../../cms/administration/adm_utilisateur.php:134
+#: ../../../../formulaire/frm_formulaireReponse.php:83
+msgid "Informations"
+msgstr "Information"
+
+#: ../../../../formulaire/frm_formulaire.php:237
+msgid "Intervenants"
+msgstr "CMS users"
+
+#: ../../../../include/class/class.db_paragraphe.php:434
+msgid "LARGEUR"
+msgstr "WIDTH"
+
+#: ../../../../cms/cms_revisionPopup.php:64
+msgid "La page actuelle est une page speciale"
+msgstr "The current page is a special page"
+
+#: ../../../../cms/cms_formeAbregee.php:50
+#: ../../../../cms/cms_formeAbregeeListe.php:61
+#: ../../../../cms/cms_languisme.php:46
+#: ../../../../cms/cms_languismeListe.php:50
+#: ../../../../cms/administration/adm_utilisateur.php:229
+#: ../../../../tinymce/editor_select_formeAbregee.php:78
+#: ../../../../tinymce/editor_select_languisme.php:53
+msgid "Langue"
+msgstr "Language"
+
+#: ../../../../cms/cms_languisme.php:22
+msgid "Languisme"
+msgstr "Linguistic"
+
+#: ../../../../cms/PRT/PRT_APPLIEXTERNE.php:88
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:233
+#: ../../../../webotheque/web_flash.php:93
+#: ../../../../webotheque/web_importFTP.php:173
+#: ../../../../webotheque/web_mediaPopup.php:40
+#: ../../../../webotheque/web_video.php:127
+msgid "Largeur"
+msgstr "Width"
+
+#: ../../../../webotheque/web_index.php:56
+#: ../../../../webotheque/web_index.php:103
+#: ../../../../webotheque/web_index.php:150
+#: ../../../../webotheque/web_index.php:197
+#: ../../../../webotheque/web_index.php:244
+#: ../../../../webotheque/web_index.php:291
+#: ../../../../webotheque/web_index.php:338
+#: ../../../../webotheque/web_index.php:385
+msgid "Le"
+msgstr "The"
+
+#: ../../../../cms/administration/adm_template.php:26
+#: ../../../../cms/administration/adm_template.php:32
+#: ../../../../cms/administration/adm_template.php:61
+msgid "Le caractere %s est interdit"
+msgstr "%s char is not allowed!"
+
+#: ../../../../cms/cms_pageArbo.php:62
+#: ../../../../tinymce/editor_insert_image.php:119
+msgid "Legende"
+msgstr "Legend"
+
+#: ../../../../cms/cms_analyseContenuPopup.php:122
+#: ../../../../cms/cms_analyseContenuPopup.php:139
+#: ../../../../cms/cms_formeAbregee.php:46
+#: ../../../../cms/cms_formeAbregeeListe.php:46
+#: ../../../../cms/cms_formeAbregeeListe.php:60
+#: ../../../../cms/cms_languisme.php:42
+#: ../../../../cms/cms_languismeListe.php:35
+#: ../../../../cms/cms_languismeListe.php:49
+#: ../../../../cms/cms_stopword.php:40 ../../../../cms/cms_stopwordListe.php:50
+#: ../../../../cms/cms_styleDynamiquePopup.php:37
+#: ../../../../cms/cms_thematique.php:46
+#: ../../../../cms/cms_thematiqueListe.php:39
+#: ../../../../cms/cms_thematiqueListe.php:54
+#: ../../../../cms/administration/adm_groupe.php:53
+#: ../../../../cms/administration/adm_groupeListe.php:41
+#: ../../../../cms/administration/adm_groupeListe.php:55
+#: ../../../../cms/administration/adm_ldapListe.php:35
+#: ../../../../cms/administration/adm_ldapListe.php:49
+#: ../../../../cms/administration/adm_siteListe.php:35
+#: ../../../../cms/administration/adm_stopword.php:45
+#: ../../../../cms/administration/adm_stopwordListe.php:41
+#: ../../../../cms/administration/adm_stopwordListe.php:55
+#: ../../../../cms/administration/adm_templateListe.php:99
+#: ../../../../cms/PRT/PRT_HAUTDEPAGE.php:58
+#: ../../../../formulaire/frm_categorie.php:48
+#: ../../../../formulaire/frm_formulaire.php:200
+#: ../../../../formulaire/frm_formulaireGroupePopup.php:47
+#: ../../../../formulaire/frm_formulaireListe.php:49
+#: ../../../../formulaire/frm_formulaireListe.php:71
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:149
+#: ../../../../statistique/stat_modulePopup.php:49
+#: ../../../../statistique/stat_sitePopup.php:156
+#: ../../../../statistique/stat_sitePopup.php:193
+#: ../../../../statistique/stat_sitePopup.php:271
+#: ../../../../statistique/stat_utilisateurPopup.php:112
+#: ../../../../statistique/stat_utilisateurPopup.php:153
+#: ../../../../statistique/stat_utilisateurPopup.php:195
+#: ../../../../statistique/stat_utilisateurPopup.php:239
+#: ../../../../statistique/stat_webothequePopup.php:49
+#: ../../../../tinymce/editor_insert_image.php:107
+#: ../../../../tinymce/editor_insert_media.php:101
+#: ../../../../tinymce/editor_insert_webotheque.php:78
+#: ../../../../tinymce/editor_select_formeAbregee.php:74
+#: ../../../../tinymce/editor_select_image.php:62
+#: ../../../../tinymce/editor_select_media.php:78
+#: ../../../../tinymce/editor_select_webotheque.php:79
+#: ../../../../tinymce/editor_select_webotheque.php:113
+#: ../../../../webotheque/web_categorie.php:48
+#: ../../../../webotheque/web_choisirPopup.php:149
+#: ../../../../webotheque/web_choisirPopup.php:182
+#: ../../../../webotheque/web_document.php:60
+#: ../../../../webotheque/web_documentListe.php:50
+#: ../../../../webotheque/web_documentListe.php:85
+#: ../../../../webotheque/web_documentPopup.php:16
+#: ../../../../webotheque/web_flash.php:62
+#: ../../../../webotheque/web_flashListe.php:50
+#: ../../../../webotheque/web_flashListe.php:85
+#: ../../../../webotheque/web_image.php:83
+#: ../../../../webotheque/web_imageListe.php:50
+#: ../../../../webotheque/web_imageListe.php:85
+#: ../../../../webotheque/web_imagePopup.php:16
+#: ../../../../webotheque/web_importFTP.php:92
+#: ../../../../webotheque/web_lienExterne.php:59
+#: ../../../../webotheque/web_lienExterneListe.php:49
+#: ../../../../webotheque/web_lienExterneListe.php:84
+#: ../../../../webotheque/web_lienExternePopup.php:16
+#: ../../../../webotheque/web_mediaPopup.php:16
+#: ../../../../webotheque/web_music.php:62
+#: ../../../../webotheque/web_musicListe.php:50
+#: ../../../../webotheque/web_musicListe.php:85
+#: ../../../../webotheque/web_video.php:62
+#: ../../../../webotheque/web_videoExterne.php:59
+#: ../../../../webotheque/web_videoExterneListe.php:49
+#: ../../../../webotheque/web_videoExterneListe.php:80
+#: ../../../../webotheque/web_videoListe.php:50
+#: ../../../../webotheque/web_videoListe.php:85
+#: ../../../../webotheque/web_widget.php:60
+#: ../../../../webotheque/web_widgetListe.php:49
+#: ../../../../webotheque/web_widgetListe.php:93
+msgid "Libelle"
+msgstr "Label"
+
+#: ../../../../formulaire/frm_formulaireGroupePopup.php:64
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:153
+msgid "Libelle visible"
+msgstr "Display label"
+
+#: ../../../../cms/cms_analyseContenuPopup.php:135
+msgid "Lien"
+msgstr "Link"
+
+#: ../../../../webotheque/web_index.php:144
+#: ../../../../webotheque/web_lienExterneListe.php:37
+msgid "Liens externes"
+msgstr "External links"
+
+#: ../../../../include/inc.bo_bandeau_haut.php:153
+#: ../../../../include/inc.bo_bandeau_haut.php:191
+#: ../../../../include/inc.bo_bandeau_haut.php:229
+#: ../../../../include/inc.bo_bandeau_haut.php:255
+#: ../../../../include/inc.bo_bandeau_haut.php:289
+#: ../../../../include/inc.bo_bandeau_haut.php:323
+#: ../../../../include/inc.bo_bandeau_haut.php:357
+#: ../../../../include/inc.bo_bandeau_haut.php:383
+#: ../../../../include/inc.bo_bandeau_haut.php:416
+#: ../../../../include/inc.bo_bandeau_haut.php:472
+#: ../../../../include/inc.bo_bandeau_haut.php:490
+#: ../../../../include/inc.bo_bandeau_haut.php:507
+#: ../../../../include/inc.bo_bandeau_haut.php:524
+#: ../../../../include/inc.bo_bandeau_haut.php:540
+#: ../../../../include/inc.bo_bandeau_haut.php:572
+#: ../../../../include/inc.bo_bandeau_haut.php:608
+#: ../../../../include/inc.bo_bandeau_haut.php:626
+#: ../../../../include/inc.bo_bandeau_haut.php:642
+#: ../../../../include/inc.bo_bandeau_haut.php:663
+#: ../../../../include/inc.bo_bandeau_haut.php:697
+#: ../../../../include/inc.bo_bandeau_haut.php:713
+#: ../../../../include/inc.bo_bandeau_haut_ext.php:8
+#: ../../../../include/inc.bo_bandeau_haut_ext.php:12
+msgid "Lister"
+msgstr "List"
+
+#: ../../../../cms/administration/adm_site.php:261
+msgid "Logo"
+msgstr "Logo"
+
+#: ../../../../cms/cms_choisirUtilisateurPopup.php:56
+#: ../../../../cms/cms_commentaireListe.php:61
+#: ../../../../cms/cms_formeAbregeeListe.php:35
+#: ../../../../cms/cms_languismeListe.php:31
+#: ../../../../cms/cms_pageListe.php:66
+#: ../../../../cms/cms_rechercheReferencementListe.php:35
+#: ../../../../cms/cms_stopwordListe.php:32
+#: ../../../../cms/cms_thematiqueListe.php:35
+#: ../../../../cms/administration/adm_emailTemplateListe.php:33
+#: ../../../../cms/administration/adm_groupeListe.php:32
+#: ../../../../cms/administration/adm_ldapListe.php:31
+#: ../../../../cms/administration/adm_siteListe.php:31
+#: ../../../../cms/administration/adm_stopwordListe.php:37
+#: ../../../../cms/administration/adm_templateListe.php:67
+#: ../../../../cms/administration/adm_utilisateurListe.php:214
+#: ../../../../formulaire/frm_formulaire.php:473
+#: ../../../../formulaire/frm_formulaireListe.php:40
+#: ../../../../statistique/stat_contenuPage.inc.php:353
+#: ../../../../statistique/stat_multicontenuPage.inc.php:227
+#: ../../../../statistique/stat_multiutilisateur.php:235
+#: ../../../../statistique/stat_utilisateur.php:224
+#: ../../../../webotheque/web_choisirPopup.php:139
+#: ../../../../webotheque/web_documentListe.php:41
+#: ../../../../webotheque/web_flashListe.php:41
+#: ../../../../webotheque/web_imageListe.php:41
+#: ../../../../webotheque/web_lienExterneListe.php:40
+#: ../../../../webotheque/web_musicListe.php:41
+#: ../../../../webotheque/web_videoExterneListe.php:40
+#: ../../../../webotheque/web_videoListe.php:41
+#: ../../../../webotheque/web_widgetListe.php:40
+msgid "MOTEUR_RECHERCHE"
+msgstr "Search Engine"
+
+#: ../../../../cms/administration/adm_utilisateur.php:142
+msgid "Madame"
+msgstr "Madam"
+
+#: ../../../../cms/cms_revisionPopup.php:107
+msgid "Masquer colonne droite"
+msgstr "Hide right column"
+
+#: ../../../../cms/cms_revisionPopup.php:100
+msgid "Masquer colonne gauche"
+msgstr "Hide left column"
+
+#: ../../../../tinymce/editor_insert_image.php:130
+msgid "Masquer credit"
+msgstr "Hide copyright"
+
+#: ../../../../cms/cms_revisionDetails.php:108
+msgid "MasquerColonneDroite"
+msgstr "Hide right column"
+
+#: ../../../../cms/cms_revisionDetails.php:107
+msgid "MasquerColonneGauche"
+msgstr "Hide left column"
+
+#: ../../../../cms/administration/adm_groupe.php:122
+#: ../../../../cms/administration/adm_groupeListe.php:56
+msgid "Membres"
+msgstr "Members"
+
+#: ../../../../formulaire/frm_formulaire.php:220
+msgid "Mention CNIL"
+msgstr "Display Legal note"
+
+#: ../../../../formulaire/frm_formulaire.php:312
+msgid "Message de reponse"
+msgstr "Message displayed after form submission"
+
+#: ../../../../cms/cms_revisionDetails.php:355
+#: ../../../../cms/cms_revisionPopup.php:244
+msgid "Metadescription"
+msgstr "Metadescription"
+
+#: ../../../../statistique/stat_contenuPage.inc.php:208
+#: ../../../../statistique/stat_contenuPage.inc.php:499
+msgid "Modification(s) du workflow"
+msgstr ""
+
+#: ../../../../include/class/class.db_paragraphe.php:405
+msgid "Modifier"
+msgstr "Update"
+
+#: ../../../../cms/cms_traductionListe.php:31
+#: ../../../../cms/administration/adm_emailTemplateListe.php:37
+#: ../../../../cms/administration/adm_templateListe.php:76
+#: ../../../../cms/administration/adm_traductionListe.php:38
+#: ../../../../statistique/stat_contenuModule.inc.php:215
+msgid "Module"
+msgstr "Module"
+
+#: ../../../../include/class/class.db_paragraphe.php:540
+msgid "Module %s ou template %s non disponible"
+msgstr "Module \"%s\" or template \"%s\" is not available."
+
+#: ../../../../cms/cms_index.php:249
+#: ../../../../cms/administration/adm_site.php:502
+#: ../../../../statistique/stat_index.php:546
+#: ../../../../statistique/stat_multicontenu.php:49
+#: ../../../../statistique/stat_multiindex.php:550
+#: ../../../../statistique/stat_sitePopup.php:226
+#: ../../../../statistique/stat_sitePopup.php:231
+#: ../../../../statistique/stat_utilisateurPopup.php:189
+#: ../../../../statistique/stat_utilisateurPopup.php:194
+#: ../../../../include/class/class.db_webotheque.php:418
+msgid "Modules"
+msgstr "Modules"
+
+#: ../../../../cms/administration/adm_utilisateur.php:143
+msgid "Monsieur"
+msgstr "Mister"
+
+#: ../../../../formulaire/frm_formulaire.php:347
+#: ../../../../formulaire/frm_formulaire.php:393
+#: ../../../../include/ajax/ajax.liaison_externe.php:93
+#: ../../../../include/ajax/ajax.liaison_page.php:91
+#: ../../../../include/ajax/ajax.liaison_utilisateur.php:90
+#: ../../../../include/ajax/ajax.liaison_webotheque.php:95
+#: ../../../../include/ajax/ajax.liaison_webotheque.php:135
+#: ../../../../include/class/class.db_paragraphe.php:388
+msgid "Monter"
+msgstr "Move up"
+
+#: ../../../../cms/cms_analyseContenuPopup.php:103
+msgid "Mot"
+msgstr "Word"
+
+#: ../../../../cms/cms_page.php:570 ../../../../cms/cms_pageListe.php:88
+#: ../../../../cms/cms_revisionDetails.php:267
+#: ../../../../cms/cms_revisionPopup.php:160
+msgid "Mot cle"
+msgstr "Keyword"
+
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:241
+msgid "Nb maximum de caracteres"
+msgstr "Maximum number of characters"
+
+#: ../../../../cms/cms_choisirUtilisateurPopup.php:67
+#: ../../../../cms/administration/adm_groupe.php:126
+#: ../../../../cms/administration/adm_utilisateur.php:138
+msgid "Nom"
+msgstr "Name"
+
+#: ../../../../cms/cms_commentaireParam.php:73
+#: ../../../../cms/cms_commentaireParam.php:120
+#: ../../../../cms/cms_pageListe.php:82 ../../../../cms/cms_pageListe.php:95
+#: ../../../../cms/cms_pageListe.php:108 ../../../../cms/cms_pageListe.php:139
+#: ../../../../cms/cms_pageListe.php:150
+#: ../../../../cms/cms_revisionPopup.php:94
+#: ../../../../cms/cms_revisionPopup.php:95
+#: ../../../../cms/cms_revisionPopup.php:101
+#: ../../../../cms/cms_revisionPopup.php:102
+#: ../../../../cms/cms_revisionPopup.php:108
+#: ../../../../cms/cms_revisionPopup.php:109
+#: ../../../../cms/cms_revisionPopup.php:115
+#: ../../../../cms/cms_revisionPopup.php:116
+#: ../../../../cms/administration/adm_groupe.php:105
+#: ../../../../cms/administration/adm_utilisateur.php:375
+#: ../../../../cms/administration/adm_utilisateurListe.php:286
+#: ../../../../cms/administration/adm_utilisateurShare.php:60
+#: ../../../../cms/PRT/PRT_APPLIEXTERNE.php:111
+#: ../../../../cms/PRT/PRT_FORMULAIRE.php:75
+#: ../../../../cms/PRT/PRT_HAUTDEPAGE.php:70
+#: ../../../../cms/PRT/PRT_TPL.php:115 ../../../../cms/PRT/PRT_TXT.php:112
+#: ../../../../formulaire/frm_formulaire.php:208
+#: ../../../../formulaire/frm_formulaire.php:216
+#: ../../../../formulaire/frm_formulaire.php:223
+#: ../../../../formulaire/frm_formulaire.php:289
+#: ../../../../formulaire/frm_formulaire.php:400
+#: ../../../../formulaire/frm_formulaire.php:401
+#: ../../../../formulaire/frm_formulaireGroupePopup.php:59
+#: ../../../../formulaire/frm_formulaireGroupePopup.php:71
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:158
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:167
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:176
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:185
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:229
+msgid "Non"
+msgstr "No"
+
+#: ../../../../formulaire/frm_formulaire.php:293
+msgid "Notifications_supplementaires"
+msgstr "Additional email notifications"
+
+#: ../../../../formulaire/frm_formulaire.php:296
+msgid "Notifications_supplementaires_explication"
+msgstr "More than one email adress can be added, using ';' as separator"
+
+#: ../../../../formulaire/frm_formulaire.php:286
+msgid "Notifier intervenant par email"
+msgstr "Notify CMS users by email\"''"
+
+#: ../../../../cms/cms_styleDynamiquePopup.php:17
+msgid "Nouveau style dynamique"
+msgstr "New dynamic style"
+
+#: ../../../../cms/cms_thematique.php:24
+msgid "Nouvelle thematique"
+msgstr "New thematique"
+
+#: ../../../../cms/cms_page.php:775 ../../../../cms/cms_page.php:807
+#: ../../../../cms/cms_pageListe.php:101 ../../../../cms/cms_pageListe.php:168
+#: ../../../../cms/administration/adm_groupe.php:167
+#: ../../../../formulaire/frm_formulaire.php:681
+#: ../../../../formulaire/frm_formulaire.php:705
+#: ../../../../formulaire/frm_formulaire.php:729
+#: ../../../../tinymce/editor_select_image.php:64
+#: ../../../../tinymce/editor_select_image.php:94
+#: ../../../../tinymce/editor_select_media.php:82
+#: ../../../../tinymce/editor_select_media.php:115
+#: ../../../../tinymce/editor_select_webotheque.php:81
+#: ../../../../tinymce/editor_select_webotheque.php:112
+#: ../../../../webotheque/web_choisirPopup.php:151
+#: ../../../../webotheque/web_choisirPopup.php:181
+#: ../../../../webotheque/web_documentListe.php:52
+#: ../../../../webotheque/web_documentListe.php:84
+#: ../../../../webotheque/web_flashListe.php:52
+#: ../../../../webotheque/web_flashListe.php:84
+#: ../../../../webotheque/web_imageListe.php:52
+#: ../../../../webotheque/web_imageListe.php:84
+#: ../../../../webotheque/web_lienExterneListe.php:51
+#: ../../../../webotheque/web_lienExterneListe.php:83
+#: ../../../../webotheque/web_musicListe.php:52
+#: ../../../../webotheque/web_musicListe.php:84
+#: ../../../../webotheque/web_videoExterneListe.php:51
+#: ../../../../webotheque/web_videoExterneListe.php:79
+#: ../../../../webotheque/web_videoListe.php:52
+#: ../../../../webotheque/web_videoListe.php:84
+#: ../../../../webotheque/web_widgetListe.php:51
+#: ../../../../webotheque/web_widgetListe.php:92
+msgid "Numero"
+msgstr "Number"
+
+#: ../../../../cms/cms_historiquePopup.php:57
+#: ../../../../statistique/stat_modulePopup.php:48
+#: ../../../../statistique/stat_pageInactivePopup.php:59
+#: ../../../../statistique/stat_pagePopup.php:72
+#: ../../../../statistique/stat_utilisateurInactifPopup.php:73
+#: ../../../../statistique/stat_webothequePopup.php:48
+msgid "N°"
+msgstr ""
+
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:180
+msgid "Obligatoire"
+msgstr "Compulsory"
+
+#: ../../../../cms/cms_analyseContenuPopup.php:104
+#: ../../../../cms/cms_analyseContenuPopup.php:123
+#: ../../../../cms/cms_analyseContenuPopup.php:140
+msgid "Occurence"
+msgstr "Occurence"
+
+#: ../../../../cms/cms_revisionDetails.php:174
+msgid "OngletComportement"
+msgstr "Behaviour"
+
+#: ../../../../cms/cms_revisionDetails.php:101
+msgid "OngletContenuEtMiseEnPage"
+msgstr "Content and layout"
+
+#: ../../../../cms/cms_revisionDetails.php:284
+msgid "OngletDroitsAccess"
+msgstr "Access"
+
+#: ../../../../cms/cms_revisionDetails.php:346
+msgid "OngletReferencement"
+msgstr "Referencing"
+
+#: ../../../../cms/cms_revisionDetails.php:259
+msgid "OngletTagsMoteurRecherche"
+msgstr "Search Engine"
+
+#: ../../../../cms/administration/adm_utilisateur.php:169
+msgid "Organisme"
+msgstr "Structure"
+
+#: ../../../../tinymce/editor_insert_image.php:155
+msgid "Original"
+msgstr "Original"
+
+#: ../../../../cms/administration/adm_groupe.php:128
+#: ../../../../cms/administration/adm_ldap.php:150
+#: ../../../../cms/administration/adm_utilisateurListe.php:368
+msgid "Origine"
+msgstr "Origin"
+
+#: ../../../../cms/cms_commentaireParam.php:71
+#: ../../../../cms/cms_commentaireParam.php:119
+#: ../../../../cms/cms_pageListe.php:80 ../../../../cms/cms_pageListe.php:93
+#: ../../../../cms/cms_pageListe.php:106 ../../../../cms/cms_pageListe.php:137
+#: ../../../../cms/cms_pageListe.php:148
+#: ../../../../cms/cms_revisionPopup.php:94
+#: ../../../../cms/cms_revisionPopup.php:95
+#: ../../../../cms/cms_revisionPopup.php:101
+#: ../../../../cms/cms_revisionPopup.php:102
+#: ../../../../cms/cms_revisionPopup.php:108
+#: ../../../../cms/cms_revisionPopup.php:109
+#: ../../../../cms/cms_revisionPopup.php:115
+#: ../../../../cms/cms_revisionPopup.php:116
+#: ../../../../cms/administration/adm_groupe.php:104
+#: ../../../../cms/administration/adm_utilisateur.php:373
+#: ../../../../cms/administration/adm_utilisateurListe.php:285
+#: ../../../../cms/administration/adm_utilisateurShare.php:58
+#: ../../../../cms/PRT/PRT_APPLIEXTERNE.php:109
+#: ../../../../cms/PRT/PRT_FORMULAIRE.php:73
+#: ../../../../cms/PRT/PRT_FORMULAIRE.php:74
+#: ../../../../cms/PRT/PRT_HAUTDEPAGE.php:66
+#: ../../../../cms/PRT/PRT_HAUTDEPAGE.php:68
+#: ../../../../cms/PRT/PRT_TPL.php:113 ../../../../cms/PRT/PRT_TPL.php:114
+#: ../../../../cms/PRT/PRT_TXT.php:108 ../../../../cms/PRT/PRT_TXT.php:110
+#: ../../../../formulaire/frm_formulaire.php:207
+#: ../../../../formulaire/frm_formulaire.php:215
+#: ../../../../formulaire/frm_formulaire.php:222
+#: ../../../../formulaire/frm_formulaire.php:288
+#: ../../../../formulaire/frm_formulaire.php:400
+#: ../../../../formulaire/frm_formulaire.php:401
+#: ../../../../formulaire/frm_formulaireGroupePopup.php:56
+#: ../../../../formulaire/frm_formulaireGroupePopup.php:68
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:156
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:165
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:174
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:183
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:227
+msgid "Oui"
+msgstr "Yes"
+
+#: ../../../../cms/administration/adm_groupe.php:58
+#: ../../../../cms/administration/adm_groupeListe.php:58
+msgid "Ouverture"
+msgstr "Ouverture"
+
+#: ../../../../tinymce/editor_insert_image.php:161
+msgid "Ouvrir en grand"
+msgstr "Open in lightbox"
+
+#: ../../../../cms/cms_index.php:75 ../../../../cms/cms_index.php:130
+#: ../../../../cms/cms_index.php:168 ../../../../cms/cms_index.php:206
+#: ../../../../cms/administration/adm_groupe.php:164
+#: ../../../../cms/administration/adm_groupe.php:168
+#: ../../../../cms/PRT/PRT_COPIE.php:129
+#: ../../../../cms/PRT/PRT_PARTAGE.php:136
+#: ../../../../formulaire/frm_formulaire.php:682
+#: ../../../../formulaire/frm_formulaire.php:706
+#: ../../../../formulaire/frm_formulaire.php:730
+#: ../../../../statistique/stat_contenuPage.inc.php:205
+#: ../../../../statistique/stat_contenuPage.inc.php:219
+#: ../../../../statistique/stat_contenuPage.inc.php:452
+#: ../../../../statistique/stat_pageInactivePopup.php:60
+#: ../../../../statistique/stat_pagePopup.php:73
+#: ../../../../statistique/stat_sitePopup.php:118
+#: ../../../../statistique/stat_utilisateurPopup.php:61
+msgid "Page"
+msgstr "Page"
+
+#: ../../../../cms/cms_revisionPopup.php:27
+#: ../../../../include/inc.bo_bandeau_haut.php:930
+msgid "Page courante"
+msgstr "Current page"
+
+#: ../../../../statistique/stat_contenuPage.inc.php:217
+#: ../../../../statistique/stat_contenuPage.inc.php:450
+msgid "Page mère"
+msgstr ""
+
+#: ../../../../cms/cms_page.php:470 ../../../../cms/cms_pageListe.php:90
+#: ../../../../cms/cms_revisionDetails.php:181
+#: ../../../../cms/cms_revisionDetails.php:190
+#: ../../../../cms/cms_revisionPopup.php:55
+msgid "Page speciale"
+msgstr "Special page"
+
+#: ../../../../cms/cms_pageListe.php:63
+#: ../../../../statistique/stat_index.php:511
+#: ../../../../statistique/stat_multicontenu.php:45
+#: ../../../../statistique/stat_multiindex.php:515
+#: ../../../../statistique/stat_sitePopup.php:113
+#: ../../../../statistique/stat_utilisateurPopup.php:56
+msgid "Pages"
+msgstr "Pages"
+
+#: ../../../../statistique/stat_pageInactivePopup.php:54
+msgid "Pages inactives"
+msgstr ""
+
+#: ../../../../cms/cms_index.php:152 ../../../../cms/cms_index.php:190
+msgid "Pages peu mises a jour"
+msgstr "Old pages"
+
+#: ../../../../cms/PRT/PRT_COPIE.php:133
+#: ../../../../cms/PRT/PRT_PARTAGE.php:140
+msgid "Paragraphe"
+msgstr "Paragraph"
+
+#: ../../../../cms/PRT/PRT_PARTAGE.php:99
+msgid "Partage de paragraphe"
+msgstr "Paragraph Sharing"
+
+#: ../../../../cms/administration/adm_utilisateur.php:189
+msgid "Pays"
+msgstr "Country"
+
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:253
+msgid "Placeholder"
+msgstr "Placeholder"
+
+#: ../../../../formulaire/frm_categorie.php:53
+#: ../../../../webotheque/web_categorie.php:53
+msgid "Placement"
+msgstr "Location"
+
+#: ../../../../tinymce/editor_insert_webotheque.php:83
+#: ../../../../tinymce/editor_insert_webotheque.php:97
+#: ../../../../tinymce/editor_select_webotheque.php:114
+#: ../../../../webotheque/web_choisirPopup.php:189
+#: ../../../../webotheque/web_document.php:85
+#: ../../../../webotheque/web_document.php:108
+#: ../../../../webotheque/web_documentListe.php:86
+#: ../../../../webotheque/web_flash.php:88
+#: ../../../../webotheque/web_flashListe.php:86
+#: ../../../../webotheque/web_image.php:108
+#: ../../../../webotheque/web_image.php:137
+#: ../../../../webotheque/web_imageListe.php:86
+#: ../../../../webotheque/web_importFTP.php:91
+#: ../../../../webotheque/web_importFTP.php:192
+#: ../../../../webotheque/web_music.php:87
+#: ../../../../webotheque/web_musicListe.php:86
+#: ../../../../webotheque/web_video.php:88
+#: ../../../../webotheque/web_videoListe.php:86
+msgid "Poids"
+msgstr "Weight"
+
+#: ../../../../cms/administration/adm_utilisateurShare.php:87
+msgid "Point de depart"
+msgstr "Sitemap access"
+
+#: ../../../../webotheque/web_music.php:97
+msgid "Pour assurer le support sur tous les navigateurs"
+msgstr ""
+
+#: ../../../../include/class/class.Pagination.php:340
+msgid "Premiere"
+msgstr "First"
+
+#: ../../../../cms/cms_choisirUtilisateurPopup.php:67
+#: ../../../../cms/administration/adm_utilisateur.php:149
+msgid "Prenom"
+msgstr "First name"
+
+#: ../../../../cms/cms_page.php:733 ../../../../cms/cms_revisionDetails.php:371
+#: ../../../../cms/cms_revisionPopup.php:265
+msgid "Priorite"
+msgstr "Priority"
+
+#: ../../../../cms/administration/adm_utilisateurListe.php:373
+msgid "Profil(s)"
+msgstr "Profile(s)"
+
+#: ../../../../cms/cms_revisionPopup.php:25
+msgid "Propriete"
+msgstr "Property"
+
+#: ../../../../cms/cms_revisionPopup.php:68
+msgid "Propriete affectee a"
+msgstr "Property affected to"
+
+#: ../../../../cms/cms_revisionPopup.php:82
+#: ../../../../cms/cms_revisionPopup.php:89
+msgid "Propriete heritee de la page actuelle"
+msgstr "Current page inherited property"
+
+#: ../../../../cms/cms_revisionListe.php:120
+#: ../../../../cms/administration/adm_emailTemplate.php:33
+#: ../../../../formulaire/frm_categorie.php:31
+#: ../../../../formulaire/frm_formulaire.php:181
+#: ../../../../formulaire/frm_formulaireReponse.php:36
+#: ../../../../include/inc.bo_bandeau_haut.php:878
+#: ../../../../include/inc.bo_bandeau_haut.php:882
+#: ../../../../include/inc.bo_bandeau_haut.php:937
+#: ../../../../webotheque/web_categorie.php:31
+#: ../../../../webotheque/web_document.php:36
+#: ../../../../webotheque/web_flash.php:38
+#: ../../../../webotheque/web_image.php:59
+#: ../../../../webotheque/web_importMultiple.php:47
+#: ../../../../webotheque/web_lienExterne.php:35
+#: ../../../../webotheque/web_music.php:38
+#: ../../../../webotheque/web_video.php:38
+#: ../../../../webotheque/web_videoExterne.php:35
+#: ../../../../webotheque/web_widget.php:36
+msgid "Proprietes"
+msgstr "Properties"
+
+#: ../../../../include/inc.bo_bandeau_haut.php:879
+msgid "Proprietes simplifiees"
+msgstr "Simplified properties"
+
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:106
+msgid "Question"
+msgstr "Question"
+
+#: ../../../../formulaire/frm_formulaire.php:321
+#: ../../../../formulaire/frm_formulaireReponse.php:37
+msgid "Questions"
+msgstr "Questions"
+
+#: ../../../../cms/cms_revisionDetails.php:63
+#: ../../../../cms/cms_revisionDetails.php:65
+#: ../../../../cms/cms_revisionDetails.php:219
+msgid "Redirection"
+msgstr "Page redirection"
+
+#: ../../../../cms/cms_revisionDetails.php:223
+#: ../../../../cms/cms_revisionPopup.php:170
+msgid "Redirection externe"
+msgstr "External address link"
+
+#: ../../../../cms/cms_revisionDetails.php:236
+#: ../../../../cms/cms_revisionPopup.php:193
+msgid "Redirection interne"
+msgstr "Internal page redirection"
+
+#: ../../../../cms/cms_revisionDetails.php:220
+msgid "Rediriger automatiquement l internaute vers une autre page"
+msgstr "Redirect autmatically to another page"
+
+#: ../../../../cms/cms_revisionPopup.php:28
+msgid "Remarques"
+msgstr "Remarks"
+
+#: ../../../../webotheque/web_image.php:140
+msgid "Remplacer"
+msgstr "Replace"
+
+#: ../../../../formulaire/frm_formulaireListe.php:72
+#: ../../../../formulaire/frm_formulaireReponse.php:54
+msgid "Reponse"
+msgstr "Answer"
+
+#: ../../../../formulaire/frm_formulaireReponse.php:38
+msgid "Reponses"
+msgstr "Answers"
+
+#: ../../../../tinymce/editor_select_image.php:96
+#: ../../../../tinymce/editor_select_media.php:117
+#: ../../../../webotheque/web_choisirPopup.php:184
+#: ../../../../webotheque/web_choisirPopup.php:192
+#: ../../../../webotheque/web_image.php:108
+#: ../../../../webotheque/web_image.php:138
+msgid "Resolution"
+msgstr "Resolution"
+
+#: ../../../../cms/cms_choisirLienInternePopup.php:14
+#: ../../../../cms/PRT/PRT_COPIE.php:40 ../../../../cms/PRT/PRT_COPIE.php:49
+#: ../../../../cms/PRT/PRT_PARTAGE.php:43
+#: ../../../../cms/PRT/PRT_PARTAGE.php:52
+#: ../../../../statistique/stat_administrationPopup.php:15
+#: ../../../../statistique/stat_formulairePopup.php:11
+#: ../../../../statistique/stat_modulePopup.php:11
+#: ../../../../statistique/stat_pageInactivePopup.php:11
+#: ../../../../statistique/stat_pagePopup.php:11
+#: ../../../../statistique/stat_pagePopup.php:23
+#: ../../../../statistique/stat_sitePopup.php:11
+#: ../../../../statistique/stat_utilisateurInactifPopup.php:11
+#: ../../../../statistique/stat_utilisateurPopup.php:22
+#: ../../../../statistique/stat_webothequePopup.php:11
+#: ../../../../tinymce/editor_select_lien.php:13
+#: ../../../../tinymce/editor_select_lien.php:21
+#: ../../../../webotheque/web_choisirPopup.php:12
+msgid "Ressource_non_disponible"
+msgstr "Resource unavailable."
+
+#: ../../../../cms/PRT/PRT_TPL.php:145
+#: ../../../../tinymce/editor_select_tpl.php:117
+msgid "Restriction"
+msgstr "Restriction"
+
+#: ../../../../cms/PRT/PRT_APPLIEXTERNE.php:57
+#: ../../../../cms/PRT/PRT_COPIE.php:120
+#: ../../../../cms/PRT/PRT_FORMULAIRE.php:54
+#: ../../../../cms/PRT/PRT_HAUTDEPAGE.php:52
+#: ../../../../cms/PRT/PRT_PARTAGE.php:127
+#: ../../../../cms/PRT/PRT_SOMMAIRE.php:55 ../../../../cms/PRT/PRT_TPL.php:94
+#: ../../../../cms/PRT/PRT_TXT.php:72 ../../../../cms/PRT/PRT_TXT.php:79
+#: ../../../../cms/PRT/PRT_WIDGET.php:58
+#: ../../../../tinymce/editor_insert_image.php:101
+#: ../../../../tinymce/editor_insert_media.php:95
+#: ../../../../tinymce/editor_insert_webotheque.php:72
+msgid "Retour"
+msgstr "Back"
+
+#: ../../../../cms/cms_historiquePopup.php:61
+#: ../../../../cms/cms_revisionPopup.php:26
+#: ../../../../include/inc.bo_bandeau_haut.php:918
+msgid "Revision"
+msgstr "Revision"
+
+#: ../../../../cms/cms_revisionListe.php:108
+#: ../../../../cms/cms_revisionPopup.php:21
+#: ../../../../include/inc.bo_bandeau_haut.php:977
+#: ../../../../include/class/class.db_page.php:1253
+msgid "Revision_du"
+msgstr "Revision on"
+
+#: ../../../../formulaire/frm_formulaire.php:725
+#: ../../../../include/class/class.db_webotheque.php:384
+msgid "Revisions"
+msgstr "Revisions"
+
+#: ../../../../cms/administration/adm_utilisateurShare.php:88
+msgid "Role"
+msgstr "Profile"
+
+#: ../../../../cms/administration/adm_utilisateurShare.php:65
+msgid "Roles sur les pages"
+msgstr "Page profiles"
+
+#: ../../../../statistique/stat_contenuPage.inc.php:205
+#: ../../../../statistique/stat_contenuPage.inc.php:219
+#: ../../../../statistique/stat_contenuPage.inc.php:428
+#: ../../../../statistique/stat_contenuPage.inc.php:452
+msgid "Rubrique"
+msgstr ""
+
+#: ../../../../cms/PRT/PRT_COPIE.php:56 ../../../../cms/PRT/PRT_PARTAGE.php:59
+msgid "Sans titre"
+msgstr "Untitled"
+
+#: ../../../../cms/cms_pageListe.php:103
+msgid "Sauvegarde"
+msgstr "Backup"
+
+#: ../../../../cms/cms_pageAjout.php:28
+msgid "Selectionner la place du document"
+msgstr "Select the page location"
+
+#: ../../../../cms/index.php:365
+#: ../../../../statistique/stat_multicontenuAdministration.inc.php:71
+#: ../../../../statistique/stat_multicontenuFormulaire.inc.php:68
+#: ../../../../statistique/stat_multicontenuModule.inc.php:85
+#: ../../../../statistique/stat_multicontenuPage.inc.php:89
+#: ../../../../statistique/stat_multicontenuPage.inc.php:265
+#: ../../../../statistique/stat_multicontenuPage.inc.php:280
+#: ../../../../statistique/stat_multicontenuWebotheque.inc.php:67
+#: ../../../../statistique/stat_multiutilisateur.php:89
+#: ../../../../statistique/stat_multiutilisateur.php:271
+#: ../../../../statistique/stat_pageInactivePopup.php:24
+#: ../../../../statistique/stat_sitePopup.php:20
+#: ../../../../statistique/stat_sitePopup.php:277
+#: ../../../../statistique/stat_utilisateurInactifPopup.php:16
+#: ../../../../include/class/class.db_webotheque.php:352
+msgid "Site"
+msgstr "Website"
+
+#: ../../../../cms/administration/adm_utilisateurListe.php:261
+#: ../../../../cms/PRT/PRT_COPIE.php:95 ../../../../cms/PRT/PRT_PARTAGE.php:102
+#: ../../../../tinymce/editor_select_lien.php:111
+#: ../../../../webotheque/web_choisirCategoriePopup.php:69
+msgid "Site courant"
+msgstr "Current website"
+
+#: ../../../../cms/administration/adm_sitemap.php:16
+msgid "Sitemap"
+msgstr "Sitemap"
+
+#: ../../../../cms/cms_recherche.php:34
+#: ../../../../cms/administration/adm_siteListe.php:28
+#: ../../../../statistique/stat_multicontenuAdministration.inc.php:218
+#: ../../../../statistique/stat_multicontenuFormulaire.inc.php:209
+#: ../../../../statistique/stat_multicontenuModule.inc.php:226
+#: ../../../../statistique/stat_multicontenuWebotheque.inc.php:212
+msgid "Sites"
+msgstr "Sites"
+
+#: ../../../../cms/PRT/PRT_SOMMAIRE.php:38
+msgid "Sommaire de page"
+msgstr "Page summary"
+
+#: ../../../../include/class/class.db_webotheque.php:1625
+#: ../../../../include/class/class.db_webotheque.php:1627
+msgid "Sous titres"
+msgstr "Sub titles"
+
+#: ../../../../cms/cms_stopword.php:20
+#: ../../../../cms/administration/adm_stopword.php:24
+msgid "Stopword"
+msgstr "Stopword"
+
+#: ../../../../cms/cms_styleDynamiquePopup.php:41
+msgid "Style"
+msgstr "Style"
+
+#: ../../../../cms/cms_page.php:358 ../../../../cms/cms_page.php:390
+msgid "Style %s herite de la page mere %s"
+msgstr "Style %s inherited from parent %s"
+
+#: ../../../../formulaire/frm_formulaireGroupePopupSubmit.php:104
+#: ../../../../formulaire/frm_formulaireSubmit.php:272
+msgid "Suppression impossible"
+msgstr "Deletion not allowed"
+
+#: ../../../../cms/administration/adm_site.php:269
+#: ../../../../cms/administration/adm_site.php:283
+#: ../../../../cms/administration/adm_site.php:479
+#: ../../../../cms/administration/adm_site.php:676
+#: ../../../../cms/administration/adm_utilisateur.php:413
+#: ../../../../cms/administration/adm_utilisateurShare.php:100
+#: ../../../../include/class/class.db_paragraphe.php:407
+#: ../../../../webotheque/web_document.php:110
+#: ../../../../webotheque/web_image.php:141
+#: ../../../../webotheque/web_music.php:107
+#: ../../../../webotheque/web_video.php:105
+#: ../../../../webotheque/web_video.php:122
+#: ../../../../webotheque/web_video.php:147
+#: ../../../../webotheque/web_video.php:175
+#: ../../../../webotheque/web_video.php:192
+msgid "Supprimer"
+msgstr "Delete"
+
+#: ../../../../include/class/class.db_formulaire.php:467
+#: ../../../../webotheque/web_document.php:84
+#: ../../../../webotheque/web_document.php:107
+#: ../../../../webotheque/web_flash.php:86
+#: ../../../../webotheque/web_image.php:107
+#: ../../../../webotheque/web_music.php:86
+#: ../../../../webotheque/web_music.php:105
+#: ../../../../webotheque/web_video.php:86
+#: ../../../../webotheque/web_video.php:103
+#: ../../../../webotheque/web_video.php:120
+#: ../../../../webotheque/web_video.php:173
+#: ../../../../webotheque/web_video.php:190
+msgid "Telecharger fichier"
+msgstr "Download file"
+
+#: ../../../../cms/cms_choisirUtilisateurPopup.php:88
+#: ../../../../cms/administration/adm_utilisateur.php:161
+msgid "Telephone"
+msgstr "Phone"
+
+#: ../../../../cms/PRT/PRT_TPL.php:77 ../../../../cms/PRT/PRT_TPL.php:119
+#: ../../../../tinymce/editor_select_tpl.php:91
+msgid "Template"
+msgstr "Template"
+
+#: ../../../../cms/administration/adm_templateListe.php:64
+msgid "Templates"
+msgstr "Template"
+
+#: ../../../../cms/cms_traduction.php:21
+msgid "Termes generiques"
+msgstr "General terms"
+
+#: ../../../../cms/cms_revisionDetails.php:161
+#: ../../../../cms/cms_revisionPopup.php:121
+msgid "Texte d'accroche"
+msgstr "Leading text"
+
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:249
+msgid "Texte_du_message_d_aide"
+msgstr "Text for help message"
+
+#: ../../../../cms/cms_pageListe.php:127
+#: ../../../../cms/cms_thematiqueListe.php:32
+msgid "Thematiques"
+msgstr "Thematiques"
+
+#: ../../../../cms/cms_revisionDetails.php:349
+#: ../../../../cms/cms_revisionPopup.php:237
+msgid "Title"
+msgstr "Title"
+
+#: ../../../../cms/cms_page.php:776 ../../../../cms/cms_page.php:808
+#: ../../../../cms/cms_pageListe.php:75 ../../../../cms/cms_pageListe.php:169
+#: ../../../../cms/cms_revisionPopup.php:34
+#: ../../../../cms/PRT/PRT_APPLIEXTERNE.php:63
+#: ../../../../cms/PRT/PRT_FORMULAIRE.php:60
+#: ../../../../cms/PRT/PRT_SOMMAIRE.php:61 ../../../../cms/PRT/PRT_TPL.php:100
+#: ../../../../cms/PRT/PRT_WIDGET.php:64
+#: ../../../../statistique/stat_contenuPage.inc.php:206
+#: ../../../../statistique/stat_contenuPage.inc.php:497
+#: ../../../../tinymce/editor_select_image.php:95
+#: ../../../../tinymce/editor_select_media.php:116
+msgid "Titre"
+msgstr "Title"
+
+#: ../../../../cms/cms_pageListe.php:75
+#: ../../../../cms/cms_revisionPopup.php:41
+msgid "Titre menu"
+msgstr "Menu title"
+
+#: ../../../../cms/cms_revisionPopup.php:48
+#: ../../../../tinymce/editor_insert_webotheque.php:103
+#: ../../../../tinymce/editor_select_lien.php:155
+#: ../../../../tinymce/editor_select_tpl.php:125
+msgid "Titre survol"
+msgstr "Rollover title"
+
+#: ../../../../cms/cms_revisionDetails.php:86
+msgid "TitreMenu"
+msgstr "Title in menu *(short)"
+
+#: ../../../../cms/cms_revisionDetails.php:82
+msgid "TitrePageLong"
+msgstr "Title of page *(full)"
+
+#: ../../../../cms/cms_page.php:207 ../../../../cms/cms_revisionDetails.php:78
+msgid "Titres"
+msgstr "Titles"
+
+#: ../../../../statistique/stat_contenuPage.inc.php:428
+msgid "Total"
+msgstr ""
+
+#: ../../../../cms/PRT/PRT_COPIE.php:145
+#: ../../../../cms/PRT/PRT_PARTAGE.php:159
+msgid "Tout deselectionner"
+msgstr "Deselect all"
+
+#: ../../../../cms/PRT/PRT_COPIE.php:145
+#: ../../../../cms/PRT/PRT_PARTAGE.php:159
+msgid "Tout selectionner"
+msgstr "Select all"
+
+#: ../../../../tinymce/editor_select_image.php:72
+#: ../../../../tinymce/editor_select_image.php:77
+#: ../../../../tinymce/editor_select_media.php:90
+#: ../../../../tinymce/editor_select_media.php:95
+#: ../../../../tinymce/editor_select_webotheque.php:89
+#: ../../../../tinymce/editor_select_webotheque.php:94
+#: ../../../../webotheque/web_choisirPopup.php:159
+#: ../../../../webotheque/web_choisirPopup.php:164
+#: ../../../../webotheque/web_documentListe.php:59
+#: ../../../../webotheque/web_flashListe.php:59
+#: ../../../../webotheque/web_imageListe.php:59
+#: ../../../../webotheque/web_lienExterneListe.php:58
+#: ../../../../webotheque/web_musicListe.php:59
+#: ../../../../webotheque/web_videoExterneListe.php:58
+#: ../../../../webotheque/web_videoListe.php:59
+#: ../../../../webotheque/web_widgetListe.php:58
+msgid "Toutes les categories"
+msgstr "-- All directories --"
+
+#: ../../../../formulaire/frm_formulaire.php:213
+msgid "Tracer adresse IP depositaire"
+msgstr "Log author IP"
+
+#: ../../../../cms/cms_traductionListe.php:32
+#: ../../../../cms/administration/adm_traductionListe.php:39
+msgid "Traductions"
+msgstr "Translated equivalents"
+
+#: ../../../../cms/cms_formeAbregee.php:58
+#: ../../../../cms/cms_formeAbregeeListe.php:62
+#: ../../../../statistique/stat_contenuAdministration.inc.php:52
+#: ../../../../statistique/stat_contenuFormulaire.inc.php:57
+#: ../../../../statistique/stat_contenuModule.inc.php:77
+#: ../../../../statistique/stat_contenuWebotheque.inc.php:55
+#: ../../../../statistique/stat_sitePopup.php:155
+#: ../../../../statistique/stat_sitePopup.php:270
+#: ../../../../statistique/stat_utilisateurPopup.php:111
+#: ../../../../tinymce/editor_select_formeAbregee.php:88
+msgid "Type"
+msgstr "Type"
+
+#: ../../../../cms/cms_commentaire.php:46
+#: ../../../../cms/cms_formeAbregee.php:32 ../../../../cms/cms_languisme.php:32
+#: ../../../../cms/cms_page.php:853 ../../../../cms/cms_page.php:860
+#: ../../../../cms/cms_pageLightPopup.php:98
+#: ../../../../cms/cms_recherche.php:29
+#: ../../../../cms/cms_rechercheReferencement.php:41
+#: ../../../../cms/cms_stopword.php:30
+#: ../../../../cms/cms_styleDynamiquePopup.php:27
+#: ../../../../cms/cms_thematique.php:34 ../../../../cms/cms_thematique.php:35
+#: ../../../../cms/cms_traduction.php:29
+#: ../../../../cms/administration/adm_alerte.php:35
+#: ../../../../cms/administration/adm_emailTemplate.php:39
+#: ../../../../cms/administration/adm_groupe.php:42
+#: ../../../../cms/administration/adm_ldap.php:58
+#: ../../../../cms/administration/adm_site.php:819
+#: ../../../../cms/administration/adm_sitemap.php:22
+#: ../../../../cms/administration/adm_stopword.php:35
+#: ../../../../cms/administration/adm_template.php:89
+#: ../../../../cms/administration/adm_traduction.php:39
+#: ../../../../cms/administration/adm_utilisateur.php:509
+#: ../../../../cms/administration/adm_utilisateurShare.php:39
+#: ../../../../cms/PRT/PRT_APPLIEXTERNE.php:48
+#: ../../../../cms/PRT/PRT_FORMULAIRE.php:45
+#: ../../../../cms/PRT/PRT_HAUTDEPAGE.php:43
+#: ../../../../cms/PRT/PRT_SOMMAIRE.php:45 ../../../../cms/PRT/PRT_TPL.php:84
+#: ../../../../cms/PRT/PRT_TXT.php:70 ../../../../cms/PRT/PRT_WIDGET.php:48
+#: ../../../../formulaire/frm_categorie.php:38
+#: ../../../../formulaire/frm_formulaire.php:189
+#: ../../../../formulaire/frm_formulaire.php:432
+#: ../../../../formulaire/frm_formulaireGroupePopup.php:36
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:114
+#: ../../../../formulaire/frm_formulaireReponse.php:88
+#: ../../../../webotheque/web_categorie.php:38
+#: ../../../../webotheque/web_document.php:46
+#: ../../../../webotheque/web_flash.php:48
+#: ../../../../webotheque/web_image.php:69
+#: ../../../../webotheque/web_lienExterne.php:45
+#: ../../../../webotheque/web_music.php:48
+#: ../../../../webotheque/web_video.php:48
+#: ../../../../webotheque/web_videoExterne.php:45
+#: ../../../../webotheque/web_widget.php:46
+msgid "UPDATE"
+msgstr "Save"
+
+#: ../../../../cms/cms_commentaireSubmit.php:83
+#: ../../../../cms/cms_commentaireSubmit.php:152
+#: ../../../../cms/cms_formeAbregeeSubmit.php:55
+#: ../../../../cms/cms_languismeSubmit.php:46
+#: ../../../../cms/cms_pageSubmit.php:234
+#: ../../../../cms/cms_pageSubmit.php:615
+#: ../../../../cms/cms_pageSubmit.php:661
+#: ../../../../cms/cms_rechercheReferencementSubmit.php:67
+#: ../../../../cms/cms_rechercheSubmit.php:23
+#: ../../../../cms/cms_revisionSubmit.php:16
+#: ../../../../cms/cms_revisionSubmit.php:45
+#: ../../../../cms/cms_stopwordSubmit.php:14
+#: ../../../../cms/cms_thematiqueSubmit.php:37
+#: ../../../../cms/cms_traductionSubmit.php:40
+#: ../../../../cms/administration/adm_alerteSubmit.php:43
+#: ../../../../cms/administration/adm_emailTemplateSubmit.php:34
+#: ../../../../cms/administration/adm_groupeSubmit.php:43
+#: ../../../../cms/administration/adm_sitemapSubmit.php:30
+#: ../../../../cms/administration/adm_siteSubmit.php:326
+#: ../../../../cms/administration/adm_stopwordSubmit.php:14
+#: ../../../../cms/administration/adm_templateSubmit.php:60
+#: ../../../../cms/administration/adm_traductionSubmit.php:49
+#: ../../../../cms/administration/adm_utilisateurSubmit.php:149
+#: ../../../../cms/administration/adm_utilisateurSubmit.php:172
+#: ../../../../cms/administration/adm_utilisateurSubmit.php:189
+#: ../../../../cms/administration/adm_utilisateurSubmit.php:198
+#: ../../../../formulaire/frm_categorieSubmit.php:35
+#: ../../../../formulaire/frm_formulaireReponseSubmit.php:23
+#: ../../../../formulaire/frm_formulaireSubmit.php:92
+#: ../../../../formulaire/frm_formulaireSubmit.php:112
+#: ../../../../webotheque/web_categorieSubmit.php:46
+#: ../../../../webotheque/web_webothequeSubmit.php:135
+msgid "UPDATE_OK"
+msgstr "Update successful !"
+
+#: ../../../../cms/cms_revisionPopup.php:251
+#: ../../../../tinymce/editor_select_webotheque.php:114
+#: ../../../../webotheque/web_choisirPopup.php:187
+#: ../../../../webotheque/web_lienExterne.php:73
+#: ../../../../webotheque/web_lienExterneListe.php:49
+#: ../../../../webotheque/web_lienExternePopup.php:29
+msgid "URL"
+msgstr "URL"
+
+#: ../../../../cms/cms_revisionDetails.php:361
+msgid "URL principale"
+msgstr "Main URL"
+
+#: ../../../../include/inc.bo_bandeau_bas.php:2
+msgid "Une solution EOLAS"
+msgstr "A Business &amp; Decision Interactive Eolas solution"
+
+#: ../../../../cms/cms_choisirUtilisateurPopup.php:86
+#: ../../../../cms/cms_historiquePopup.php:56 ../../../../cms/cms_index.php:76
+#: ../../../../cms/cms_index.php:251 ../../../../cms/index.php:360
+#: ../../../../cms/administration/adm_ldap.php:149
+#: ../../../../cms/administration/adm_utilisateurListe.php:366
+#: ../../../../formulaire/frm_formulaire.php:80
+#: ../../../../formulaire/frm_formulaire.php:591
+#: ../../../../formulaire/frm_formulaireReponse.php:102
+#: ../../../../statistique/stat_administrationPopup.php:50
+#: ../../../../statistique/stat_formulairePopup.php:56
+#: ../../../../statistique/stat_modulePopup.php:47
+#: ../../../../statistique/stat_utilisateurInactifPopup.php:74
+#: ../../../../statistique/stat_webothequePopup.php:47
+msgid "Utilisateur"
+msgstr "User"
+
+#: ../../../../include/inc.bo_bandeau_haut.php:914
+msgid "Utilisateurs"
+msgstr "Users"
+
+#: ../../../../statistique/stat_utilisateurInactifPopup.php:68
+msgid "Utilisateurs inactifs"
+msgstr ""
+
+#: ../../../../tinymce/editor_insert_image.php:100
+#: ../../../../tinymce/editor_insert_media.php:94
+#: ../../../../tinymce/editor_insert_webotheque.php:71
+#: ../../../../tinymce/editor_select_formeAbregee.php:69
+#: ../../../../tinymce/editor_select_languisme.php:48
+#: ../../../../tinymce/editor_select_tpl.php:85
+msgid "Valider"
+msgstr "Submit"
+
+#: ../../../../cms/cms_revisionListe.php:99
+msgid "Version actuelle"
+msgstr "Current version"
+
+#: ../../../../cms/cms_page.php:89 ../../../../cms/cms_page.php:94
+#: ../../../../cms/cms_page.php:111 ../../../../cms/cms_page.php:123
+msgid "Veuillez ressaisir la date"
+msgstr "Please re-type the date"
+
+#: ../../../../cms/PRT/PRT_COPIE.php:75 ../../../../cms/PRT/PRT_PARTAGE.php:79
+msgid "Veuillez selectionner un paragraphe"
+msgstr "Please select a paragraph"
+
+#: ../../../../webotheque/web_importFTP.php:24
+#: ../../../../webotheque/web_index.php:285
+#: ../../../../webotheque/web_videoListe.php:38
+msgid "Videos"
+msgstr "Videos"
+
+#: ../../../../webotheque/web_index.php:332
+#: ../../../../webotheque/web_videoExterneListe.php:37
+msgid "Videos externes"
+msgstr "External videos"
+
+#: ../../../../include/class/class.db_webotheque.php:1614
+#: ../../../../include/class/class.db_webotheque.php:1616
+#: ../../../../webotheque/web_video.php:136
+msgid "Vignette"
+msgstr "thumbnail"
+
+#: ../../../../cms/administration/adm_utilisateur.php:185
+msgid "Ville"
+msgstr "City"
+
+#: ../../../../formulaire/frm_formulaireGroupePopup.php:52
+#: ../../../../formulaire/frm_formulaireQuestionPopup.php:171
+msgid "Visible"
+msgstr "Display"
+
+#: ../../../../cms/cms_revisionPopup.php:93
+msgid "Visible menu"
+msgstr "Display in menu"
+
+#: ../../../../cms/cms_historiquePopup.php:98
+#: ../../../../include/inc.bo_bandeau_haut.php:861
+#: ../../../../include/inc.bo_bandeau_haut.php:864
+#: ../../../../include/inc.bo_bandeau_haut.php:869
+#: ../../../../include/inc.bo_bandeau_haut.php:932
+msgid "Visualiser"
+msgstr "View"
+
+#: ../../../../statistique/stat_multiVisites.php:267
+#: ../../../../statistique/stat_multiVisites.php:281
+#: ../../../../webotheque/web_documentListe.php:110
+#: ../../../../webotheque/web_flash.php:87
+#: ../../../../webotheque/web_flashListe.php:110
+#: ../../../../webotheque/web_lienExterne.php:77
+#: ../../../../webotheque/web_lienExterneListe.php:102
+#: ../../../../webotheque/web_video.php:87
+#: ../../../../webotheque/web_videoListe.php:110
+msgid "Voir"
+msgstr "Show"
+
+#: ../../../../include/inc.bo_bandeau_haut.php:910
+msgid "Voir la page en ligne"
+msgstr "See online page"
+
+#: ../../../../statistique/stat_index.php:507
+#: ../../../../statistique/stat_index.php:521
+#: ../../../../statistique/stat_index.php:531
+#: ../../../../statistique/stat_index.php:541
+#: ../../../../statistique/stat_index.php:557
+#: ../../../../statistique/stat_index.php:569
+#: ../../../../statistique/stat_multiindex.php:511
+#: ../../../../statistique/stat_multiindex.php:525
+#: ../../../../statistique/stat_multiindex.php:535
+#: ../../../../statistique/stat_multiindex.php:545
+#: ../../../../statistique/stat_multiindex.php:561
+#: ../../../../statistique/stat_multiindex.php:573
+msgid "Voir plus"
+msgstr ""
+
+#: ../../../../statistique/stat_utilisateurPopup.php:121
+msgid "WBT_CODE"
+msgstr ""
+
+#: ../../../../statistique/stat_index.php:525
+#: ../../../../statistique/stat_multicontenu.php:46
+#: ../../../../statistique/stat_multiindex.php:529
+#: ../../../../statistique/stat_sitePopup.php:150
+#: ../../../../statistique/stat_utilisateurPopup.php:106
+msgid "Webotheque"
+msgstr "Web database"
+
+#: ../../../../cms/PRT/PRT_WIDGET.php:41 ../../../../cms/PRT/PRT_WIDGET.php:78
+msgid "Widget"
+msgstr "Widget"
+
+#: ../../../../webotheque/web_index.php:379
+#: ../../../../webotheque/web_widgetListe.php:37
+msgid "Widgets"
+msgstr "Widgets"
+
+#: ../../../../include/inc.bo_bandeau_haut.php:886
+msgid "Workflow"
+msgstr "Workflow"
+
+#: ../../../../cms/cms_revisionDetails.php:35
+msgid "Zone_informations"
+msgstr "Information zone"
+
+#: ../../../../statistique/stat_visites.inc.php:11
+msgid "acces_direct"
+msgstr ""
+
+#: ../../../../cms/administration/adm_site.php:81
+msgid "acces_ga_erreur"
+msgstr ""
+
+#: ../../../../cms/administration/adm_site.php:78
+msgid "acces_ga_erreur_authentification"
+msgstr ""
+
+#: ../../../../cms/administration/adm_site.php:75
+msgid "acces_ga_erreur_id_site"
+msgstr ""
+
+#: ../../../../cms/administration/adm_site.php:71
+msgid "acces_ga_ok"
+msgstr ""
+
+#: ../../../../cms/administration/adm_site.php:94
+msgid "acces_ga_verif_en_cours"
+msgstr ""
+
+#: ../../../../cms/administration/adm_site.php:493
+msgid "acces_ga_verifier"
+msgstr ""
+
+#: ../../../../statistique/stat_contenuPage.inc.php:482
+#: ../../../../statistique/stat_contenuPage.inc.php:522
+#: ../../../../statistique/stat_multicontenuPage.inc.php:303
+#: ../../../../statistique/stat_multiutilisateur.php:315
+#: ../../../../statistique/stat_sitePopup.php:78
+#: ../../../../statistique/stat_sitePopup.php:125
+#: ../../../../statistique/stat_sitePopup.php:164
+#: ../../../../statistique/stat_sitePopup.php:200
+#: ../../../../statistique/stat_sitePopup.php:238
+#: ../../../../statistique/stat_sitePopup.php:279
+#: ../../../../statistique/stat_utilisateur.php:302
+#: ../../../../statistique/stat_utilisateur.php:305
+msgid "action"
+msgstr ""
+
+#: ../../../../statistique/stat_contenuAdministration.inc.php:166
+#: ../../../../statistique/stat_contenuFormulaire.inc.php:167
+#: ../../../../statistique/stat_contenuModule.inc.php:187
+#: ../../../../statistique/stat_contenuPage.inc.php:357
+#: ../../../../statistique/stat_contenuPage.inc.php:429
+#: ../../../../statistique/stat_contenuWebotheque.inc.php:165
+#: ../../../../statistique/stat_index.php:515
+#: ../../../../statistique/stat_index.php:529
+#: ../../../../statistique/stat_index.php:539
+#: ../../../../statistique/stat_index.php:553
+#: ../../../../statistique/stat_index.php:566
+#: ../../../../statistique/stat_index.php:567
+#: ../../../../statistique/stat_multicontenuAdministration.inc.php:190
+#: ../../../../statistique/stat_multicontenuFormulaire.inc.php:181
+#: ../../../../statistique/stat_multicontenuModule.inc.php:198
+#: ../../../../statistique/stat_multicontenuPage.inc.php:231
+#: ../../../../statistique/stat_multicontenuWebotheque.inc.php:185
+#: ../../../../statistique/stat_multiindex.php:519
+#: ../../../../statistique/stat_multiindex.php:533
+#: ../../../../statistique/stat_multiindex.php:543
+#: ../../../../statistique/stat_multiindex.php:557
+#: ../../../../statistique/stat_multiindex.php:570
+#: ../../../../statistique/stat_multiindex.php:571
+#: ../../../../statistique/stat_multiutilisateur.php:240
+#: ../../../../statistique/stat_utilisateur.php:229
+msgid "action_enregistree"
+msgstr ""
+
+#: ../../../../statistique/stat_contenuPage.inc.php:479
+#: ../../../../statistique/stat_contenuPage.inc.php:519
+#: ../../../../statistique/stat_utilisateur.php:302
+msgid "actions"
+msgstr ""
+
+#: ../../../../statistique/stat_contenuAdministration.inc.php:166
+#: ../../../../statistique/stat_contenuFormulaire.inc.php:167
+#: ../../../../statistique/stat_contenuModule.inc.php:187
+#: ../../../../statistique/stat_contenuPage.inc.php:274
+#: ../../../../statistique/stat_contenuPage.inc.php:357
+#: ../../../../statistique/stat_contenuPage.inc.php:429
+#: ../../../../statistique/stat_contenuWebotheque.inc.php:165
+#: ../../../../statistique/stat_index.php:199
+#: ../../../../statistique/stat_index.php:255
+#: ../../../../statistique/stat_index.php:312
+#: ../../../../statistique/stat_index.php:368
+#: ../../../../statistique/stat_index.php:515
+#: ../../../../statistique/stat_index.php:529
+#: ../../../../statistique/stat_index.php:539
+#: ../../../../statistique/stat_index.php:553
+#: ../../../../statistique/stat_index.php:566
+#: ../../../../statistique/stat_index.php:567
+#: ../../../../statistique/stat_multicontenuAdministration.inc.php:190
+#: ../../../../statistique/stat_multicontenuFormulaire.inc.php:181
+#: ../../../../statistique/stat_multicontenuModule.inc.php:198
+#: ../../../../statistique/stat_multicontenuPage.inc.php:148
+#: ../../../../statistique/stat_multicontenuPage.inc.php:231
+#: ../../../../statistique/stat_multicontenuWebotheque.inc.php:185
+#: ../../../../statistique/stat_multiindex.php:204
+#: ../../../../statistique/stat_multiindex.php:260
+#: ../../../../statistique/stat_multiindex.php:316
+#: ../../../../statistique/stat_multiindex.php:372
+#: ../../../../statistique/stat_multiindex.php:519
+#: ../../../../statistique/stat_multiindex.php:533
+#: ../../../../statistique/stat_multiindex.php:543
+#: ../../../../statistique/stat_multiindex.php:557
+#: ../../../../statistique/stat_multiindex.php:570
+#: ../../../../statistique/stat_multiindex.php:571
+#: ../../../../statistique/stat_multiutilisateur.php:138
+#: ../../../../statistique/stat_multiutilisateur.php:240
+#: ../../../../statistique/stat_utilisateur.php:128
+#: ../../../../statistique/stat_utilisateur.php:229
+msgid "actions_enregistrees"
+msgstr ""
+
+#: ../../../../statistique/stat_multicontenu.php:17
+#: ../../../../statistique/stat_multicontenu.php:20
+#: ../../../../statistique/stat_multicontenu.php:23
+#: ../../../../statistique/stat_multicontenu.php:26
+#: ../../../../statistique/stat_multicontenu.php:29
+msgid "activite_sur"
+msgstr ""
+
+#: ../../../../statistique/stat_index.php:496
+#: ../../../../statistique/stat_multiindex.php:500
+msgid "activite_tableaubord"
+msgstr ""
+
+#: ../../../../statistique/stat_multiutilisateur.php:37
+msgid "activites_contributeurs"
+msgstr ""
+
+#: ../../../../cms/cms_page.php:302
+msgid "affecte_ces_dates_aux_pages_filles"
+msgstr "Set these dates to all children"
+
+#: ../../../../cms/administration/adm_site.php:305
+msgid "ajouter"
+msgstr "add"
+
+#: ../../../../tinymce/editor_insert_image.php:142
+msgid "aucun"
+msgstr "none"
+
+#: ../../../../formulaire/frm_formulaireListe.php:95
+msgid "aucune_reponse"
+msgstr "No replies"
+
+#: ../../../../statistique/stat_visites.inc.php:14
+msgid "autres"
+msgstr ""
+
+#: ../../../../cms/PRT/PRT_FORMULAIRE.php:73
+#: ../../../../cms/PRT/PRT_HAUTDEPAGE.php:66
+#: ../../../../cms/PRT/PRT_TPL.php:113 ../../../../cms/PRT/PRT_TXT.php:108
+msgid "avec_styles"
+msgstr "(With styles)"
+
+#: ../../../../include/ajax/ajax.verifGabaritModule.php:80
+msgid "ce_changement_necessite_la_desactivation_des_modules"
+msgstr "This change will require the deactivation of the module(s)"
+
+#: ../../../../cms/administration/adm_site.php:548
+#: ../../../../include/ajax/ajax.verifGabaritModule.php:61
+msgid "ce_module_nest_pas_disponible_pour_le_gabarit_X"
+msgstr "This module is not available for the layout %s."
+
+#: ../../../../cms/cms_historiquePopup.php:102
+msgid "cette_revision_est_supprime"
+msgstr "this revision has been deleted"
+
+#: ../../../../cms/cms_commentaireParam.php:68
+msgid "com_afficher_commentaire_defaut"
+msgstr "Unfold default comments list"
+
+#: ../../../../cms/cms_commentaireParam.php:104
+msgid "com_ajouter_remplacer"
+msgstr "[Add/Replace]"
+
+#: ../../../../cms/cms_page.php:525 ../../../../cms/cms_revisionDetails.php:199
+msgid "com_autoriser_depot_commentaire"
+msgstr "Allow comments"
+
+#: ../../../../cms/cms_commentaire.php:79
+#: ../../../../cms/cms_commentaireListe.php:114
+msgid "com_cible"
+msgstr "Target"
+
+#: ../../../../cms/cms_commentaire.php:54
+#: ../../../../cms/cms_commentaireListe.php:112
+msgid "com_commentaire"
+msgstr "Comment"
+
+#: ../../../../cms/cms_commentaire.php:10
+msgid "com_commentaire_pas_retrouve"
+msgstr "This comment can not be found!"
+
+#: ../../../../cms/cms_commentaireParam.php:132
+msgid "com_commentaire_refuse"
+msgstr "Comment refused"
+
+#: ../../../../cms/cms_commentaireParam.php:128
+msgid "com_commentaire_valide"
+msgstr "Comment validated"
+
+#: ../../../../cms/cms_commentaireListe.php:58
+#: ../../../../cms/cms_commentaireListe.php:159
+msgid "com_commentaires"
+msgstr "Comments"
+
+#: ../../../../cms/cms_commentaire.php:58
+#: ../../../../cms/cms_commentaireListe.php:115
+msgid "com_date_depot"
+msgstr "Date submitted"
+
+#: ../../../../cms/cms_commentaire.php:60
+#: ../../../../cms/cms_commentaireListe.php:135
+msgid "com_date_format"
+msgstr "m/d/y H:i"
+
+#: ../../../../cms/cms_commentaire.php:64
+#: ../../../../cms/cms_commentaireListe.php:113
+msgid "com_depositaire"
+msgstr "Submitted by"
+
+#: ../../../../cms/cms_commentaireParam.php:140
+msgid "com_enregistrer"
+msgstr "Submit"
+
+#: ../../../../cms/cms_commentaire.php:87
+#: ../../../../cms/cms_commentaireListe.php:74
+#: ../../../../cms/cms_commentaireListe.php:116
+msgid "com_etat"
+msgstr "State"
+
+#: ../../../../cms/cms_commentaire.php:90
+#: ../../../../cms/cms_commentaireListe.php:7
+#: ../../../../cms/cms_commentaireListe.php:78
+msgid "com_etat_en_attente_de_moderation"
+msgstr "Waiting for moderation"
+
+#: ../../../../cms/cms_commentaireListe.php:77
+msgid "com_etat_indifferent"
+msgstr "Indifferent"
+
+#: ../../../../cms/cms_commentaire.php:91
+#: ../../../../cms/cms_commentaireListe.php:7
+#: ../../../../cms/cms_commentaireListe.php:79
+msgid "com_etat_refuse"
+msgstr "Refused"
+
+#: ../../../../cms/cms_commentaire.php:92
+#: ../../../../cms/cms_commentaireListe.php:7
+#: ../../../../cms/cms_commentaireListe.php:80
+msgid "com_etat_valide"
+msgstr "Validated"
+
+#: ../../../../cms/cms_commentaireParam.php:102
+msgid "com_lien_interne"
+msgstr "Internal link"
+
+#: ../../../../cms/cms_commentaireParam.php:113
+msgid "com_mail_notification_internautes"
+msgstr "User notification"
+
+#: ../../../../cms/cms_commentaireParam.php:124
+msgid "com_mail_signature"
+msgstr "Mail signature"
+
+#: ../../../../cms/cms_commentaireListe.php:70
+msgid "com_mots_cles"
+msgstr "Key words"
+
+#: ../../../../cms/cms_commentaireParam.php:34
+msgid "com_parametrage_commentaire"
+msgstr "Comments : parametres"
+
+#: ../../../../cms/cms_commentaireListe.php:160
+msgid "com_pas_de_droits_moderateur"
+msgstr "You do not have moderator rights"
+
+#: ../../../../cms/cms_commentaireListe.php:85
+msgid "com_type"
+msgstr "Type"
+
+#: ../../../../cms/cms_commentaireParam.php:38
+msgid "com_type_moderation"
+msgstr "Moderation type"
+
+#: ../../../../cms/cms_commentaireParam.php:64
+msgid "com_type_moderation_apres"
+msgstr "After publishing"
+
+#: ../../../../cms/cms_commentaireParam.php:62
+msgid "com_type_moderation_avant"
+msgstr "Before publishing"
+
+#: ../../../../statistique/stat_multiutilisateur.php:241
+#: ../../../../statistique/stat_sitePopup.php:79
+#: ../../../../statistique/stat_utilisateur.php:230
+#: ../../../../statistique/stat_utilisateur.php:308
+msgid "connexion"
+msgstr ""
+
+#: ../../../../statistique/stat_index.php:505
+#: ../../../../statistique/stat_multiindex.php:509
+msgid "connexion_enregistree"
+msgstr ""
+
+#: ../../../../statistique/stat_utilisateur.php:230
+msgid "connexions"
+msgstr ""
+
+#: ../../../../statistique/stat_index.php:143
+#: ../../../../statistique/stat_index.php:505
+#: ../../../../statistique/stat_multiindex.php:148
+#: ../../../../statistique/stat_multiindex.php:509
+#: ../../../../statistique/stat_utilisateur.php:135
+msgid "connexions_enregistrees"
+msgstr ""
+
+#: ../../../../statistique/stat_visites.php:310
+msgid "contactez_votre_superadministrateur"
+msgstr ""
+
+#: ../../../../statistique/stat_multiutilisateur.php:304
+#: ../../../../statistique/stat_multiutilisateur.php:308
+#: ../../../../statistique/stat_multiutilisateur.php:312
+msgid "contributeur"
+msgstr ""
+
+#: ../../../../statistique/stat_multiutilisateur.php:239
+#: ../../../../statistique/stat_utilisateur.php:228
+msgid "contributeur_actif"
+msgstr ""
+
+#: ../../../../statistique/stat_multiutilisateur.php:304
+#: ../../../../statistique/stat_multiutilisateur.php:308
+msgid "contributeurs"
+msgstr ""
+
+#: ../../../../statistique/stat_multiutilisateur.php:239
+#: ../../../../statistique/stat_multiutilisateur.php:266
+#: ../../../../statistique/stat_utilisateur.php:228
+msgid "contributeurs_actifs"
+msgstr ""
+
+#: ../../../../statistique/stat_multiutilisateur.php:145
+msgid "contributeurs_connectes"
+msgstr ""
+
+#: ../../../../statistique/stat_multiutilisateur.php:269
+msgid "contributeurs_inactifs"
+msgstr ""
+
+#: ../../../../statistique/stat_index.php:504
+#: ../../../../statistique/stat_multiindex.php:508
+msgid "contributeurs_se_sont_connectes"
+msgstr ""
+
+#: ../../../../cms/PRT/PRT_Submit.php:30
+msgid "copie_du_paragraphe_X_de_la_page_Y"
+msgstr "Copy of paragraph n°%d of the page n°%d"
+
+#: ../../../../cms/PRT/PRT_Submit.php:32
+msgid "copie_du_paragraphe_en_ligne_X_de_la_page_Y"
+msgstr "Copy of online paragraph n°%d of the page n°%d"
+
+#: ../../../../include/class/class.db_historique.php:15
+msgid "creation_fiche"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:16
+msgid "creation_formulaire"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:17
+msgid "creation_groupe"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:10
+msgid "creation_page"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:11
+msgid "creation_paragraphe"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:18
+msgid "creation_question"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:12
+msgid "creation_revision"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:14
+#: ../../../../include/class/class.db_historique.php:19
+msgid "creation_site"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:13
+#: ../../../../include/class/class.db_historique.php:20
+msgid "creation_utilisateur"
+msgstr ""
+
+#: ../../../../statistique/stat_visites.php:308
+msgid "declarer_compte"
+msgstr ""
+
+#: ../../../../cms/PRT/PRT_Submit.php:419
+msgid "deplacement_de_paragraphes_DnD"
+msgstr "Move paragraph drag and drop"
+
+#: ../../../../cms/PRT/PRT_Submit.php:296
+#: ../../../../cms/PRT/PRT_Submit.php:311
+#: ../../../../cms/PRT/PRT_Submit.php:326
+#: ../../../../cms/PRT/PRT_Submit.php:341
+msgid "deplacement_du_paragraphe"
+msgstr "Displacement paragraph"
+
+#: ../../../../tinymce/editor_insert_image.php:140
+msgid "droite"
+msgstr "right"
+
+#: ../../../../cms/cms_revisionListe.php:127
+msgid "edit_page"
+msgstr "Edit"
+
+#: ../../../../statistique/stat_visites.inc.php:15
+msgid "emailing"
+msgstr ""
+
+#: ../../../../cms/cms_page.php:162
+msgid "en ligne date"
+msgstr ""
+"A page can only be set online if its online date is less or equl to the "
+"current date"
+
+#: ../../../../include/class/class.db_webotheque.php:850
+#: ../../../../include/class/class.db_webotheque.php:941
+#: ../../../../include/class/class.db_webotheque.php:948
+#: ../../../../include/class/class.db_webotheque.php:1103
+#: ../../../../include/class/class.db_webotheque.php:1113
+#: ../../../../include/class/class.db_webotheque.php:1140
+#: ../../../../include/class/class.db_webotheque.php:1147
+#: ../../../../include/class/class.db_webotheque.php:1325
+#: ../../../../include/class/class.db_webotheque.php:1363
+#: ../../../../include/class/class.db_webotheque.php:1370
+#: ../../../../include/class/class.db_webotheque.php:1586
+#: ../../../../include/class/class.db_webotheque.php:1596
+#: ../../../../include/class/class.db_webotheque.php:1607
+#: ../../../../include/class/class.db_webotheque.php:1616
+#: ../../../../include/class/class.db_webotheque.php:1627
+#: ../../../../include/class/class.db_webotheque.php:1636
+#: ../../../../include/class/class.db_webotheque.php:1689
+#: ../../../../include/class/class.db_webotheque.php:1696
+#: ../../../../include/class/class.db_webotheque.php:1931
+#: ../../../../include/class/class.db_webotheque.php:1941
+#: ../../../../include/class/class.db_webotheque.php:1981
+#: ../../../../include/class/class.db_webotheque.php:1988
+#: ../../../../webotheque/web_webothequeSubmit.php:168
+msgid "erreur"
+msgstr "error"
+
+#: ../../../../cms/administration/adm_site.php:89
+msgid "erreur_verification"
+msgstr ""
+
+#: ../../../../cms/administration/adm_utilisateurListe.php:346
+#: ../../../../cms/administration/adm_utilisateurListe.php:347
+msgid "exporter_la_liste_au_format_csv"
+msgstr "Export the list in csv format"
+
+#: ../../../../include/class/class.db_webotheque.php:1361
+#: ../../../../include/class/class.db_webotheque.php:1687
+#: ../../../../include/class/class.db_webotheque.php:1979
+msgid "extention incorrect"
+msgstr "incorect extention"
+
+#: ../../../../cms/cms_revisionDetails.php:65
+msgid "externe"
+msgstr "external"
+
+#: ../../../../webotheque/web_importFTP.php:186
+msgid "fichiers_deja_existants"
+msgstr "Already present files"
+
+#: ../../../../statistique/stat_formulairePopup.php:20
+#: ../../../../statistique/stat_formulairePopup.php:23
+msgid "formulaire"
+msgstr ""
+
+#: ../../../../tinymce/editor_insert_image.php:138
+msgid "gauche"
+msgstr "left"
+
+#: ../../../../cms/administration/adm_site.php:225
+msgid "helper_PAG_TITRE"
+msgstr "The title for the homepage of this new site."
+
+#: ../../../../cms/administration/adm_site.php:276
+msgid "helper_SIT_FAVICON"
+msgstr "Favicon for this site displayed in url bar (possible formats : .ico)"
+
+#: ../../../../cms/administration/adm_site.php:446
+msgid "helper_SIT_GA_TAG"
+msgstr "Copy-paste the entire google code"
+
+#: ../../../../cms/administration/adm_site.php:262
+msgid "helper_SIT_LOGO"
+msgstr "Logo for this site (possible formats : %s)"
+
+#: ../../../../cms/administration/adm_site.php:244
+msgid "helper_SIT_SUPPORTKEY"
+msgstr "Authentification key for the support site"
+
+#: ../../../../include/class/class.db_paragraphe.php:322
+msgid "heritage_du_paragraphe_X_de_la_page_Y"
+msgstr "heritage paragraph n°%d of page n°%d"
+
+#: ../../../../cms/cms_page.php:145
+msgid "hors ligne date"
+msgstr ""
+"A page can only be set offline if its offline dateis less or equal to the "
+"current date"
+
+#: ../../../../cms/cms_pageAjout.php:31 ../../../../cms/cms_pageAjout.php:36
+msgid "ici"
+msgstr "here"
+
+#: ../../../../webotheque/web_importMultiple.php:52
+msgid "impMult_telecharger_fichiers"
+msgstr "Upload the files to the web-database"
+
+#: ../../../../webotheque/web_importMultiple.php:53
+msgid "impMult_vider_fichiers"
+msgstr "Empty all files"
+
+#: ../../../../webotheque/web_importMultiple.php:79
+msgid "impMult_votre_navigateur_ne_supporte_pas"
+msgstr "Your browser isn't compatible with the multiple upload feature"
+
+#: ../../../../webotheque/web_importFTP.php:65
+msgid "importFTP_ajout"
+msgstr "Import FTP"
+
+#: ../../../../webotheque/web_importFTP.php:81
+msgid "importFTP_erreur_repertoire"
+msgstr "Unable to read importation folder"
+
+#: ../../../../webotheque/web_importFTP.php:68
+msgid "importFTP_fichiers"
+msgstr "Import files list"
+
+#: ../../../../webotheque/web_importFTP.php:74
+msgid "importFTP_insert"
+msgstr "Import files in webotheque"
+
+#: ../../../../webotheque/web_importFTP.php:155
+msgid "importFTP_nbErreurs"
+msgstr "files ignored"
+
+#: ../../../../webotheque/web_importFTP.php:152
+msgid "importFTP_nbResultats"
+msgstr "files in import folder"
+
+#: ../../../../webotheque/web_importFTP.php:150
+msgid "importFTP_noResultats"
+msgstr "No file in folder"
+
+#: ../../../../webotheque/web_importFTP.php:90
+#: ../../../../webotheque/web_importFTP.php:191
+msgid "importFTP_nom_fichier"
+msgstr "File name"
+
+#: ../../../../statistique/stat_visites.inc.php:4
+msgid "indicateurs"
+msgstr ""
+
+#: ../../../../cms/administration/adm_site.php:487
+msgid "info_analytics_content"
+msgstr ""
+
+#: ../../../../cms/administration/adm_utilisateurListe.php:145
+msgid "info_copier_coller_email"
+msgstr "You can copy-paste the above list of emails into your mail browser"
+
+#: ../../../../formulaire/frm_formulaire.php:421
+msgid "inserer un nouveau groupe"
+msgstr "insert a new group"
+
+#: ../../../../cms/cms_revisionDetails.php:63
+msgid "interne"
+msgstr "internal"
+
+#: ../../../../statistique/stat_visites.inc.php:16
+msgid "lien_sponsorises"
+msgstr ""
+
+#: ../../../../statistique/stat_visites.php:299
+msgid "marqueur_en_double_%s"
+msgstr ""
+
+#: ../../../../webotheque/web_importFTPSubmit.php:69
+#: ../../../../webotheque/web_importMultipleSubmit.php:189
+#: ../../../../webotheque/web_webothequeSubmit.php:43
+#: ../../../../webotheque/web_webothequeSubmit.php:104
+msgid "md5check_fail"
+msgstr ""
+"The insertion was not done because a similar file (n°%s) is already in the "
+"webotheque. Click on OK to go to the corresponding form."
+
+#: ../../../../statistique/stat_multiVisites.php:367
+msgid "meme_marqueur_%s"
+msgstr ""
+
+#: ../../../../statistique/stat_contenuPage.inc.php:359
+#: ../../../../statistique/stat_contenuPage.inc.php:431
+#: ../../../../statistique/stat_contenuPage.inc.php:486
+#: ../../../../statistique/stat_index.php:517
+#: ../../../../statistique/stat_multicontenuPage.inc.php:233
+#: ../../../../statistique/stat_multicontenuPage.inc.php:284
+#: ../../../../statistique/stat_multicontenuPage.inc.php:305
+#: ../../../../statistique/stat_multiindex.php:521
+msgid "mise_a_valider"
+msgstr ""
+
+#: ../../../../statistique/stat_contenuPage.inc.php:358
+#: ../../../../statistique/stat_contenuPage.inc.php:430
+#: ../../../../statistique/stat_contenuPage.inc.php:485
+#: ../../../../statistique/stat_index.php:516
+#: ../../../../statistique/stat_multicontenuPage.inc.php:232
+#: ../../../../statistique/stat_multicontenuPage.inc.php:283
+#: ../../../../statistique/stat_multicontenuPage.inc.php:304
+#: ../../../../statistique/stat_multiindex.php:520
+msgid "mise_en_ligne"
+msgstr ""
+
+#: ../../../../statistique/stat_contenuPage.inc.php:360
+#: ../../../../statistique/stat_contenuPage.inc.php:432
+#: ../../../../statistique/stat_contenuPage.inc.php:487
+#: ../../../../statistique/stat_index.php:518
+#: ../../../../statistique/stat_multicontenuPage.inc.php:234
+#: ../../../../statistique/stat_multicontenuPage.inc.php:285
+#: ../../../../statistique/stat_multicontenuPage.inc.php:306
+#: ../../../../statistique/stat_multiindex.php:522
+msgid "mise_hors_ligne"
+msgstr ""
+
+#: ../../../../statistique/stat_contenuPage.inc.php:226
+#: ../../../../statistique/stat_contenuPage.inc.php:359
+#: ../../../../statistique/stat_contenuPage.inc.php:431
+#: ../../../../statistique/stat_contenuPage.inc.php:486
+#: ../../../../statistique/stat_contenuPage.inc.php:526
+#: ../../../../statistique/stat_index.php:517
+#: ../../../../statistique/stat_multicontenuPage.inc.php:93
+#: ../../../../statistique/stat_multicontenuPage.inc.php:105
+#: ../../../../statistique/stat_multicontenuPage.inc.php:233
+#: ../../../../statistique/stat_multicontenuPage.inc.php:305
+#: ../../../../statistique/stat_multiindex.php:521
+msgid "mises_a_valider"
+msgstr ""
+
+#: ../../../../statistique/stat_contenuPage.inc.php:225
+#: ../../../../statistique/stat_contenuPage.inc.php:281
+#: ../../../../statistique/stat_contenuPage.inc.php:358
+#: ../../../../statistique/stat_contenuPage.inc.php:430
+#: ../../../../statistique/stat_contenuPage.inc.php:485
+#: ../../../../statistique/stat_contenuPage.inc.php:525
+#: ../../../../statistique/stat_index.php:516
+#: ../../../../statistique/stat_multicontenuPage.inc.php:92
+#: ../../../../statistique/stat_multicontenuPage.inc.php:104
+#: ../../../../statistique/stat_multicontenuPage.inc.php:155
+#: ../../../../statistique/stat_multicontenuPage.inc.php:232
+#: ../../../../statistique/stat_multicontenuPage.inc.php:304
+#: ../../../../statistique/stat_multiindex.php:520
+msgid "mises_en_ligne"
+msgstr ""
+
+#: ../../../../statistique/stat_contenuPage.inc.php:227
+#: ../../../../statistique/stat_contenuPage.inc.php:360
+#: ../../../../statistique/stat_contenuPage.inc.php:432
+#: ../../../../statistique/stat_contenuPage.inc.php:487
+#: ../../../../statistique/stat_contenuPage.inc.php:527
+#: ../../../../statistique/stat_index.php:518
+#: ../../../../statistique/stat_multicontenuPage.inc.php:94
+#: ../../../../statistique/stat_multicontenuPage.inc.php:106
+#: ../../../../statistique/stat_multicontenuPage.inc.php:234
+#: ../../../../statistique/stat_multicontenuPage.inc.php:306
+#: ../../../../statistique/stat_multiindex.php:522
+msgid "mises_hors_ligne"
+msgstr ""
+
+#: ../../../../cms/administration/adm_utilisateurSubmit.php:196
+msgid "modification_des_proprietes_partagees_du_contributeur"
+msgstr "Changing shared properties (roles)"
+
+#: ../../../../cms/PRT/PRT_Submit.php:357
+#: ../../../../cms/PRT/PRT_Submit.php:384
+msgid "modification_du_style_du_paragraphe"
+msgstr "Changing the paragraph style"
+
+#: ../../../../include/class/class.db_historique.php:30
+msgid "modification_fiche"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:31
+msgid "modification_formulaire"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:32
+msgid "modification_groupe"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:23
+msgid "modification_page"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:24
+msgid "modification_paragraphe"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:33
+msgid "modification_question"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:27
+msgid "modification_referencement"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:25
+msgid "modification_revision"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:29
+#: ../../../../include/class/class.db_historique.php:34
+msgid "modification_site"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:28
+#: ../../../../include/class/class.db_historique.php:35
+msgid "modification_utilisateur"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:26
+msgid "modification_workflow"
+msgstr ""
+
+#: ../../../../cms/administration/adm_site.php:306
+msgid "modifier"
+msgstr "modify"
+
+#: ../../../../statistique/stat_modulePopup.php:33
+msgid "module"
+msgstr ""
+
+#: ../../../../statistique/stat_contenuModule.inc.php:186
+#: ../../../../statistique/stat_multicontenuModule.inc.php:197
+msgid "module_modifie"
+msgstr ""
+
+#: ../../../../statistique/stat_contenuModule.inc.php:186
+#: ../../../../statistique/stat_multicontenuModule.inc.php:197
+msgid "modules_modifies"
+msgstr ""
+
+#: ../../../../statistique/stat_visites.inc.php:12
+msgid "moteur_recherche"
+msgstr ""
+
+#: ../../../../include/class/class.db_commentaireParametrage.php:40
+msgid "msgCommentaireRefuse"
+msgstr "Your comment has not been validated by our moderators"
+
+#: ../../../../include/class/class.db_commentaireParametrage.php:39
+msgid "msgCommentaireValide"
+msgstr "We thank you for your participation"
+
+#: ../../../../include/class/class.db_commentaireParametrage.php:34
+msgid "msgDefautDepot"
+msgstr ""
+"Comments are moderated and may not be immediately published : Your comment "
+"will be reviewed by our team before publishing"
+
+#: ../../../../include/class/class.db_commentaireParametrage.php:36
+msgid "msgLibLien"
+msgstr "Consult the Moderation charter for this site"
+
+#: ../../../../include/class/class.db_commentaireParametrage.php:35
+msgid "msgRemerciementCommentaire"
+msgstr "We thank you for your comment. It shall be reviewed before publishing"
+
+#: ../../../../include/class/class.db_commentaireParametrage.php:38
+msgid "msgSignature"
+msgstr "Cordially , the moderators"
+
+#: ../../../../statistique/stat_contenuAdministration.inc.php:53
+#: ../../../../statistique/stat_contenuFormulaire.inc.php:58
+#: ../../../../statistique/stat_contenuModule.inc.php:78
+#: ../../../../statistique/stat_contenuModule.inc.php:216
+#: ../../../../statistique/stat_contenuPage.inc.php:207
+#: ../../../../statistique/stat_contenuPage.inc.php:498
+#: ../../../../statistique/stat_contenuWebotheque.inc.php:56
+#: ../../../../statistique/stat_multicontenuAdministration.inc.php:72
+#: ../../../../statistique/stat_multicontenuAdministration.inc.php:219
+#: ../../../../statistique/stat_multicontenuFormulaire.inc.php:69
+#: ../../../../statistique/stat_multicontenuFormulaire.inc.php:210
+#: ../../../../statistique/stat_multicontenuModule.inc.php:86
+#: ../../../../statistique/stat_multicontenuModule.inc.php:227
+#: ../../../../statistique/stat_multicontenuPage.inc.php:91
+#: ../../../../statistique/stat_multicontenuPage.inc.php:282
+#: ../../../../statistique/stat_multicontenuWebotheque.inc.php:68
+#: ../../../../statistique/stat_multicontenuWebotheque.inc.php:213
+#: ../../../../statistique/stat_multiutilisateur.php:91
+#: ../../../../statistique/stat_multiutilisateur.php:289
+#: ../../../../statistique/stat_sitePopup.php:71
+#: ../../../../statistique/stat_sitePopup.php:119
+#: ../../../../statistique/stat_sitePopup.php:157
+#: ../../../../statistique/stat_sitePopup.php:194
+#: ../../../../statistique/stat_sitePopup.php:232
+#: ../../../../statistique/stat_sitePopup.php:272
+msgid "nb_actions"
+msgstr ""
+
+#: ../../../../statistique/stat_index.php:422
+#: ../../../../statistique/stat_multicontenuAdministration.inc.php:74
+#: ../../../../statistique/stat_multicontenuAdministration.inc.php:221
+#: ../../../../statistique/stat_multiindex.php:426
+msgid "nb_actions_sites"
+msgstr ""
+
+#: ../../../../statistique/stat_index.php:429
+#: ../../../../statistique/stat_multicontenuAdministration.inc.php:73
+#: ../../../../statistique/stat_multicontenuAdministration.inc.php:220
+#: ../../../../statistique/stat_multiindex.php:433
+msgid "nb_actions_utilisateurs"
+msgstr ""
+
+#: ../../../../statistique/stat_multiutilisateur.php:92
+#: ../../../../statistique/stat_multiutilisateur.php:290
+#: ../../../../statistique/stat_sitePopup.php:72
+msgid "nb_connexions"
+msgstr ""
+
+#: ../../../../statistique/stat_multiutilisateur.php:90
+#: ../../../../statistique/stat_multiutilisateur.php:288
+msgid "nb_contributeurs"
+msgstr ""
+
+#: ../../../../statistique/stat_multicontenuFormulaire.inc.php:70
+#: ../../../../statistique/stat_multicontenuFormulaire.inc.php:211
+msgid "nb_formulaires"
+msgstr ""
+
+#: ../../../../statistique/stat_multicontenuModule.inc.php:87
+#: ../../../../statistique/stat_multicontenuModule.inc.php:228
+msgid "nb_modules"
+msgstr ""
+
+#: ../../../../statistique/stat_multicontenuPage.inc.php:90
+#: ../../../../statistique/stat_multicontenuPage.inc.php:281
+msgid "nb_pages_modifiees"
+msgstr ""
+
+#: ../../../../include/inc.bo_bandeau_haut.php:894
+msgid "ou"
+msgstr ""
+
+#: ../../../../statistique/stat_index.php:515
+#: ../../../../statistique/stat_index.php:516
+#: ../../../../statistique/stat_index.php:517
+#: ../../../../statistique/stat_index.php:518
+#: ../../../../statistique/stat_multicontenuPage.inc.php:297
+#: ../../../../statistique/stat_multicontenuPage.inc.php:300
+#: ../../../../statistique/stat_multiindex.php:519
+#: ../../../../statistique/stat_multiindex.php:520
+#: ../../../../statistique/stat_multiindex.php:521
+#: ../../../../statistique/stat_multiindex.php:522
+msgid "page"
+msgstr ""
+
+#: ../../../../statistique/stat_contenuPage.inc.php:459
+msgid "page_fille"
+msgstr ""
+
+#: ../../../../statistique/stat_index.php:519
+#: ../../../../statistique/stat_multicontenuPage.inc.php:230
+#: ../../../../statistique/stat_multiindex.php:523
+msgid "page_modifiee"
+msgstr ""
+
+#: ../../../../cms/cms_revisionDetails.php:56
+msgid "page_speciale"
+msgstr "Special page"
+
+#: ../../../../statistique/stat_multiVisites.php:329
+msgid "page_vue"
+msgstr ""
+
+#: ../../../../statistique/stat_contenuPage.inc.php:281
+#: ../../../../statistique/stat_index.php:515
+#: ../../../../statistique/stat_index.php:516
+#: ../../../../statistique/stat_index.php:517
+#: ../../../../statistique/stat_index.php:518
+#: ../../../../statistique/stat_multicontenuPage.inc.php:102
+#: ../../../../statistique/stat_multicontenuPage.inc.php:155
+#: ../../../../statistique/stat_multicontenuPage.inc.php:297
+#: ../../../../statistique/stat_multiindex.php:519
+#: ../../../../statistique/stat_multiindex.php:520
+#: ../../../../statistique/stat_multiindex.php:521
+#: ../../../../statistique/stat_multiindex.php:522
+#: ../../../../include/class/class.Pagination.php:324
+msgid "pages"
+msgstr "pages"
+
+#: ../../../../statistique/stat_multicontenuPage.inc.php:263
+msgid "pages non modifiées"
+msgstr ""
+
+#: ../../../../statistique/stat_contenuPage.inc.php:459
+msgid "pages_filles"
+msgstr ""
+
+#: ../../../../statistique/stat_index.php:519
+#: ../../../../statistique/stat_multicontenuPage.inc.php:230
+#: ../../../../statistique/stat_multicontenuPage.inc.php:260
+#: ../../../../statistique/stat_multiindex.php:523
+msgid "pages_modifiees"
+msgstr ""
+
+#: ../../../../statistique/stat_multiVisites.php:329
+#: ../../../../statistique/stat_visites.php:261
+msgid "pages_vues"
+msgstr ""
+
+#: ../../../../statistique/stat_multiVisites.php:317
+#: ../../../../statistique/stat_multiVisites.php:340
+msgid "par_rapport_au_mois_precedent"
+msgstr ""
+
+#: ../../../../statistique/stat_visites.php:245
+#: ../../../../statistique/stat_visites.php:273
+msgid "par_rapport_aux_30_jours_precedents"
+msgstr ""
+
+#: ../../../../cms/PRT/PRT_Submit.php:26 ../../../../cms/PRT/PRT_Submit.php:246
+msgid "partage_du_paragraphe_X_de_la_page_Y"
+msgstr "Sharing paragraph n°%d of the page n°%d"
+
+#: ../../../../statistique/stat_multiVisites.php:376
+msgid "pas_de_compte_et_marqueur"
+msgstr ""
+
+#: ../../../../tinymce/editor_select_lien.php:31
+#: ../../../../tinymce/editor_select_lien.php:33
+msgid "pas_de_titre"
+msgstr "Without title"
+
+#: ../../../../include/class/class.db_webotheque.php:943
+#: ../../../../include/class/class.db_webotheque.php:1142
+#: ../../../../include/class/class.db_webotheque.php:1365
+#: ../../../../include/class/class.db_webotheque.php:1691
+#: ../../../../include/class/class.db_webotheque.php:1983
+msgid "poids trop important"
+msgstr "file too big"
+
+#: ../../../../webotheque/web_documentListe.php:124
+#: ../../../../webotheque/web_flashListe.php:124
+#: ../../../../webotheque/web_imageListe.php:124
+#: ../../../../webotheque/web_musicListe.php:124
+#: ../../../../webotheque/web_videoListe.php:124
+msgid "poids_total_inutilises"
+msgstr "Total weight of unused files"
+
+#: ../../../../cms/administration/adm_utilisateurListe.php:186
+msgid "pour_copier_ctrl_x_puis_ok"
+msgstr "To copy : Ctrl+C, and press OK"
+
+#: ../../../../cms/cms_revisionDetails.php:50
+msgid "public"
+msgstr "public"
+
+#: ../../../../cms/administration/adm_utilisateurListe.php:141
+#: ../../../../cms/administration/adm_utilisateurListe.php:349
+#: ../../../../cms/administration/adm_utilisateurListe.php:350
+msgid "recuperer_la_liste_des_adresses_email"
+msgstr "Display list of mail address"
+
+#: ../../../../formulaire/frm_formulaire.php:485
+msgid "reponse donnee a partir du"
+msgstr "replied from the "
+
+#: ../../../../formulaire/frm_formulaire.php:487
+msgid "reponses donnees jusquau"
+msgstr "replied till"
+
+#: ../../../../cms/cms_revisionDetails.php:288
+msgid "restreindre acces groupe affecte"
+msgstr "Page is restricted to selected groups"
+
+#: ../../../../cms/cms_revisionDetails.php:48
+msgid "restreint"
+msgstr "restricted"
+
+#: ../../../../include/class/class.Pagination.php:322
+msgid "resultat"
+msgstr "result"
+
+#: ../../../../include/class/class.Pagination.php:322
+msgid "resultats"
+msgstr "results"
+
+#: ../../../../include/class/class.db_revision.php:395
+msgid "retour_a_la_revision_du"
+msgstr "Back to the revision of"
+
+#: ../../../../cms/cms_revisionListe.php:124
+msgid "revision_delete"
+msgstr "Delete this revision"
+
+#: ../../../../cms/cms_revisionListe.php:112
+msgid "revision_delete_all"
+msgstr "Delete all revisions for this page"
+
+#: ../../../../cms/cms_revisionListe.php:132
+msgid "revision_pour_la_page_x"
+msgstr "Revision %s for the page : %s"
+
+#: ../../../../cms/cms_revisionListe.php:125
+msgid "revision_revert"
+msgstr "Revert to this revision"
+
+#: ../../../../cms/PRT/PRT_FORMULAIRE.php:74
+#: ../../../../cms/PRT/PRT_HAUTDEPAGE.php:68
+#: ../../../../cms/PRT/PRT_TPL.php:114 ../../../../cms/PRT/PRT_TXT.php:110
+msgid "sans_styles"
+msgstr "(Without styles)"
+
+#: ../../../../include/ajax/ajax.liaison_externe.php:59
+#: ../../../../include/ajax/ajax.liaison_page.php:61
+#: ../../../../include/ajax/ajax.liaison_utilisateur.php:59
+#: ../../../../include/ajax/ajax.liaison_webotheque.php:62
+msgid "selection liaisons maximum atteint"
+msgstr ""
+"This item can not be added to the selection because it can only contain a "
+"maximum of %d items."
+
+#: ../../../../include/ajax/ajax.liaison_externe.php:66
+#: ../../../../include/ajax/ajax.liaison_page.php:68
+#: ../../../../include/ajax/ajax.liaison_utilisateur.php:66
+#: ../../../../include/ajax/ajax.liaison_webotheque.php:69
+msgid "selection liaisons minimum atteint"
+msgstr ""
+"This item can not be removed from the selection because it must contain at "
+"least %d elements."
+
+#: ../../../../statistique/stat_administrationPopup.php:11
+#: ../../../../statistique/stat_multiutilisateur.php:287
+msgid "site"
+msgstr ""
+
+#: ../../../../statistique/stat_multiutilisateur.php:238
+msgid "site_modifie"
+msgstr ""
+
+#: ../../../../statistique/stat_visites.inc.php:13
+msgid "sites_affluents"
+msgstr ""
+
+#: ../../../../statistique/stat_multiVisites.php:267
+msgid "sites_concernes"
+msgstr ""
+
+#: ../../../../statistique/stat_multiutilisateur.php:238
+msgid "sites_modifies"
+msgstr ""
+
+#: ../../../../statistique/stat_multiVisites.php:281
+msgid "sites_non_concernes"
+msgstr ""
+
+#: ../../../../include/class/class.db_paragraphe.php:257
+msgid "suppression_du_paragraphe_herite_X_de_la_page_Y"
+msgstr "Deletion of inherited paragraph n°%d of page n°%d"
+
+#: ../../../../cms/PRT/PRT_Submit.php:274
+#: ../../../../include/class/class.db_paragraphe.php:232
+msgid "suppression_du_paragraphe_partage_X_de_la_page_Y"
+msgstr "Deletion of shared paragraph n°%d of the  page n°%d"
+
+#: ../../../../include/class/class.db_historique.php:42
+msgid "suppression_fiche"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:43
+msgid "suppression_formulaire"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:44
+msgid "suppression_groupe"
+msgstr ""
+
+#: ../../../../webotheque/web_documentListe.php:121
+#: ../../../../webotheque/web_flashListe.php:121
+#: ../../../../webotheque/web_imageListe.php:121
+#: ../../../../webotheque/web_importFTP.php:198
+#: ../../../../webotheque/web_lienExterneListe.php:113
+#: ../../../../webotheque/web_musicListe.php:121
+#: ../../../../webotheque/web_videoExterneListe.php:105
+#: ../../../../webotheque/web_videoListe.php:121
+#: ../../../../webotheque/web_widgetListe.php:118
+msgid "suppression_massive"
+msgstr "Delete selected files"
+
+#: ../../../../include/class/class.db_historique.php:38
+msgid "suppression_page"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:39
+msgid "suppression_paragraphe"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:45
+msgid "suppression_question"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:40
+msgid "suppression_revision"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:46
+msgid "suppression_site"
+msgstr ""
+
+#: ../../../../include/class/class.db_historique.php:41
+#: ../../../../include/class/class.db_historique.php:47
+msgid "suppression_utilisateur"
+msgstr ""
+
+#: ../../../../statistique/stat_index.php:553
+#: ../../../../statistique/stat_multiindex.php:557
+msgid "sur_le_module"
+msgstr ""
+
+#: ../../../../statistique/stat_index.php:566
+msgid "sur_le_site"
+msgstr ""
+
+#: ../../../../statistique/stat_multiindex.php:570
+msgid "sur_les_sites"
+msgstr ""
+
+#: ../../../../webotheque/web_document.php:77
+#: ../../../../webotheque/web_document.php:100
+#: ../../../../webotheque/web_documentPopup.php:29
+#: ../../../../webotheque/web_documentPopup.php:34
+#: ../../../../webotheque/web_flash.php:79
+#: ../../../../webotheque/web_image.php:100
+#: ../../../../webotheque/web_imagePopup.php:33
+#: ../../../../webotheque/web_importMultiple.php:34
+#: ../../../../webotheque/web_mediaPopup.php:35
+#: ../../../../webotheque/web_music.php:79
+#: ../../../../webotheque/web_music.php:98
+#: ../../../../webotheque/web_video.php:79
+#: ../../../../webotheque/web_video.php:96
+#: ../../../../webotheque/web_video.php:113
+#: ../../../../webotheque/web_video.php:138
+#: ../../../../webotheque/web_video.php:166
+#: ../../../../webotheque/web_video.php:183
+msgid "taille maximum"
+msgstr "maximum size"
+
+#: ../../../../statistique/stat_multiVisites.php:119
+#: ../../../../statistique/stat_visites.inc.php:19
+#: ../../../../statistique/stat_visites.php:83
+msgid "total"
+msgstr ""
+
+#: ../../../../statistique/stat_multicontenu.php:17
+#: ../../../../statistique/stat_multicontenu.php:20
+#: ../../../../statistique/stat_multicontenu.php:23
+#: ../../../../statistique/stat_multicontenu.php:26
+#: ../../../../statistique/stat_multicontenu.php:29
+#: ../../../../statistique/stat_multiindex.php:500
+#: ../../../../statistique/stat_multiutilisateur.php:37
+#: ../../../../statistique/stat_multiVisites.php:257
+msgid "tous_mes_sites"
+msgstr ""
+
+#: ../../../../statistique/stat_index.php:567
+#: ../../../../statistique/stat_multiindex.php:571
+#: ../../../../statistique/stat_sitePopup.php:277
+msgid "utilisateur"
+msgstr ""
+
+#: ../../../../statistique/stat_administrationPopup.php:13
+msgid "utilisateurs"
+msgstr ""
+
+#: ../../../../cms/administration/adm_site.php:595
+msgid "verification_unicite_weboteque"
+msgstr "check the uniqueness of webotheque elements"
+
+#: ../../../../cms/cms_revisionListe.php:132
+msgid "version_existante_pour_la_page_x"
+msgstr "Current version for the page : %s"
+
+#: ../../../../cms/administration/adm_site.php:550
+#: ../../../../include/ajax/ajax.verifGabaritModule.php:63
+msgid "veuillez_la_desactiver"
+msgstr "This module needs to be deactivated."
+
+#: ../../../../cms/cms_revisionListe.php:118
+msgid "view_details"
+msgstr "Page properties for this revision"
+
+#: ../../../../cms/cms_revisionListe.php:117
+msgid "view_page"
+msgstr "View this revision"
+
+#: ../../../../cms/cms_page.php:833
+msgid "voir_la_revision"
+msgstr "Go to this revision"
+
+#: ../../../../statistique/stat_multicontenuPage.inc.php:257
+#: ../../../../statistique/stat_multiutilisateur.php:263
+msgid "vue_globale"
+msgstr ""
+
+#: ../../../../statistique/stat_webothequePopup.php:26
+msgid "webotheque"
+msgstr ""
+
+#: ../../../../cms/cms_pageSubmit.php:639
+#: ../../../../cms/cms_pageSubmit.php:828
+msgid "workflow_erreur_pre_enligne"
+msgstr ""
+"This page has a parent page that is not on-line or whose on-line date is "
+"after today's date."
+
+#: ../../../../cms/cms_pageSubmit.php:641
+#: ../../../../cms/cms_pageSubmit.php:833
+msgid "workflow_erreur_pre_horsligne"
+msgstr ""
+"his page has an online child page or the off-line date is below today's date."
+
+#: ../../../../formulaire/frm_formulaireListe.php:91
+msgid "x_reponses"
+msgstr "%s answer(s)"

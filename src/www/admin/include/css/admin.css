@@ -1,0 +1,73 @@
+form {
+	margin: 10px auto;	
+}
+.msg {
+	margin: 10px auto;
+	padding: 10px;
+	border: 2px solid red;
+	color: #dc5032;
+	background-color: #fff;
+}
+pre, textarea {
+	width: 95%;
+	padding: 3px;
+	border: 1px solid red;
+	overflow: auto;
+	text-align: left;
+}
+code {
+	font-weight: bold;
+	color: green;	
+}
+var {
+	font-weight: bold;	
+}
+table {margin: auto;}
+#corps th {
+    font-weight: bold;
+    text-align: center;
+    vertical-align: top;
+}
+th, td {padding: 5px;}
+tr:hover {background-color: #ddd;}
+.valide {
+	margin: auto;
+	padding: 20px;
+	border: 2px solid green;
+	color: green;
+	background-color: #fff;
+}
+.txtValide {
+	color: green;
+	background-color: #fff;
+}
+.error {
+	margin: auto;
+	padding: 20px;
+	border: 2px solid red;
+	color: #dc5032;
+	background-color: #fff;
+}
+.txtError {
+	color: #dc5032;
+	background-color: #fff;
+}
+/* Table sorter */
+table.tablesorter .header {
+	background-image: url(images/tablesorter-bg.png);
+	background-repeat: no-repeat;
+	border-left: 1px solid #FFF;
+	border-right: 1px solid #000;
+	border-top: 1px solid #FFF;
+	padding-left: 30px;
+	padding-top: 8px;
+	height: auto;
+}
+table.tablesorter .headerSortUp {
+	background-image: url(images/tablesorter-asc.png);
+	background-repeat: no-repeat;
+}
+table.tablesorter .headerSortDown {
+	background-image: url(images/tablesorter-desc.png);
+	background-repeat: no-repeat;
+}
